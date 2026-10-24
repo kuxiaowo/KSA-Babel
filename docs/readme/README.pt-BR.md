@@ -2,6 +2,8 @@
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja-JP.md) · [Русский](README.ru-RU.md) · [Deutsch](README.de-DE.md) · [Français](README.fr-FR.md) · [Italiano](README.it-IT.md) · [Español](README.es-ES.md) · [Português (Brasil)](README.pt-BR.md)
 
+<p align="center"><img src="../branding/ksa-babel-cover-preview-v3.png" alt="KSA Babel · 喵语塔" width="512"></p>
+
 Uma estrutura de localização multilíngue para **Kitten Space Agency**, carregada pelo StarMap. KSA Babel fornece pacotes de idiomas, um menu de idiomas dentro do jogo, adaptadores de exibição e uma fonte compartilhada com um subconjunto de caracteres. Não substitui o executável nem os recursos do jogo.
 
 KSA Babel é um projeto multilíngue independente derivado de [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE). A versão atual é a **prévia 0.2.1** e é compatível apenas com **KSA 2026.10.19.5638 para Windows x64**, com os hashes de arquivos verificados. O carregador utilizado é o **StarMap 0.4.8**.

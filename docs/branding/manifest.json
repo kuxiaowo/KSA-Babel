@@ -1,0 +1,33 @@
+{
+  "approved_version": "v3",
+  "approved_by": "project maintainer",
+  "artwork_notice": "ARTWORK-NOTICE.md",
+  "image_license": "LicenseRef-KSA-Babel-Cover",
+  "export_method": "High-quality bicubic resize to PNG; original composition and wording retained",
+  "files": [
+    {
+      "role": "original",
+      "path": "ksa-babel-cover-v3.png",
+      "width": 1254,
+      "height": 1254,
+      "size": 2309965,
+      "sha256": "977241b876bc8f0a333867087f3d1de956565bf991857922db8a3e5a2d34fb9c"
+    },
+    {
+      "role": "preview",
+      "path": "ksa-babel-cover-preview-v3.png",
+      "width": 640,
+      "height": 640,
+      "size": 842887,
+      "sha256": "0cf68594ca818776e1e7fe874a1c731ca2c6f3531c5d74f862b90d38fe0ccc42"
+    },
+    {
+      "role": "icon",
+      "path": "ksa-babel-icon-v3.png",
+      "width": 320,
+      "height": 320,
+      "size": 223409,
+      "sha256": "8d3fac4b6de930089a2f312650b543ec4c5b97496a7c65e81291a6ac53657a68"
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja-JP.md) · [Русский](README.ru-RU.md) · [Deutsch](README.de-DE.md) · [Français](README.fr-FR.md) · [Italiano](README.it-IT.md) · [Español](README.es-ES.md) · [Português (Brasil)](README.pt-BR.md)
 
+<p align="center"><img src="../branding/ksa-babel-cover-preview-v3.png" alt="KSA Babel · 喵语塔" width="512"></p>
+
 通过 StarMap 加载的 **Kitten Space Agency 多语言本地化框架**。KSA Babel 提供语言包、游戏内语言菜单、显示适配与共享字体子集，不替换游戏可执行文件或原始资源。
 
 本项目从 [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) 独立整理。当前为 **0.2.1 预览版**，仅适配 Windows x64 的 **KSA 2026.10.19.5638**、已检查的文件哈希与 **StarMap 0.4.8**。

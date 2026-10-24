@@ -1,0 +1,107 @@
+{
+  "approved_cover": "v3",
+  "asset_commit": "2ea22506f5c5f29ae60878485875032ce62fe448",
+  "image_manifest": "docs/branding/manifest.json",
+  "readme_editions_updated": 9,
+  "index_pull_request": "https://github.com/KSAModding/content-index/pull/228",
+  "index_scope": [
+    "listings/KsaBabel.toml"
+  ],
+  "local_checks": {
+    "checks": [
+      {
+        "command": [
+          "tools/check_layout.py"
+        ],
+        "exit_code": 0,
+        "stdout": "checked 31 document(s), all in the right place\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "tools/check_schema.py"
+        ],
+        "exit_code": 0,
+        "stdout": "checked 31 document(s) against the schema, all valid\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "tools/check_index.py"
+        ],
+        "exit_code": 0,
+        "stdout": "checked 31 document(s) against the index, no collisions or wrong references\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "tools/check_license.py"
+        ],
+        "exit_code": 0,
+        "stdout": "checked 31 license expression(s) against the SPDX list, all resolve\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "tools/check_status.py"
+        ],
+        "exit_code": 0,
+        "stdout": "index-status.toml is well formed and every state resolves\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "tools/check_images.py"
+        ],
+        "exit_code": 0,
+        "stdout": "note: listings/KSAero.toml: images.icon: the icon is 360 by 314 pixels, so clients show the square from 23,0 to 337,314\nchecked the images of 31 document(s)\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "tools/check_packs.py"
+        ],
+        "exit_code": 0,
+        "stdout": "Pack owner records are valid.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "tools/check_tags.py"
+        ],
+        "exit_code": 0,
+        "stdout": "tags.toml is well formed\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "tools/check_images.py",
+          "listings/KsaBabel.toml"
+        ],
+        "exit_code": 0,
+        "stdout": "note: listings/KSAero.toml: images.icon: the icon is 360 by 314 pixels, so clients show the square from 23,0 to 337,314\npass: listings/KsaBabel.toml: 2 image(s) match their records\nchecked the images of 31 document(s)\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "tools/check_release.py",
+          "listings/KsaBabel.toml",
+          "--releases",
+          "<project>\\.tools\\content-index-releases"
+        ],
+        "exit_code": 0,
+        "stdout": "listings/KsaBabel.toml: pass: the latest release 0.2.1 stamps cleanly\n",
+        "stderr": ""
+      }
+    ],
+    "all_passed": true
+  },
+  "forum": {
+    "edited": false,
+    "api_http_status": 403,
+    "manual_embed": "ecosystem/babel-forum-cover.bbcode"
+  },
+  "binary_assets_changed": false,
+  "release_version_unchanged": "0.2.1",
+  "scope": "Cover image publication and catalog metadata. No new game runtime or GUI acceptance claim."
+}
