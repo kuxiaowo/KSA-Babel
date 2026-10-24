@@ -1,0 +1,153 @@
+{
+  "upstream": "https://github.com/kuxiaowo/KSA-CHINESE",
+  "publicCommit": "41641336cfa635a7a586cb40201f462305936d89",
+  "screenshots": [
+    {
+      "path": "reports/screenshots/015-update-aurora-zh.png",
+      "gitBlob": "949172a054725ba20f873920d22fac917833c29d",
+      "sha256": "3ce66a433998d02baf91c3c270dad2fc0a2ce2d46013499020db91bffc422370"
+    },
+    {
+      "path": "reports/screenshots/015-update-engine-zh.png",
+      "gitBlob": "24e69664fed7de6779d619d86e67d99fc02ba983",
+      "sha256": "47fb8f3a67dfb5d38dd7f6672643040082112710beadc1107333a88b0c2cd8fb"
+    },
+    {
+      "path": "reports/screenshots/015-update-history-zh.png",
+      "gitBlob": "8dd3e32945b0e2d3afd961fa451163c0474887ce",
+      "sha256": "e0d2339d9a5eb8c96bc2ded3689d8a29c9a6cec042eb6143da02cbacf9220136"
+    },
+    {
+      "path": "reports/screenshots/015-update-map-en.png",
+      "gitBlob": "97913c69e17b50b14cf45da4d5ae01d4bdebd50e",
+      "sha256": "b3bd4847f91ce36410e3c133dde8b023c9958940226f156b426e74e19345b511"
+    },
+    {
+      "path": "reports/screenshots/015-update-map-zh.png",
+      "gitBlob": "c6a393c9357416e5b9fa13cc0dc9c6d6e592f475",
+      "sha256": "0c8a167340ee45847362d586a3d8a09ee7c2f0275f2ef290d2995961d7ac6b4d"
+    },
+    {
+      "path": "reports/screenshots/015-update-radiation-en.png",
+      "gitBlob": "1c40b3c4d8025c7d153f2b8046f7a626055df32f",
+      "sha256": "93649622cb90cacd40e62eec1d34a4dcaeacf611a48fb9c61e0b861983c3a501"
+    },
+    {
+      "path": "reports/screenshots/015-update-radiation-zh.png",
+      "gitBlob": "d2a7cb620c04376e3a9767d8bc9e3c7e73daa68c",
+      "sha256": "58301eb83b3a71fa32113436b77d3c238e669811bd70b12ede302384bc7d91f8"
+    },
+    {
+      "path": "reports/screenshots/016-borea-hud-en-restored.png",
+      "gitBlob": "048a723b13160b3c93eea49b7b84bc060b973817",
+      "sha256": "6d50fa8288faba15330700b88e0abbf71f51576d1658415abb370138d89f7cb3"
+    },
+    {
+      "path": "reports/screenshots/016-borea-hud-zh.png",
+      "gitBlob": "1bdfdb454970f817abaf6dc8b00cac40b49857c2",
+      "sha256": "d16f90b7c43072ae967c704093a1ba6b8300ce6ae743cb1599bcc9ca6eb2b3f6"
+    },
+    {
+      "path": "reports/screenshots/full-014-display-zh.png",
+      "gitBlob": "9e82f692876e07f54bc8240bf1cefeab92e84850",
+      "sha256": "03c3475468db02fd1f26319a3f88b68d08fc0bddc32afd5cbb09d240d975cc9a"
+    },
+    {
+      "path": "reports/screenshots/full-014-engine-en.png",
+      "gitBlob": "5a1e28b5e867aad25ea7729bed8759a20b49fc6b",
+      "sha256": "88dfc353cbc9ea706bef6cc3dac14d9123d3ae25c5bc407b0bd0d171e09d6988"
+    },
+    {
+      "path": "reports/screenshots/full-014-engine-zh.png",
+      "gitBlob": "342d7e4723355adf1b510824c2aa9d1f7cdb0f73",
+      "sha256": "8b493bb5bf79ada433fa67bc422d4075fc9e2596777d12dbdcf39ec877af25ad"
+    },
+    {
+      "path": "reports/screenshots/full-014-history-zh.png",
+      "gitBlob": "cf8f4ca3d103dd14f1f210ae28d54ace71b0e22a",
+      "sha256": "1d4a2b5f3b2d10d26dc2f4e58b209e5869901b00adbad30252ac3e41a859b07d"
+    },
+    {
+      "path": "reports/screenshots/full-014-tuning-zh.png",
+      "gitBlob": "c9dd3ea863688f8e67a785c13878f6aaadf32d42",
+      "sha256": "99c325f2c613653cc77553e857b79eb47b74ab5e8043bcf9bef96a06eda73045"
+    },
+    {
+      "path": "reports/screenshots/gauge-context-en-0.1.2.png",
+      "gitBlob": "1ee95c39e29b56dad9ed096c2b337f28baaad9a1",
+      "sha256": "fb07ed80ae61a7b2de2fb4c687143648ee11a029f088f351af66cc4f87bea592"
+    },
+    {
+      "path": "reports/screenshots/gauge-context-zh-0.1.2.png",
+      "gitBlob": "ed810f34cbf40e0b658db0521af484589e09d45e",
+      "sha256": "3a29d22cd317ed47bb98fcc664b2791ea080f9eef0d6958fb70d4677b37bce90"
+    },
+    {
+      "path": "reports/screenshots/hud-en.png",
+      "gitBlob": "e70353565620632c12fbc8acc7a1328a269fc519",
+      "sha256": "2a4df2afad0db22814dc0ce9d85623b4196843689fcd9c7294c342121a00802f"
+    },
+    {
+      "path": "reports/screenshots/hud-zh-roundtrip.png",
+      "gitBlob": "272c30ba0a29459ae5aac343afdcc2524839fa16",
+      "sha256": "dcbbed256478c8eace33a0ac8c0bdc994a098bf6c39bd096a7070fdfef10e12b"
+    },
+    {
+      "path": "reports/screenshots/hud-zh.png",
+      "gitBlob": "15b5be5d99804a8bf8ff6f9bbf639e25121e0ac8",
+      "sha256": "e0dda440c8e05f6a8b92d20074d625fbd33750f4b551daf9a5ede985211ee8db"
+    },
+    {
+      "path": "reports/screenshots/parts-013-flight-en.png",
+      "gitBlob": "d7d577b08e7196fcce19639e7f79f8317e31fd6d",
+      "sha256": "55370b9ea9c31ad028b059e50cfff25248c00b4d4384f0bcfa1cf891c10e179c"
+    },
+    {
+      "path": "reports/screenshots/parts-013-flight-zh-roundtrip.png",
+      "gitBlob": "461ead2f98ab8b3398e195d4a9f39f63134f2581",
+      "sha256": "71fd81de4612eab7f244aa391565152bc3c896433f4331d0ad71b106aea2cedc"
+    },
+    {
+      "path": "reports/screenshots/parts-013-flight-zh.png",
+      "gitBlob": "e7bc1e6b75eca332d5a9f4dc41b7f4e9c4dcbaee",
+      "sha256": "d0ab77e2667fe594dbed33473b563bb6f8754e8b41eee1d6670128de2f4c54ec"
+    },
+    {
+      "path": "reports/screenshots/planning-zh.png",
+      "gitBlob": "ab5b52cb96ea0a7680116fd11b30e281e4d0511a",
+      "sha256": "71630a30deac4db00c8314da71c6c81667592ad1c05081df2dbd88526827bf71"
+    },
+    {
+      "path": "reports/screenshots/settings-controls-zh.png",
+      "gitBlob": "795d79f573d19ab869f5fb8fbb2143748e263c92",
+      "sha256": "5b659e5b01d7a7c178da096a6869a2b0b64872f46c56b15f35a2cb6246690a81"
+    },
+    {
+      "path": "reports/screenshots/settings-display-zh.png",
+      "gitBlob": "5cf307148b3f69d88bd8fd2b937d4d3bab23db96",
+      "sha256": "e37b796a13e16d7b224528cd8f07d34c87c5b07cf63945bbd5024f63506fbbe1"
+    },
+    {
+      "path": "reports/screenshots/settings-graphics-zh.png",
+      "gitBlob": "6bf45262b70f1b21f63abcbf33fc7cb95cf0fd17",
+      "sha256": "174f0190dc826af3cd1eea51fd576e90b079fcfb7bf1fc7169c0adf51f7e9f73"
+    },
+    {
+      "path": "reports/screenshots/staging-zh-0.1.1.png",
+      "gitBlob": "8765d0d4fdddd61fda856939be197bad8b215e8c",
+      "sha256": "f9bd4533e6030487a95411482c1321bd0af0949a554efb7c205433e9c5876a71"
+    },
+    {
+      "path": "reports/screenshots/tracking-zh.png",
+      "gitBlob": "d8a7958d86df73f40aba020bbd37ce5feb789c64",
+      "sha256": "637da25e80e2c1b24dc9551ac461117223108aefd6791ee28c52aefbcc58bfe7"
+    },
+    {
+      "path": "reports/screenshots/uninstalled-en.png",
+      "gitBlob": "692af7650091a298f6028ee5633c47913eb6a37e",
+      "sha256": "b2a736b7536ac3de174d55713f27f108b73a82c91de38ffa6a6688fca86dbb05"
+    }
+  ],
+  "allByteIdenticalToPublicUpstream": true,
+  "scope": "Existing public screenshots; no additional screenshots or personal media were imported. This establishes public provenance, not a complete OCR/privacy audit."
+}

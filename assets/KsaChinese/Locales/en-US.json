@@ -1,0 +1,27 @@
+{
+  "locale": "en-US",
+  "displayName": "English",
+  "fontFile": "KsaUiNotoSC.ttf",
+  "native": {},
+  "literals": {},
+  "editor": {},
+  "startup": {},
+  "parts": {},
+  "controls": {},
+  "hud": {},
+  "planning": {},
+  "utility": {},
+  "dynamic": {
+    "LanguageMenu": "Language",
+    "Mixture.RatioPrefix": "The oxidizer-to-fuel mass ratio fed to the combustion chamber.\nTypical value for this mixture: ",
+    "Phase.Liquid": "Liquid {0}",
+    "Phase.Vapor": "{0} Vapor",
+    "Phase.Ice": "{0} Ice",
+    "Phase.Gas": "Gas {0}",
+    "Phase.Solid": "Solid {0}",
+    "Orbit.EccentricAnomaly": "Eccentric anomaly",
+    "Orbit.TrueAnomaly": "True anomaly",
+    "Profiler.FramePrefix": "Profiler    frame ",
+    "Profiler.CpuPrefix": "CPU Profiler - "
+  }
+}

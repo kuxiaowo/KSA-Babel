@@ -1,0 +1,5814 @@
+{
+  "checked_at_utc": "2026-10-24T04:54:30.458172+00:00",
+  "scope": "Independent AI structural audit and 22 semantic sample groups; final decisions snapshot; not full linguistic acceptance.",
+  "status": "ai-review-not-native-speaker-signoff",
+  "stats": [
+    {
+      "locale": "ja-JP",
+      "unique_ids": 4786,
+      "section_counts": {
+        "content": 257,
+        "controls": 106,
+        "editor": 167,
+        "hud": 43,
+        "literals": 86,
+        "native": 216,
+        "planning": 245,
+        "startup": 39,
+        "tooltips": 171,
+        "ui": 193,
+        "utility": 297,
+        "gauges": 84,
+        "scoped": 13,
+        "display": 1991,
+        "history": 228,
+        "parts": 650
+      }
+    },
+    {
+      "locale": "ru-RU",
+      "unique_ids": 4786,
+      "section_counts": {
+        "content": 257,
+        "controls": 106,
+        "editor": 167,
+        "gauges": 84,
+        "hud": 43,
+        "literals": 86,
+        "native": 216,
+        "planning": 245,
+        "scoped": 13,
+        "startup": 39,
+        "tooltips": 171,
+        "ui": 193,
+        "utility": 297,
+        "display": 1991,
+        "history": 228,
+        "parts": 650
+      }
+    },
+    {
+      "locale": "de-DE",
+      "unique_ids": 4786,
+      "section_counts": {
+        "content": 257,
+        "controls": 106,
+        "editor": 167,
+        "gauges": 84,
+        "hud": 43,
+        "literals": 86,
+        "native": 216,
+        "planning": 245,
+        "scoped": 13,
+        "startup": 39,
+        "tooltips": 171,
+        "ui": 193,
+        "utility": 297,
+        "display": 1991,
+        "history": 228,
+        "parts": 650
+      }
+    },
+    {
+      "locale": "fr-FR",
+      "unique_ids": 4786,
+      "section_counts": {
+        "content": 257,
+        "controls": 106,
+        "editor": 167,
+        "gauges": 84,
+        "hud": 43,
+        "literals": 86,
+        "native": 216,
+        "planning": 245,
+        "scoped": 13,
+        "startup": 39,
+        "tooltips": 171,
+        "ui": 193,
+        "utility": 297,
+        "display": 1991,
+        "history": 228,
+        "parts": 650
+      }
+    },
+    {
+      "locale": "it-IT",
+      "unique_ids": 4786,
+      "section_counts": {
+        "content": 257,
+        "controls": 106,
+        "editor": 167,
+        "gauges": 84,
+        "hud": 43,
+        "literals": 86,
+        "native": 216,
+        "planning": 245,
+        "scoped": 13,
+        "startup": 39,
+        "tooltips": 171,
+        "ui": 193,
+        "utility": 297,
+        "display": 1991,
+        "history": 228,
+        "parts": 650
+      }
+    },
+    {
+      "locale": "es-ES",
+      "unique_ids": 4786,
+      "section_counts": {
+        "content": 257,
+        "controls": 106,
+        "editor": 167,
+        "gauges": 84,
+        "hud": 43,
+        "literals": 86,
+        "native": 216,
+        "planning": 245,
+        "scoped": 13,
+        "startup": 39,
+        "tooltips": 171,
+        "ui": 193,
+        "utility": 297,
+        "display": 1991,
+        "history": 228,
+        "parts": 650
+      }
+    },
+    {
+      "locale": "pt-BR",
+      "unique_ids": 4786,
+      "section_counts": {
+        "content": 257,
+        "controls": 106,
+        "editor": 167,
+        "gauges": 84,
+        "hud": 43,
+        "literals": 86,
+        "native": 216,
+        "planning": 245,
+        "scoped": 13,
+        "startup": 39,
+        "tooltips": 171,
+        "ui": 193,
+        "utility": 297,
+        "display": 1991,
+        "history": 228,
+        "parts": 650
+      }
+    }
+  ],
+  "hard_issue_count": 0,
+  "issue_type_counts": {
+    "numeric-review": 300
+  },
+  "issues": [
+    {
+      "locale": "ja-JP",
+      "id": "content:Substance:Titanium.64:FullName",
+      "file": "translations\\multilingual\\ja-JP\\content.jsonl",
+      "line": 210,
+      "english": "Titanium.64",
+      "translation": "6-4 チタン合金",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "ja-JP",
+      "id": "content:Substance:Titanium.64:ShortName",
+      "file": "translations\\multilingual\\ja-JP\\content.jsonl",
+      "line": 211,
+      "english": "Titanium.64",
+      "translation": "6-4 チタン合金",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "ja-JP",
+      "id": "hud:A name needs at least one letter or number.",
+      "file": "translations\\multilingual\\ja-JP\\core.jsonl",
+      "line": 274,
+      "english": "A name needs at least one letter or number.",
+      "translation": "名前には少なくとも1文字の英数字が必要です。",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "1"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "ui:First",
+      "file": "translations\\multilingual\\ja-JP\\core.jsonl",
+      "line": 1081,
+      "english": "First",
+      "translation": "第1象限",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "1"
+      ],
+      "assessment": "AI context checked: actual DrawTextWidget labels follow Quadrant; ordinal is rendered numerically in Japanese."
+    },
+    {
+      "locale": "ja-JP",
+      "id": "ui:Fourth",
+      "file": "translations\\multilingual\\ja-JP\\core.jsonl",
+      "line": 1086,
+      "english": "Fourth",
+      "translation": "第4象限",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "4"
+      ],
+      "assessment": "AI context checked: actual DrawTextWidget labels follow Quadrant; ordinal is rendered numerically in Japanese."
+    },
+    {
+      "locale": "ja-JP",
+      "id": "ui:One Frame",
+      "file": "translations\\multilingual\\ja-JP\\core.jsonl",
+      "line": 1135,
+      "english": "One Frame",
+      "translation": "1 フレーム",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "1"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "ui:Second",
+      "file": "translations\\multilingual\\ja-JP\\core.jsonl",
+      "line": 1161,
+      "english": "Second",
+      "translation": "第2象限",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "2"
+      ],
+      "assessment": "AI context checked: actual DrawTextWidget labels follow Quadrant; ordinal is rendered numerically in Japanese."
+    },
+    {
+      "locale": "ja-JP",
+      "id": "ui:Third",
+      "file": "translations\\multilingual\\ja-JP\\core.jsonl",
+      "line": 1209,
+      "english": "Third",
+      "translation": "第3象限",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "3"
+      ],
+      "assessment": "AI context checked: actual DrawTextWidget labels follow Quadrant; ordinal is rendered numerically in Japanese."
+    },
+    {
+      "locale": "ja-JP",
+      "id": "utility:A name needs at least one letter or number.",
+      "file": "translations\\multilingual\\ja-JP\\core.jsonl",
+      "line": 1233,
+      "english": "A name needs at least one letter or number.",
+      "translation": "名前には文字または数字を1文字以上含めてください。",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "1"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "tooltips:Move the burn one orbit earlier. Hold Shift for 10 orbits.",
+      "file": "translations\\multilingual\\ja-JP\\core.jsonl",
+      "line": 1652,
+      "english": "Move the burn one orbit earlier. Hold Shift for 10 orbits.",
+      "translation": "噴射を 1 周早めます。Shift を押すと 10 周早めます。",
+      "type": "numeric-review",
+      "source_tokens": [
+        "10"
+      ],
+      "translated_tokens": [
+        "1",
+        "10"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "tooltips:Move the burn one orbit later. Hold Shift for 10 orbits.",
+      "file": "translations\\multilingual\\ja-JP\\core.jsonl",
+      "line": 1653,
+      "english": "Move the burn one orbit later. Hold Shift for 10 orbits.",
+      "translation": "噴射を 1 周遅らせます。Shift を押すと 10 周遅らせます。",
+      "type": "numeric-review",
+      "source_tokens": [
+        "10"
+      ],
+      "translated_tokens": [
+        "1",
+        "10"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "display:AUTO (quarter of VRAM)",
+      "file": "translations\\multilingual\\ja-JP\\display.jsonl",
+      "line": 156,
+      "english": "AUTO (quarter of VRAM)",
+      "translation": "自動 (VRAM の4分の1)",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "4",
+        "1"
+      ],
+      "assessment": "AI context checked: Japanese 4分の1 is one quarter; no value changed."
+    },
+    {
+      "locale": "ja-JP",
+      "id": "display:Gravity (m/s^2) at or above which the moonwalk blend weight is zero.",
+      "file": "translations\\multilingual\\ja-JP\\display.jsonl",
+      "line": 803,
+      "english": "Gravity (m/s^2) at or above which the moonwalk blend weight is zero.",
+      "translation": "重力 (m/s^2) がこの値以上なら低重力歩行の混合ウェイトは 0 になります。",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "0"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "display:Live State (one frame lagged)",
+      "file": "translations\\multilingual\\ja-JP\\display.jsonl",
+      "line": 987,
+      "english": "Live State (one frame lagged)",
+      "translation": "現在状態 (1 フレーム遅延)",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "1"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "display:Mass per each mole (a number of molecules) of the combustion products. Specific impluse is very strongly affected by molar mass; lower is better.",
+      "file": "translations\\multilingual\\ja-JP\\display.jsonl",
+      "line": 1016,
+      "english": "Mass per each mole (a number of molecules) of the combustion products. Specific impluse is very strongly affected by molar mass; lower is better.",
+      "translation": "燃焼生成物の 1 モル当たりの質量です。比推力はモル質量の影響を強く受け、小さいほど有利です。",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "1"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "display:One Frame",
+      "file": "translations\\multilingual\\ja-JP\\display.jsonl",
+      "line": 1198,
+      "english": "One Frame",
+      "translation": "1 フレーム",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "1"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "display:Per second of real time:",
+      "file": "translations\\multilingual\\ja-JP\\display.jsonl",
+      "line": 1254,
+      "english": "Per second of real time:",
+      "translation": "実時間1秒当たり:",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "1"
+      ],
+      "assessment": "AI context checked: Japanese 1秒当たり means per second."
+    },
+    {
+      "locale": "ja-JP",
+      "id": "display:Telemetry (one frame lagged)",
+      "file": "translations\\multilingual\\ja-JP\\display.jsonl",
+      "line": 1679,
+      "english": "Telemetry (one frame lagged)",
+      "translation": "テレメトリー（1 フレーム遅延）",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "1"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "display:Three Frames",
+      "file": "translations\\multilingual\\ja-JP\\display.jsonl",
+      "line": 1722,
+      "english": "Three Frames",
+      "translation": "3 フレーム",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "3"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "display:Tricolor",
+      "file": "translations\\multilingual\\ja-JP\\display.jsonl",
+      "line": 1765,
+      "english": "Tricolor",
+      "translation": "3 色",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "3"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "display:Two Frames",
+      "file": "translations\\multilingual\\ja-JP\\display.jsonl",
+      "line": 1776,
+      "english": "Two Frames",
+      "translation": "2 フレーム",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "2"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 20,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWA",
+      "translation": "0.5 m デカプラ WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 21,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWB",
+      "translation": "0.5 m デカプラ WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 22,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "translation": "0.25 m デカプラ WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 23,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "translation": "0.25 m デカプラ WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 198,
+      "english": "CoreFuelTankA_Prefab_LF1W1HA",
+      "translation": "1 m 推進剤タンク LF1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 199,
+      "english": "CoreFuelTankA_Prefab_LF1W1HB",
+      "translation": "1 m 推進剤タンク LF1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HC",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 200,
+      "english": "CoreFuelTankA_Prefab_LF1W1HC",
+      "translation": "1 m 推進剤タンク LF1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 201,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHA",
+      "translation": "1 m 短型推進剤タンク LF1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 202,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHB",
+      "translation": "1 m 短型推進剤タンク LF1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHC",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 203,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHC",
+      "translation": "1 m 短型推進剤タンク LF1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 204,
+      "english": "CoreFuelTankA_Prefab_LF2W1HA",
+      "translation": "2 m 推進剤タンク LF2W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 205,
+      "english": "CoreFuelTankA_Prefab_LF2W1HB",
+      "translation": "2 m 推進剤タンク LF2W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 206,
+      "english": "CoreFuelTankA_Prefab_LF2W2HA",
+      "translation": "2 m 推進剤タンク LF2W2HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 207,
+      "english": "CoreFuelTankA_Prefab_LF2W2HB",
+      "translation": "2 m 推進剤タンク LF2W2HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HC",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 208,
+      "english": "CoreFuelTankA_Prefab_LF2W2HC",
+      "translation": "2 m 推進剤タンク LF2W2HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 209,
+      "english": "CoreFuelTankA_Prefab_LF2W4HA",
+      "translation": "2 m 推進剤タンク LF2W4HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 210,
+      "english": "CoreFuelTankA_Prefab_LF2W4HB",
+      "translation": "2 m 推進剤タンク LF2W4HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HC",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 211,
+      "english": "CoreFuelTankA_Prefab_LF2W4HC",
+      "translation": "2 m 推進剤タンク LF2W4HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HD",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 212,
+      "english": "CoreFuelTankA_Prefab_LF2W4HD",
+      "translation": "2 m 推進剤タンク LF2W4HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 213,
+      "english": "CoreFuelTankA_Prefab_LF3W3HA",
+      "translation": "3 m 推進剤タンク LF3W3HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 214,
+      "english": "CoreFuelTankA_Prefab_LF3W3HB",
+      "translation": "3 m 推進剤タンク LF3W3HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 215,
+      "english": "CoreFuelTankA_Prefab_LF3W6HA",
+      "translation": "3 m 推進剤タンク LF3W6HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 216,
+      "english": "CoreFuelTankA_Prefab_LF3W6HB",
+      "translation": "3 m 推進剤タンク LF3W6HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HC",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 217,
+      "english": "CoreFuelTankA_Prefab_LF3W6HC",
+      "translation": "3 m 推進剤タンク LF3W6HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HD",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 218,
+      "english": "CoreFuelTankA_Prefab_LF3W6HD",
+      "translation": "3 m 推進剤タンク LF3W6HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 219,
+      "english": "CoreFuelTankA_Prefab_MP1W1HA",
+      "translation": "1 m 推進剤タンク MP1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 220,
+      "english": "CoreFuelTankA_Prefab_MP1W1HB",
+      "translation": "1 m 推進剤タンク MP1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HC",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 221,
+      "english": "CoreFuelTankA_Prefab_MP1W1HC",
+      "translation": "1 m 推進剤タンク MP1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HD",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 222,
+      "english": "CoreFuelTankA_Prefab_MP1W1HD",
+      "translation": "1 m 推進剤タンク MP1W1HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHA",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 223,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHA",
+      "translation": "1 m 短型推進剤タンク MP1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHB",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 224,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHB",
+      "translation": "1 m 短型推進剤タンク MP1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHC",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 225,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHC",
+      "translation": "1 m 短型推進剤タンク MP1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHD",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 226,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHD",
+      "translation": "1 m 短型推進剤タンク MP1WHalfHD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CorePropulsionA_Prefab_EngineA2",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 390,
+      "english": "LR91 Sea",
+      "translation": "LR91 海面用エンジン A2",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CorePropulsionA_Prefab_EngineA3",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 391,
+      "english": "LR91 Vac",
+      "translation": "LR91 真空用エンジン A3",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CorePropulsionA_Prefab_EngineA5",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 393,
+      "english": "LR91 Vac + Verniers",
+      "translation": "LR91 バーニア付き真空用エンジン A5",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ja-JP",
+      "id": "parts:CorePropulsionA_Prefab_EngineA6",
+      "file": "translations\\multilingual\\ja-JP\\parts.jsonl",
+      "line": 394,
+      "english": "LR91 Vac",
+      "translation": "LR91 真空用エンジン A6",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "content:Substance:Titanium.64:FullName",
+      "file": "translations\\multilingual\\ru-RU\\content.jsonl",
+      "line": 210,
+      "english": "Titanium.64",
+      "translation": "Титановый сплав 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "ru-RU",
+      "id": "content:Substance:Titanium.64:ShortName",
+      "file": "translations\\multilingual\\ru-RU\\content.jsonl",
+      "line": 211,
+      "english": "Titanium.64",
+      "translation": "Титановый сплав 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "ru-RU",
+      "id": "display:How big the triangles are: min(R, h)^2 / 2 of the coarsest triangle a dent lands on. The slope bound keeps the smooth field injective, but the mesh is flat triangles; this and 'min gap' bound how far a triangle's chord may stray from it. Either at 0 turns the guard off.",
+      "file": "translations\\multilingual\\ru-RU\\display.jsonl",
+      "line": 858,
+      "english": "How big the triangles are: min(R, h)^2 / 2 of the coarsest triangle a dent lands on. The slope bound keeps the smooth field injective, but the mesh is flat triangles; this and 'min gap' bound how far a triangle's chord may stray from it. Either at 0 turns the guard off.",
+      "translation": "Размер треугольников: min(R, h)^2 / 2 самого грубого треугольника под вмятиной. Ограничение наклона сохраняет инъективность гладкого поля, но сетка состоит из плоских граней; этот параметр и минимальный зазор ограничивают отклонение хорды. Любой ноль отключает защиту.",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2",
+        "0"
+      ],
+      "translated_tokens": [
+        "2",
+        "2"
+      ],
+      "assessment": "zero rendered as a word in the target language"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "display:How thin the walls are: the smallest distance from a skin to whatever sits behind it. Either this or 'chord factor' at 0 turns the guard off.",
+      "file": "translations\\multilingual\\ru-RU\\display.jsonl",
+      "line": 861,
+      "english": "How thin the walls are: the smallest distance from a skin to whatever sits behind it. Either this or 'chord factor' at 0 turns the guard off.",
+      "translation": "Толщина стенок: минимальный зазор от обшивки до объекта за ней. Ноль здесь или у коэффициента хорды отключает защиту.",
+      "type": "numeric-review",
+      "source_tokens": [
+        "0"
+      ],
+      "translated_tokens": [],
+      "assessment": "zero rendered as a word in the target language"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "display:The fixed radius that 'part radius influence' lerps toward at 0. Unused at influence 1.",
+      "file": "translations\\multilingual\\ru-RU\\display.jsonl",
+      "line": 1708,
+      "english": "The fixed radius that 'part radius influence' lerps toward at 0. Unused at influence 1.",
+      "translation": "Фиксированный радиус при нулевом влиянии радиуса детали. При влиянии 1 не используется.",
+      "type": "numeric-review",
+      "source_tokens": [
+        "0",
+        "1"
+      ],
+      "translated_tokens": [
+        "1"
+      ],
+      "assessment": "zero rendered as a word in the target language"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "display:Worley noise 3D",
+      "file": "translations\\multilingual\\ru-RU\\display.jsonl",
+      "line": 1879,
+      "english": "Worley noise 3D",
+      "translation": "Трёхмерный шум Ворли",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3"
+      ],
+      "translated_tokens": [],
+      "assessment": "AI context checked: Russian Трёхмерный spells out three-dimensional."
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 20,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWA",
+      "translation": "Разделитель 0.5 м WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 21,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWB",
+      "translation": "Разделитель 0.5 м WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 22,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "translation": "Разделитель 0.25 м WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 23,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "translation": "Разделитель 0.25 м WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 198,
+      "english": "CoreFuelTankA_Prefab_LF1W1HA",
+      "translation": "Бак компонентов топлива 1 м LF1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 199,
+      "english": "CoreFuelTankA_Prefab_LF1W1HB",
+      "translation": "Бак компонентов топлива 1 м LF1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HC",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 200,
+      "english": "CoreFuelTankA_Prefab_LF1W1HC",
+      "translation": "Бак компонентов топлива 1 м LF1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 201,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHA",
+      "translation": "Короткий бак компонентов топлива 1 м LF1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 202,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHB",
+      "translation": "Короткий бак компонентов топлива 1 м LF1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHC",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 203,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHC",
+      "translation": "Короткий бак компонентов топлива 1 м LF1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 204,
+      "english": "CoreFuelTankA_Prefab_LF2W1HA",
+      "translation": "Бак компонентов топлива 2 м LF2W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 205,
+      "english": "CoreFuelTankA_Prefab_LF2W1HB",
+      "translation": "Бак компонентов топлива 2 м LF2W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 206,
+      "english": "CoreFuelTankA_Prefab_LF2W2HA",
+      "translation": "Бак компонентов топлива 2 м LF2W2HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 207,
+      "english": "CoreFuelTankA_Prefab_LF2W2HB",
+      "translation": "Бак компонентов топлива 2 м LF2W2HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HC",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 208,
+      "english": "CoreFuelTankA_Prefab_LF2W2HC",
+      "translation": "Бак компонентов топлива 2 м LF2W2HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 209,
+      "english": "CoreFuelTankA_Prefab_LF2W4HA",
+      "translation": "Бак компонентов топлива 2 м LF2W4HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 210,
+      "english": "CoreFuelTankA_Prefab_LF2W4HB",
+      "translation": "Бак компонентов топлива 2 м LF2W4HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HC",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 211,
+      "english": "CoreFuelTankA_Prefab_LF2W4HC",
+      "translation": "Бак компонентов топлива 2 м LF2W4HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HD",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 212,
+      "english": "CoreFuelTankA_Prefab_LF2W4HD",
+      "translation": "Бак компонентов топлива 2 м LF2W4HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 213,
+      "english": "CoreFuelTankA_Prefab_LF3W3HA",
+      "translation": "Бак компонентов топлива 3 м LF3W3HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 214,
+      "english": "CoreFuelTankA_Prefab_LF3W3HB",
+      "translation": "Бак компонентов топлива 3 м LF3W3HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 215,
+      "english": "CoreFuelTankA_Prefab_LF3W6HA",
+      "translation": "Бак компонентов топлива 3 м LF3W6HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 216,
+      "english": "CoreFuelTankA_Prefab_LF3W6HB",
+      "translation": "Бак компонентов топлива 3 м LF3W6HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HC",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 217,
+      "english": "CoreFuelTankA_Prefab_LF3W6HC",
+      "translation": "Бак компонентов топлива 3 м LF3W6HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HD",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 218,
+      "english": "CoreFuelTankA_Prefab_LF3W6HD",
+      "translation": "Бак компонентов топлива 3 м LF3W6HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 219,
+      "english": "CoreFuelTankA_Prefab_MP1W1HA",
+      "translation": "Бак компонентов топлива 1 м MP1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 220,
+      "english": "CoreFuelTankA_Prefab_MP1W1HB",
+      "translation": "Бак компонентов топлива 1 м MP1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HC",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 221,
+      "english": "CoreFuelTankA_Prefab_MP1W1HC",
+      "translation": "Бак компонентов топлива 1 м MP1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HD",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 222,
+      "english": "CoreFuelTankA_Prefab_MP1W1HD",
+      "translation": "Бак компонентов топлива 1 м MP1W1HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHA",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 223,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHA",
+      "translation": "Короткий бак компонентов топлива 1 м MP1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHB",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 224,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHB",
+      "translation": "Короткий бак компонентов топлива 1 м MP1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHC",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 225,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHC",
+      "translation": "Короткий бак компонентов топлива 1 м MP1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHD",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 226,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHD",
+      "translation": "Короткий бак компонентов топлива 1 м MP1WHalfHD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CorePropulsionA_Prefab_EngineA2",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 390,
+      "english": "LR91 Sea",
+      "translation": "Двигатель LR91 для уровня моря A2",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CorePropulsionA_Prefab_EngineA3",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 391,
+      "english": "LR91 Vac",
+      "translation": "Вакуумный двигатель LR91 A3",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CorePropulsionA_Prefab_EngineA5",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 393,
+      "english": "LR91 Vac + Verniers",
+      "translation": "Вакуумный двигатель LR91 с верньерами A5",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "ru-RU",
+      "id": "parts:CorePropulsionA_Prefab_EngineA6",
+      "file": "translations\\multilingual\\ru-RU\\parts.jsonl",
+      "line": 394,
+      "english": "LR91 Vac",
+      "translation": "Вакуумный двигатель LR91 A6",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "content:Substance:Inconel.718:FullName",
+      "file": "translations\\multilingual\\de-DE\\content.jsonl",
+      "line": 99,
+      "english": "Inconel.718",
+      "translation": "Inconel-718-Legierung",
+      "type": "numeric-review",
+      "source_tokens": [
+        "718"
+      ],
+      "translated_tokens": [
+        "-718"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "de-DE",
+      "id": "content:Substance:Inconel.718:ShortName",
+      "file": "translations\\multilingual\\de-DE\\content.jsonl",
+      "line": 100,
+      "english": "Inconel.718",
+      "translation": "Inconel-718-Legierung",
+      "type": "numeric-review",
+      "source_tokens": [
+        "718"
+      ],
+      "translated_tokens": [
+        "-718"
+      ],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "de-DE",
+      "id": "content:Substance:Titanium.64:FullName",
+      "file": "translations\\multilingual\\de-DE\\content.jsonl",
+      "line": 210,
+      "english": "Titanium.64",
+      "translation": "Titanlegierung 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "de-DE",
+      "id": "content:Substance:Titanium.64:ShortName",
+      "file": "translations\\multilingual\\de-DE\\content.jsonl",
+      "line": 211,
+      "english": "Titanium.64",
+      "translation": "Titanlegierung 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "de-DE",
+      "id": "display:Teleport To Apollo 11 Landing Site",
+      "file": "translations\\multilingual\\de-DE\\display.jsonl",
+      "line": 1680,
+      "english": "Teleport To Apollo 11 Landing Site",
+      "translation": "Zum Apollo-11-Landeplatz teleportieren",
+      "type": "numeric-review",
+      "source_tokens": [
+        "11"
+      ],
+      "translated_tokens": [
+        "-11"
+      ],
+      "assessment": "AI context checked: Apollo-11 uses a German compound hyphen, not negative eleven."
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 20,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWA",
+      "translation": "0.5-m-Entkoppler WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 21,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWB",
+      "translation": "0.5-m-Entkoppler WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 22,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "translation": "0.25-m-Entkoppler WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 23,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "translation": "0.25-m-Entkoppler WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 198,
+      "english": "CoreFuelTankA_Prefab_LF1W1HA",
+      "translation": "1-m-Treibstofftank LF1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 199,
+      "english": "CoreFuelTankA_Prefab_LF1W1HB",
+      "translation": "1-m-Treibstofftank LF1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HC",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 200,
+      "english": "CoreFuelTankA_Prefab_LF1W1HC",
+      "translation": "1-m-Treibstofftank LF1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 201,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHA",
+      "translation": "Kurzer 1-m-Treibstofftank LF1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 202,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHB",
+      "translation": "Kurzer 1-m-Treibstofftank LF1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHC",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 203,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHC",
+      "translation": "Kurzer 1-m-Treibstofftank LF1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 204,
+      "english": "CoreFuelTankA_Prefab_LF2W1HA",
+      "translation": "2-m-Treibstofftank LF2W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 205,
+      "english": "CoreFuelTankA_Prefab_LF2W1HB",
+      "translation": "2-m-Treibstofftank LF2W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 206,
+      "english": "CoreFuelTankA_Prefab_LF2W2HA",
+      "translation": "2-m-Treibstofftank LF2W2HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 207,
+      "english": "CoreFuelTankA_Prefab_LF2W2HB",
+      "translation": "2-m-Treibstofftank LF2W2HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HC",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 208,
+      "english": "CoreFuelTankA_Prefab_LF2W2HC",
+      "translation": "2-m-Treibstofftank LF2W2HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 209,
+      "english": "CoreFuelTankA_Prefab_LF2W4HA",
+      "translation": "2-m-Treibstofftank LF2W4HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 210,
+      "english": "CoreFuelTankA_Prefab_LF2W4HB",
+      "translation": "2-m-Treibstofftank LF2W4HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HC",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 211,
+      "english": "CoreFuelTankA_Prefab_LF2W4HC",
+      "translation": "2-m-Treibstofftank LF2W4HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HD",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 212,
+      "english": "CoreFuelTankA_Prefab_LF2W4HD",
+      "translation": "2-m-Treibstofftank LF2W4HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 213,
+      "english": "CoreFuelTankA_Prefab_LF3W3HA",
+      "translation": "3-m-Treibstofftank LF3W3HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 214,
+      "english": "CoreFuelTankA_Prefab_LF3W3HB",
+      "translation": "3-m-Treibstofftank LF3W3HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 215,
+      "english": "CoreFuelTankA_Prefab_LF3W6HA",
+      "translation": "3-m-Treibstofftank LF3W6HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 216,
+      "english": "CoreFuelTankA_Prefab_LF3W6HB",
+      "translation": "3-m-Treibstofftank LF3W6HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HC",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 217,
+      "english": "CoreFuelTankA_Prefab_LF3W6HC",
+      "translation": "3-m-Treibstofftank LF3W6HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HD",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 218,
+      "english": "CoreFuelTankA_Prefab_LF3W6HD",
+      "translation": "3-m-Treibstofftank LF3W6HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 219,
+      "english": "CoreFuelTankA_Prefab_MP1W1HA",
+      "translation": "1-m-Treibstofftank MP1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 220,
+      "english": "CoreFuelTankA_Prefab_MP1W1HB",
+      "translation": "1-m-Treibstofftank MP1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HC",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 221,
+      "english": "CoreFuelTankA_Prefab_MP1W1HC",
+      "translation": "1-m-Treibstofftank MP1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HD",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 222,
+      "english": "CoreFuelTankA_Prefab_MP1W1HD",
+      "translation": "1-m-Treibstofftank MP1W1HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHA",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 223,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHA",
+      "translation": "Kurzer 1-m-Treibstofftank MP1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHB",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 224,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHB",
+      "translation": "Kurzer 1-m-Treibstofftank MP1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHC",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 225,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHC",
+      "translation": "Kurzer 1-m-Treibstofftank MP1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHD",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 226,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHD",
+      "translation": "Kurzer 1-m-Treibstofftank MP1WHalfHD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CorePropulsionA_Prefab_EngineA2",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 390,
+      "english": "LR91 Sea",
+      "translation": "Meeresspiegeltriebwerk LR91 A2",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CorePropulsionA_Prefab_EngineA3",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 391,
+      "english": "LR91 Vac",
+      "translation": "Vakuumtriebwerk LR91 A3",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CorePropulsionA_Prefab_EngineA5",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 393,
+      "english": "LR91 Vac + Verniers",
+      "translation": "Vakuumtriebwerk LR91 mit Verniertriebwerken A5",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "de-DE",
+      "id": "parts:CorePropulsionA_Prefab_EngineA6",
+      "file": "translations\\multilingual\\de-DE\\parts.jsonl",
+      "line": 394,
+      "english": "LR91 Vac",
+      "translation": "Vakuumtriebwerk LR91 A6",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "content:Substance:Titanium.64:FullName",
+      "file": "translations\\multilingual\\fr-FR\\content.jsonl",
+      "line": 210,
+      "english": "Titanium.64",
+      "translation": "Alliage de titane 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "fr-FR",
+      "id": "content:Substance:Titanium.64:ShortName",
+      "file": "translations\\multilingual\\fr-FR\\content.jsonl",
+      "line": 211,
+      "english": "Titanium.64",
+      "translation": "Alliage de titane 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "fr-FR",
+      "id": "display:Exact-exponential relaxation of node velocity toward the local air velocity. The primary physical damping - cloth in air is overwhelmingly air-damped. Ramps to this full rate by Reference Q For Drag and stays there above it; 0 at vacuum, independent of Aero Gain.",
+      "file": "translations\\multilingual\\fr-FR\\display.jsonl",
+      "line": 647,
+      "english": "Exact-exponential relaxation of node velocity toward the local air velocity. The primary physical damping - cloth in air is overwhelmingly air-damped. Ramps to this full rate by Reference Q For Drag and stays there above it; 0 at vacuum, independent of Aero Gain.",
+      "translation": "Relaxation exponentielle exacte de la vitesse des nœuds vers celle de l’air local, principal amortissement de la toile. Atteint son plein taux à la pression dynamique de référence puis reste constant ; nul dans le vide, indépendant du gain aérodynamique.",
+      "type": "numeric-review",
+      "source_tokens": [
+        "0"
+      ],
+      "translated_tokens": [],
+      "assessment": "English spelled number or per-mole unit rendered as numeric value; check semantically rather than demanding identical glyphs"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 20,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWA",
+      "translation": "Découpleur de 0.5 m WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 21,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWB",
+      "translation": "Découpleur de 0.5 m WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 22,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "translation": "Découpleur de 0.25 m WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 23,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "translation": "Découpleur de 0.25 m WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 198,
+      "english": "CoreFuelTankA_Prefab_LF1W1HA",
+      "translation": "Réservoir d'ergols de 1 m LF1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 199,
+      "english": "CoreFuelTankA_Prefab_LF1W1HB",
+      "translation": "Réservoir d'ergols de 1 m LF1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HC",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 200,
+      "english": "CoreFuelTankA_Prefab_LF1W1HC",
+      "translation": "Réservoir d'ergols de 1 m LF1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 201,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHA",
+      "translation": "Réservoir d'ergols court de 1 m LF1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 202,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHB",
+      "translation": "Réservoir d'ergols court de 1 m LF1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHC",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 203,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHC",
+      "translation": "Réservoir d'ergols court de 1 m LF1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 204,
+      "english": "CoreFuelTankA_Prefab_LF2W1HA",
+      "translation": "Réservoir d'ergols de 2 m LF2W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 205,
+      "english": "CoreFuelTankA_Prefab_LF2W1HB",
+      "translation": "Réservoir d'ergols de 2 m LF2W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 206,
+      "english": "CoreFuelTankA_Prefab_LF2W2HA",
+      "translation": "Réservoir d'ergols de 2 m LF2W2HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 207,
+      "english": "CoreFuelTankA_Prefab_LF2W2HB",
+      "translation": "Réservoir d'ergols de 2 m LF2W2HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HC",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 208,
+      "english": "CoreFuelTankA_Prefab_LF2W2HC",
+      "translation": "Réservoir d'ergols de 2 m LF2W2HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 209,
+      "english": "CoreFuelTankA_Prefab_LF2W4HA",
+      "translation": "Réservoir d'ergols de 2 m LF2W4HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 210,
+      "english": "CoreFuelTankA_Prefab_LF2W4HB",
+      "translation": "Réservoir d'ergols de 2 m LF2W4HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HC",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 211,
+      "english": "CoreFuelTankA_Prefab_LF2W4HC",
+      "translation": "Réservoir d'ergols de 2 m LF2W4HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HD",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 212,
+      "english": "CoreFuelTankA_Prefab_LF2W4HD",
+      "translation": "Réservoir d'ergols de 2 m LF2W4HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 213,
+      "english": "CoreFuelTankA_Prefab_LF3W3HA",
+      "translation": "Réservoir d'ergols de 3 m LF3W3HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 214,
+      "english": "CoreFuelTankA_Prefab_LF3W3HB",
+      "translation": "Réservoir d'ergols de 3 m LF3W3HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 215,
+      "english": "CoreFuelTankA_Prefab_LF3W6HA",
+      "translation": "Réservoir d'ergols de 3 m LF3W6HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 216,
+      "english": "CoreFuelTankA_Prefab_LF3W6HB",
+      "translation": "Réservoir d'ergols de 3 m LF3W6HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HC",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 217,
+      "english": "CoreFuelTankA_Prefab_LF3W6HC",
+      "translation": "Réservoir d'ergols de 3 m LF3W6HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HD",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 218,
+      "english": "CoreFuelTankA_Prefab_LF3W6HD",
+      "translation": "Réservoir d'ergols de 3 m LF3W6HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 219,
+      "english": "CoreFuelTankA_Prefab_MP1W1HA",
+      "translation": "Réservoir d'ergols de 1 m MP1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 220,
+      "english": "CoreFuelTankA_Prefab_MP1W1HB",
+      "translation": "Réservoir d'ergols de 1 m MP1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HC",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 221,
+      "english": "CoreFuelTankA_Prefab_MP1W1HC",
+      "translation": "Réservoir d'ergols de 1 m MP1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HD",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 222,
+      "english": "CoreFuelTankA_Prefab_MP1W1HD",
+      "translation": "Réservoir d'ergols de 1 m MP1W1HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHA",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 223,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHA",
+      "translation": "Réservoir d'ergols court de 1 m MP1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHB",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 224,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHB",
+      "translation": "Réservoir d'ergols court de 1 m MP1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHC",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 225,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHC",
+      "translation": "Réservoir d'ergols court de 1 m MP1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHD",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 226,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHD",
+      "translation": "Réservoir d'ergols court de 1 m MP1WHalfHD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CorePropulsionA_Prefab_EngineA2",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 390,
+      "english": "LR91 Sea",
+      "translation": "Moteur LR91 au niveau de la mer A2",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CorePropulsionA_Prefab_EngineA3",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 391,
+      "english": "LR91 Vac",
+      "translation": "Moteur à vide LR91 A3",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CorePropulsionA_Prefab_EngineA5",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 393,
+      "english": "LR91 Vac + Verniers",
+      "translation": "Moteur à vide LR91 avec verniers A5",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "fr-FR",
+      "id": "parts:CorePropulsionA_Prefab_EngineA6",
+      "file": "translations\\multilingual\\fr-FR\\parts.jsonl",
+      "line": 394,
+      "english": "LR91 Vac",
+      "translation": "Moteur à vide LR91 A6",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "content:Substance:Titanium.64:FullName",
+      "file": "translations\\multilingual\\it-IT\\content.jsonl",
+      "line": 210,
+      "english": "Titanium.64",
+      "translation": "Lega di titanio 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "it-IT",
+      "id": "content:Substance:Titanium.64:ShortName",
+      "file": "translations\\multilingual\\it-IT\\content.jsonl",
+      "line": 211,
+      "english": "Titanium.64",
+      "translation": "Lega di titanio 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 20,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWA",
+      "translation": "Disaccoppiatore da 0.5 m WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 21,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWB",
+      "translation": "Disaccoppiatore da 0.5 m WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 22,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "translation": "Disaccoppiatore da 0.25 m WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 23,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "translation": "Disaccoppiatore da 0.25 m WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 198,
+      "english": "CoreFuelTankA_Prefab_LF1W1HA",
+      "translation": "Serbatoio di propellente da 1 m LF1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 199,
+      "english": "CoreFuelTankA_Prefab_LF1W1HB",
+      "translation": "Serbatoio di propellente da 1 m LF1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HC",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 200,
+      "english": "CoreFuelTankA_Prefab_LF1W1HC",
+      "translation": "Serbatoio di propellente da 1 m LF1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 201,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHA",
+      "translation": "Serbatoio corto di propellente da 1 m LF1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 202,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHB",
+      "translation": "Serbatoio corto di propellente da 1 m LF1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHC",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 203,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHC",
+      "translation": "Serbatoio corto di propellente da 1 m LF1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 204,
+      "english": "CoreFuelTankA_Prefab_LF2W1HA",
+      "translation": "Serbatoio di propellente da 2 m LF2W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 205,
+      "english": "CoreFuelTankA_Prefab_LF2W1HB",
+      "translation": "Serbatoio di propellente da 2 m LF2W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 206,
+      "english": "CoreFuelTankA_Prefab_LF2W2HA",
+      "translation": "Serbatoio di propellente da 2 m LF2W2HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 207,
+      "english": "CoreFuelTankA_Prefab_LF2W2HB",
+      "translation": "Serbatoio di propellente da 2 m LF2W2HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HC",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 208,
+      "english": "CoreFuelTankA_Prefab_LF2W2HC",
+      "translation": "Serbatoio di propellente da 2 m LF2W2HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 209,
+      "english": "CoreFuelTankA_Prefab_LF2W4HA",
+      "translation": "Serbatoio di propellente da 2 m LF2W4HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 210,
+      "english": "CoreFuelTankA_Prefab_LF2W4HB",
+      "translation": "Serbatoio di propellente da 2 m LF2W4HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HC",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 211,
+      "english": "CoreFuelTankA_Prefab_LF2W4HC",
+      "translation": "Serbatoio di propellente da 2 m LF2W4HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HD",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 212,
+      "english": "CoreFuelTankA_Prefab_LF2W4HD",
+      "translation": "Serbatoio di propellente da 2 m LF2W4HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 213,
+      "english": "CoreFuelTankA_Prefab_LF3W3HA",
+      "translation": "Serbatoio di propellente da 3 m LF3W3HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 214,
+      "english": "CoreFuelTankA_Prefab_LF3W3HB",
+      "translation": "Serbatoio di propellente da 3 m LF3W3HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 215,
+      "english": "CoreFuelTankA_Prefab_LF3W6HA",
+      "translation": "Serbatoio di propellente da 3 m LF3W6HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 216,
+      "english": "CoreFuelTankA_Prefab_LF3W6HB",
+      "translation": "Serbatoio di propellente da 3 m LF3W6HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HC",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 217,
+      "english": "CoreFuelTankA_Prefab_LF3W6HC",
+      "translation": "Serbatoio di propellente da 3 m LF3W6HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HD",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 218,
+      "english": "CoreFuelTankA_Prefab_LF3W6HD",
+      "translation": "Serbatoio di propellente da 3 m LF3W6HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 219,
+      "english": "CoreFuelTankA_Prefab_MP1W1HA",
+      "translation": "Serbatoio di propellente da 1 m MP1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 220,
+      "english": "CoreFuelTankA_Prefab_MP1W1HB",
+      "translation": "Serbatoio di propellente da 1 m MP1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HC",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 221,
+      "english": "CoreFuelTankA_Prefab_MP1W1HC",
+      "translation": "Serbatoio di propellente da 1 m MP1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HD",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 222,
+      "english": "CoreFuelTankA_Prefab_MP1W1HD",
+      "translation": "Serbatoio di propellente da 1 m MP1W1HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHA",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 223,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHA",
+      "translation": "Serbatoio corto di propellente da 1 m MP1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHB",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 224,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHB",
+      "translation": "Serbatoio corto di propellente da 1 m MP1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHC",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 225,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHC",
+      "translation": "Serbatoio corto di propellente da 1 m MP1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHD",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 226,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHD",
+      "translation": "Serbatoio corto di propellente da 1 m MP1WHalfHD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CorePropulsionA_Prefab_EngineA2",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 390,
+      "english": "LR91 Sea",
+      "translation": "Motore LR91 per il livello del mare A2",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CorePropulsionA_Prefab_EngineA3",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 391,
+      "english": "LR91 Vac",
+      "translation": "Motore da vuoto LR91 A3",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CorePropulsionA_Prefab_EngineA5",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 393,
+      "english": "LR91 Vac + Verniers",
+      "translation": "Motore da vuoto LR91 con vernieri A5",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "it-IT",
+      "id": "parts:CorePropulsionA_Prefab_EngineA6",
+      "file": "translations\\multilingual\\it-IT\\parts.jsonl",
+      "line": 394,
+      "english": "LR91 Vac",
+      "translation": "Motore da vuoto LR91 A6",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "content:Substance:Titanium.64:FullName",
+      "file": "translations\\multilingual\\es-ES\\content.jsonl",
+      "line": 210,
+      "english": "Titanium.64",
+      "translation": "Aleación de titanio 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "es-ES",
+      "id": "content:Substance:Titanium.64:ShortName",
+      "file": "translations\\multilingual\\es-ES\\content.jsonl",
+      "line": 211,
+      "english": "Titanium.64",
+      "translation": "Aleación de titanio 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 20,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWA",
+      "translation": "Desacoplador de 0.5 m WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 21,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWB",
+      "translation": "Desacoplador de 0.5 m WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 22,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "translation": "Desacoplador de 0.25 m WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 23,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "translation": "Desacoplador de 0.25 m WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 198,
+      "english": "CoreFuelTankA_Prefab_LF1W1HA",
+      "translation": "Depósito de propelente de 1 m LF1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 199,
+      "english": "CoreFuelTankA_Prefab_LF1W1HB",
+      "translation": "Depósito de propelente de 1 m LF1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HC",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 200,
+      "english": "CoreFuelTankA_Prefab_LF1W1HC",
+      "translation": "Depósito de propelente de 1 m LF1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 201,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHA",
+      "translation": "Depósito corto de propelente de 1 m LF1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 202,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHB",
+      "translation": "Depósito corto de propelente de 1 m LF1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHC",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 203,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHC",
+      "translation": "Depósito corto de propelente de 1 m LF1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 204,
+      "english": "CoreFuelTankA_Prefab_LF2W1HA",
+      "translation": "Depósito de propelente de 2 m LF2W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 205,
+      "english": "CoreFuelTankA_Prefab_LF2W1HB",
+      "translation": "Depósito de propelente de 2 m LF2W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 206,
+      "english": "CoreFuelTankA_Prefab_LF2W2HA",
+      "translation": "Depósito de propelente de 2 m LF2W2HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 207,
+      "english": "CoreFuelTankA_Prefab_LF2W2HB",
+      "translation": "Depósito de propelente de 2 m LF2W2HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HC",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 208,
+      "english": "CoreFuelTankA_Prefab_LF2W2HC",
+      "translation": "Depósito de propelente de 2 m LF2W2HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 209,
+      "english": "CoreFuelTankA_Prefab_LF2W4HA",
+      "translation": "Depósito de propelente de 2 m LF2W4HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 210,
+      "english": "CoreFuelTankA_Prefab_LF2W4HB",
+      "translation": "Depósito de propelente de 2 m LF2W4HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HC",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 211,
+      "english": "CoreFuelTankA_Prefab_LF2W4HC",
+      "translation": "Depósito de propelente de 2 m LF2W4HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HD",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 212,
+      "english": "CoreFuelTankA_Prefab_LF2W4HD",
+      "translation": "Depósito de propelente de 2 m LF2W4HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 213,
+      "english": "CoreFuelTankA_Prefab_LF3W3HA",
+      "translation": "Depósito de propelente de 3 m LF3W3HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 214,
+      "english": "CoreFuelTankA_Prefab_LF3W3HB",
+      "translation": "Depósito de propelente de 3 m LF3W3HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 215,
+      "english": "CoreFuelTankA_Prefab_LF3W6HA",
+      "translation": "Depósito de propelente de 3 m LF3W6HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 216,
+      "english": "CoreFuelTankA_Prefab_LF3W6HB",
+      "translation": "Depósito de propelente de 3 m LF3W6HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HC",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 217,
+      "english": "CoreFuelTankA_Prefab_LF3W6HC",
+      "translation": "Depósito de propelente de 3 m LF3W6HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HD",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 218,
+      "english": "CoreFuelTankA_Prefab_LF3W6HD",
+      "translation": "Depósito de propelente de 3 m LF3W6HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 219,
+      "english": "CoreFuelTankA_Prefab_MP1W1HA",
+      "translation": "Depósito de propelente de 1 m MP1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 220,
+      "english": "CoreFuelTankA_Prefab_MP1W1HB",
+      "translation": "Depósito de propelente de 1 m MP1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HC",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 221,
+      "english": "CoreFuelTankA_Prefab_MP1W1HC",
+      "translation": "Depósito de propelente de 1 m MP1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HD",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 222,
+      "english": "CoreFuelTankA_Prefab_MP1W1HD",
+      "translation": "Depósito de propelente de 1 m MP1W1HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHA",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 223,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHA",
+      "translation": "Depósito corto de propelente de 1 m MP1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHB",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 224,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHB",
+      "translation": "Depósito corto de propelente de 1 m MP1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHC",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 225,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHC",
+      "translation": "Depósito corto de propelente de 1 m MP1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHD",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 226,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHD",
+      "translation": "Depósito corto de propelente de 1 m MP1WHalfHD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CorePropulsionA_Prefab_EngineA2",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 390,
+      "english": "LR91 Sea",
+      "translation": "Motor LR91 para nivel del mar A2",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CorePropulsionA_Prefab_EngineA3",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 391,
+      "english": "LR91 Vac",
+      "translation": "Motor de vacío LR91 A3",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CorePropulsionA_Prefab_EngineA5",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 393,
+      "english": "LR91 Vac + Verniers",
+      "translation": "Motor de vacío LR91 con motores vernier A5",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "es-ES",
+      "id": "parts:CorePropulsionA_Prefab_EngineA6",
+      "file": "translations\\multilingual\\es-ES\\parts.jsonl",
+      "line": 394,
+      "english": "LR91 Vac",
+      "translation": "Motor de vacío LR91 A6",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "content:Substance:Titanium.64:FullName",
+      "file": "translations\\multilingual\\pt-BR\\content.jsonl",
+      "line": 210,
+      "english": "Titanium.64",
+      "translation": "Liga de titânio 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "pt-BR",
+      "id": "content:Substance:Titanium.64:ShortName",
+      "file": "translations\\multilingual\\pt-BR\\content.jsonl",
+      "line": 211,
+      "english": "Titanium.64",
+      "translation": "Liga de titânio 6-4",
+      "type": "numeric-review",
+      "source_tokens": [
+        "64"
+      ],
+      "translated_tokens": [
+        "6",
+        "-4"
+      ],
+      "assessment": "AI source checked: Materials.xml Titanium.64 Name is Titanium Alloy 6-4; ID unchanged."
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 20,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWA",
+      "translation": "Desacoplador de 0.5 m WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerHalfWB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 21,
+      "english": "CoreCouplingA_Prefab_DecouplerHalfWB",
+      "translation": "Desacoplador de 0.5 m WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 22,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWA",
+      "translation": "Desacoplador de 0.25 m WA",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 23,
+      "english": "CoreCouplingA_Prefab_DecouplerQuarterWB",
+      "translation": "Desacoplador de 0.25 m WB",
+      "type": "numeric-review",
+      "source_tokens": [],
+      "translated_tokens": [
+        "0.25"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 198,
+      "english": "CoreFuelTankA_Prefab_LF1W1HA",
+      "translation": "Tanque de propelente de 1 m LF1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 199,
+      "english": "CoreFuelTankA_Prefab_LF1W1HB",
+      "translation": "Tanque de propelente de 1 m LF1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1W1HC",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 200,
+      "english": "CoreFuelTankA_Prefab_LF1W1HC",
+      "translation": "Tanque de propelente de 1 m LF1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 201,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHA",
+      "translation": "Tanque curto de propelente de 1 m LF1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 202,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHB",
+      "translation": "Tanque curto de propelente de 1 m LF1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF1WHalfHC",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 203,
+      "english": "CoreFuelTankA_Prefab_LF1WHalfHC",
+      "translation": "Tanque curto de propelente de 1 m LF1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 204,
+      "english": "CoreFuelTankA_Prefab_LF2W1HA",
+      "translation": "Tanque de propelente de 2 m LF2W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W1HB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 205,
+      "english": "CoreFuelTankA_Prefab_LF2W1HB",
+      "translation": "Tanque de propelente de 2 m LF2W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "1"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 206,
+      "english": "CoreFuelTankA_Prefab_LF2W2HA",
+      "translation": "Tanque de propelente de 2 m LF2W2HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 207,
+      "english": "CoreFuelTankA_Prefab_LF2W2HB",
+      "translation": "Tanque de propelente de 2 m LF2W2HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W2HC",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 208,
+      "english": "CoreFuelTankA_Prefab_LF2W2HC",
+      "translation": "Tanque de propelente de 2 m LF2W2HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "2"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 209,
+      "english": "CoreFuelTankA_Prefab_LF2W4HA",
+      "translation": "Tanque de propelente de 2 m LF2W4HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 210,
+      "english": "CoreFuelTankA_Prefab_LF2W4HB",
+      "translation": "Tanque de propelente de 2 m LF2W4HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HC",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 211,
+      "english": "CoreFuelTankA_Prefab_LF2W4HC",
+      "translation": "Tanque de propelente de 2 m LF2W4HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF2W4HD",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 212,
+      "english": "CoreFuelTankA_Prefab_LF2W4HD",
+      "translation": "Tanque de propelente de 2 m LF2W4HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "2",
+        "4"
+      ],
+      "translated_tokens": [
+        "2",
+        "2",
+        "4"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 213,
+      "english": "CoreFuelTankA_Prefab_LF3W3HA",
+      "translation": "Tanque de propelente de 3 m LF3W3HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W3HB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 214,
+      "english": "CoreFuelTankA_Prefab_LF3W3HB",
+      "translation": "Tanque de propelente de 3 m LF3W3HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "3"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 215,
+      "english": "CoreFuelTankA_Prefab_LF3W6HA",
+      "translation": "Tanque de propelente de 3 m LF3W6HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 216,
+      "english": "CoreFuelTankA_Prefab_LF3W6HB",
+      "translation": "Tanque de propelente de 3 m LF3W6HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HC",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 217,
+      "english": "CoreFuelTankA_Prefab_LF3W6HC",
+      "translation": "Tanque de propelente de 3 m LF3W6HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_LF3W6HD",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 218,
+      "english": "CoreFuelTankA_Prefab_LF3W6HD",
+      "translation": "Tanque de propelente de 3 m LF3W6HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "3",
+        "6"
+      ],
+      "translated_tokens": [
+        "3",
+        "3",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 219,
+      "english": "CoreFuelTankA_Prefab_MP1W1HA",
+      "translation": "Tanque de propelente de 1 m MP1W1HA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 220,
+      "english": "CoreFuelTankA_Prefab_MP1W1HB",
+      "translation": "Tanque de propelente de 1 m MP1W1HB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HC",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 221,
+      "english": "CoreFuelTankA_Prefab_MP1W1HC",
+      "translation": "Tanque de propelente de 1 m MP1W1HC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1W1HD",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 222,
+      "english": "CoreFuelTankA_Prefab_MP1W1HD",
+      "translation": "Tanque de propelente de 1 m MP1W1HD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1",
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHA",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 223,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHA",
+      "translation": "Tanque curto de propelente de 1 m MP1WHalfHA",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHB",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 224,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHB",
+      "translation": "Tanque curto de propelente de 1 m MP1WHalfHB",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHC",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 225,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHC",
+      "translation": "Tanque curto de propelente de 1 m MP1WHalfHC",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CoreFuelTankA_Prefab_MP1WHalfHD",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 226,
+      "english": "CoreFuelTankA_Prefab_MP1WHalfHD",
+      "translation": "Tanque curto de propelente de 1 m MP1WHalfHD",
+      "type": "numeric-review",
+      "source_tokens": [
+        "1"
+      ],
+      "translated_tokens": [
+        "1",
+        "1"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CorePropulsionA_Prefab_EngineA2",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 390,
+      "english": "LR91 Sea",
+      "translation": "Motor LR91 para o nível do mar A2",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "2"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CorePropulsionA_Prefab_EngineA3",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 391,
+      "english": "LR91 Vac",
+      "translation": "Motor a vácuo LR91 A3",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "3"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CorePropulsionA_Prefab_EngineA5",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 393,
+      "english": "LR91 Vac + Verniers",
+      "translation": "Motor a vácuo LR91 com verniers A5",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "5"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    },
+    {
+      "locale": "pt-BR",
+      "id": "parts:CorePropulsionA_Prefab_EngineA6",
+      "file": "translations\\multilingual\\pt-BR\\parts.jsonl",
+      "line": 394,
+      "english": "LR91 Vac",
+      "translation": "Motor a vácuo LR91 A6",
+      "type": "numeric-review",
+      "source_tokens": [
+        "91"
+      ],
+      "translated_tokens": [
+        "91",
+        "6"
+      ],
+      "assessment": "reviewed part names expand dimensions and retain model suffixes; source English is often a technical prefab identifier"
+    }
+  ],
+  "semantic_samples": [
+    {
+      "id": "parts:CoreCouplingA_Prefab_Decoupler1WA",
+      "english": "CoreCouplingA_Prefab_Decoupler1WA",
+      "reviewed_chinese": "1 米分离器 WA",
+      "translations": {
+        "ja-JP": "1 m デカプラ WA",
+        "ru-RU": "Разделитель 1 м WA",
+        "de-DE": "1-m-Entkoppler WA",
+        "fr-FR": "Découpleur de 1 m WA",
+        "it-IT": "Disaccoppiatore da 1 m WA",
+        "es-ES": "Desacoplador de 1 m WA",
+        "pt-BR": "Desacoplador de 1 m WA"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "parts:CoreCouplingA_Prefab_DockingPort1WA",
+      "english": "CoreCouplingA_Prefab_DockingPort1WA",
+      "reviewed_chinese": "对接端口 1WA",
+      "translations": {
+        "ja-JP": "ドッキングポート 1WA",
+        "ru-RU": "Стыковочный узел 1WA",
+        "de-DE": "Andockport 1WA",
+        "fr-FR": "Port d'amarrage 1WA",
+        "it-IT": "Porta di attracco 1WA",
+        "es-ES": "Puerto de acoplamiento 1WA",
+        "pt-BR": "Porta de acoplagem 1WA"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "parts:CoreFairingA_Prefab_AeroshroudAA",
+      "english": "CoreFairingA_Prefab_AeroshroudAA",
+      "reviewed_chinese": "气动整流罩 AA",
+      "translations": {
+        "ja-JP": "空力フェアリング AA",
+        "ru-RU": "Аэродинамический обтекатель AA",
+        "de-DE": "Aerodynamische Verkleidung AA",
+        "fr-FR": "Coiffe aérodynamique AA",
+        "it-IT": "Carenatura aerodinamica AA",
+        "es-ES": "Carenado aerodinámico AA",
+        "pt-BR": "Carenagem aerodinâmica AA"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "parts:CoreUtilityA_Prefab_ParachuteBayB",
+      "english": "Parachute Bay",
+      "reviewed_chinese": "降落伞舱 B",
+      "translations": {
+        "ja-JP": "パラシュートケース B",
+        "ru-RU": "Парашютный отсек B",
+        "de-DE": "Fallschirmgehäuse B",
+        "fr-FR": "Logement de parachute B",
+        "it-IT": "Alloggiamento del paracadute B",
+        "es-ES": "Compartimento del paracaídas B",
+        "pt-BR": "Compartimento do paraquedas B"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "parts:CorePropulsionA_Subpart_EngineATurbopumpNozzle",
+      "english": "CorePropulsionA_Subpart_EngineATurbopumpNozzle",
+      "reviewed_chinese": "发动机 A 涡轮泵排气喷管",
+      "translations": {
+        "ja-JP": "エンジン A のターボポンプ排気ノズル",
+        "ru-RU": "Выхлопное сопло турбонасоса двигателя A",
+        "de-DE": "Turbopumpen-Abgasdüse des Triebwerks A",
+        "fr-FR": "Tuyère d'échappement de turbopompe du moteur A",
+        "it-IT": "Ugello di scarico della turbopompa del motore A",
+        "es-ES": "Tobera de escape de turbobomba del motor A",
+        "pt-BR": "Bocal de escape da turbobomba do motor A"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "parts:CorePropulsionA_Subpart_EngineATurbopumpFrame",
+      "english": "CorePropulsionA_Subpart_EngineATurbopumpFrame",
+      "reviewed_chinese": "发动机 A 涡轮泵支架",
+      "translations": {
+        "ja-JP": "エンジン A のターボポンプ支持具",
+        "ru-RU": "Кронштейн турбонасоса двигателя A",
+        "de-DE": "Turbopumpenhalterung des Triebwerks A",
+        "fr-FR": "Support de turbopompe du moteur A",
+        "it-IT": "Supporto della turbopompa del motore A",
+        "es-ES": "Soporte de turbobomba del motor A",
+        "pt-BR": "Suporte da turbobomba do motor A"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "parts:CorePropulsionA_Prefab_EngineA2",
+      "english": "LR91 Sea",
+      "reviewed_chinese": "LR91 海平面型发动机 A2",
+      "translations": {
+        "ja-JP": "LR91 海面用エンジン A2",
+        "ru-RU": "Двигатель LR91 для уровня моря A2",
+        "de-DE": "Meeresspiegeltriebwerk LR91 A2",
+        "fr-FR": "Moteur LR91 au niveau de la mer A2",
+        "it-IT": "Motore LR91 per il livello del mare A2",
+        "es-ES": "Motor LR91 para nivel del mar A2",
+        "pt-BR": "Motor LR91 para o nível do mar A2"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "parts:CoreElectricalA_Prefab_SolarPanelA",
+      "english": "CoreElectricalA_Prefab_SolarPanelA",
+      "reviewed_chinese": "太阳能电池板 A",
+      "translations": {
+        "ja-JP": "ソーラーパネル A",
+        "ru-RU": "Солнечная панель A",
+        "de-DE": "Solarpanel A",
+        "fr-FR": "Panneau solaire A",
+        "it-IT": "Pannello solare A",
+        "es-ES": "Panel solar A",
+        "pt-BR": "Painel solar A"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "content:Substance:N2O4:FullName",
+      "english": "NTO (Nitrogen Tetroxide)",
+      "reviewed_chinese": "四氧化二氮（NTO）",
+      "translations": {
+        "ja-JP": "四酸化二窒素（NTO）",
+        "ru-RU": "Тетраоксид диазота (NTO)",
+        "de-DE": "Distickstofftetroxid (NTO)",
+        "fr-FR": "Tétraoxyde de diazote (NTO)",
+        "it-IT": "Tetrossido di diazoto (NTO)",
+        "es-ES": "Tetróxido de dinitrógeno (NTO)",
+        "pt-BR": "Tetróxido de dinitrogênio (NTO)"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "content:Substance:MMH:FullName",
+      "english": "MMH (Monomethylhydrazine)",
+      "reviewed_chinese": "一甲基肼（MMH）",
+      "translations": {
+        "ja-JP": "モノメチルヒドラジン（MMH）",
+        "ru-RU": "Монометилгидразин (MMH)",
+        "de-DE": "Monomethylhydrazin (MMH)",
+        "fr-FR": "Monométhylhydrazine (MMH)",
+        "it-IT": "Monometilidrazina (MMH)",
+        "es-ES": "Monometilhidracina (MMH)",
+        "pt-BR": "Monometil-hidrazina (MMH)"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "content:Reaction:APCP:Description",
+      "english": "High-thrust storable solid propellant; the natural choice for large solid rocket motors.",
+      "reviewed_chinese": "推力大、便于储存的固体推进剂，适用于大型固体火箭发动机。",
+      "translations": {
+        "ja-JP": "高推力で貯蔵しやすい固体推進剤。大型固体ロケットモーターに適しています。",
+        "ru-RU": "Твердотопливный состав с высокой тягой, удобный для хранения и подходящий для крупных ракетных двигателей.",
+        "de-DE": "Lagerfähiger Festtreibstoff mit hohem Schub, gut geeignet für große Feststoffraketenmotoren.",
+        "fr-FR": "Ergol solide stockable à forte poussée, adapté aux grands moteurs-fusées solides.",
+        "it-IT": "Propellente solido immagazzinabile ad alta spinta, adatto ai grandi motori a razzo solidi.",
+        "es-ES": "Propelente sólido almacenable de gran empuje, adecuado para motores de cohete sólidos grandes.",
+        "pt-BR": "Propelente sólido armazenável de alto empuxo, adequado a grandes motores-foguete sólidos."
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "content:Substance:AntiH2:FullName",
+      "english": "Antihydrogen",
+      "reviewed_chinese": "反氢",
+      "translations": {
+        "ja-JP": "反水素",
+        "ru-RU": "Антиводород",
+        "de-DE": "Antiwasserstoff",
+        "fr-FR": "Antihydrogène",
+        "it-IT": "Anti-idrogeno",
+        "es-ES": "Antihidrógeno",
+        "pt-BR": "Anti-hidrogênio"
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "content:GrainGeometry:BoostSustain:Description",
+      "english": "Curved slots deliver a hard kick until their fins burn through, leaving a large low-thrust port.",
+      "reviewed_chinese": "弯曲槽在肋片烧穿前提供强劲初始推力，之后留下较大的内孔，进入低推力阶段。",
+      "translations": {
+        "ja-JP": "曲がった溝により、フィンが燃え尽きるまで大きな初期推力を発生します。その後は大きな内孔が残り、低推力段階に移ります。",
+        "ru-RU": "Изогнутые пазы дают большую начальную тягу, пока перемычки не прогорят. Затем остаётся широкий канал и начинается малотяговый режим.",
+        "de-DE": "Gebogene Schlitze liefern hohen Anfangsschub, bis ihre Stege durchgebrannt sind. Danach bleibt ein großer Kanal mit geringerem Schub.",
+        "fr-FR": "Les rainures courbes donnent une forte poussée initiale jusqu'à la combustion des ailettes, puis laissent un large canal à faible poussée.",
+        "it-IT": "Le scanalature curve producono una forte spinta iniziale finché le alette non bruciano, lasciando poi un ampio canale a bassa spinta.",
+        "es-ES": "Las ranuras curvas generan un gran empuje inicial hasta consumirse sus aletas; después queda un conducto amplio de bajo empuje.",
+        "pt-BR": "As ranhuras curvas fornecem forte empuxo inicial até as aletas queimarem, deixando depois um canal amplo de baixo empuxo."
+      },
+      "assessment": "Independent AI sample found no clear meaning reversal; native-speaker/visual acceptance still pending."
+    },
+    {
+      "id": "gauges:APOAPSIS",
+      "english": "APOAPSIS",
+      "translations": {
+        "ja-JP": "遠点",
+        "ru-RU": "АПОЦЕНТР",
+        "de-DE": "APOAPSIS",
+        "fr-FR": "APOASTRE",
+        "it-IT": "APOAPSIDE",
+        "es-ES": "APOÁPSIDE",
+        "pt-BR": "APOASTRO"
+      }
+    },
+    {
+      "id": "gauges:PERIAPSIS",
+      "english": "PERIAPSIS",
+      "translations": {
+        "ja-JP": "近点",
+        "ru-RU": "ПЕРИЦЕНТР",
+        "de-DE": "PERIAPSIS",
+        "fr-FR": "PÉRIASTRE",
+        "it-IT": "PERIAPSIDE",
+        "es-ES": "PERIÁPSIDE",
+        "pt-BR": "PERIASTRO"
+      }
+    },
+    {
+      "id": "ui:APOAPSIS",
+      "english": "APOAPSIS",
+      "translations": {
+        "ja-JP": "遠点高度",
+        "ru-RU": "ВЫСОТА АПОЦЕНТРА",
+        "de-DE": "APOAPSISHÖHE",
+        "fr-FR": "ALTITUDE À L'APOASTRE",
+        "it-IT": "QUOTA APOAPSIDE",
+        "es-ES": "ALTITUD DEL APOÁPSIDE",
+        "pt-BR": "ALTITUDE NO APOASTRO"
+      }
+    },
+    {
+      "id": "ui:PERIAPSIS",
+      "english": "PERIAPSIS",
+      "translations": {
+        "ja-JP": "近点高度",
+        "ru-RU": "ВЫСОТА ПЕРИЦЕНТРА",
+        "de-DE": "PERIAPSISHÖHE",
+        "fr-FR": "ALTITUDE DU PÉRIASTRE",
+        "it-IT": "QUOTA PERIAPSIDE",
+        "es-ES": "ALTITUD DEL PERIÁPSIDE",
+        "pt-BR": "ALTITUDE DO PERIASTRO"
+      }
+    },
+    {
+      "id": "ui:Liquid Hydrogen",
+      "english": "Liquid Hydrogen",
+      "translations": {
+        "ja-JP": "液体水素",
+        "ru-RU": "Жидкий водород",
+        "de-DE": "Flüssigwasserstoff",
+        "fr-FR": "Hydrogène liquide",
+        "it-IT": "Idrogeno liquido",
+        "es-ES": "Hidrógeno líquido",
+        "pt-BR": "Hidrogênio líquido"
+      }
+    },
+    {
+      "id": "ui:Liquid Oxygen",
+      "english": "Liquid Oxygen",
+      "translations": {
+        "ja-JP": "液体酸素",
+        "ru-RU": "Жидкий кислород",
+        "de-DE": "Flüssigsauerstoff",
+        "fr-FR": "Oxygène liquide",
+        "it-IT": "Ossigeno liquido",
+        "es-ES": "Oxígeno líquido",
+        "pt-BR": "Oxigênio líquido"
+      }
+    },
+    {
+      "id": "utility:Specific Impulse",
+      "english": "Specific Impulse",
+      "translations": {
+        "ja-JP": "比推力（Isp）",
+        "ru-RU": "Удельный импульс",
+        "de-DE": "Spezifischer Impuls",
+        "fr-FR": "Impulsion spécifique",
+        "it-IT": "Impulso specifico",
+        "es-ES": "Impulso específico",
+        "pt-BR": "Impulso específico"
+      }
+    },
+    {
+      "id": "utility:Thrust",
+      "english": "Thrust",
+      "translations": {
+        "ja-JP": "推力",
+        "ru-RU": "Тяга",
+        "de-DE": "Schub",
+        "fr-FR": "Poussée",
+        "it-IT": "Spinta",
+        "es-ES": "Empuje",
+        "pt-BR": "Empuxo"
+      }
+    },
+    {
+      "id": "ui:Staging",
+      "english": "Staging",
+      "translations": {
+        "ja-JP": "ステージング",
+        "ru-RU": "Ступени",
+        "de-DE": "Stufentrennung",
+        "fr-FR": "Étagement",
+        "it-IT": "Stadiazione",
+        "es-ES": "Etapas",
+        "pt-BR": "Estágios"
+      }
+    }
+  ],
+  "semantic_findings": [
+    {
+      "id": "display:Multiplies (line length + diameter) for the max distance any node may sit from the pin. Guards against runaway line stretch.",
+      "locale": "ru-RU",
+      "status": "corrected-in-source-tsv-and-rematerialized",
+      "reason": "Old grammar multiplied by maximum distance instead of defining maximum distance from a multiplier.",
+      "current_value": "Множитель суммы длины стропы и диаметра, задающий максимальное расстояние любого узла от крепления. Защищает от неконтролируемого растяжения строп."
+    },
+    {
+      "id": "display:Isp (SL)",
+      "locale": "fr-FR",
+      "status": "corrected-in-source-tsv-and-rematerialized",
+      "reason": "Sea-level meaning spelled out to avoid sol/ground ambiguity.",
+      "current_value": "Impulsion spécifique (niveau de la mer)"
+    },
+    {
+      "id": "ui:PERIAPSIS",
+      "locale": "pt-BR",
+      "status": "corrected-and-rechecked",
+      "reason": "Periastro is masculine; altitude do periastro or no periastro, not da periastro.",
+      "current_value": "ALTITUDE DO PERIASTRO",
+      "suggestion": "ALTITUDE DO PERIASTRO"
+    }
+  ],
+  "limits": [
+    "Sampled semantic checks do not establish full linguistic correctness.",
+    "No game UI rendering was exercised by this agent.",
+    "Numeric differences include legitimate number-word conversions and part-ID expansion."
+  ],
+  "decisionFilesSha256": {
+    "translations/multilingual/de-DE/content.jsonl": "3b3907e2e3e517b0c7e7271f0a32d09020e78c1f5b423d10bc148f86eba558db",
+    "translations/multilingual/de-DE/core.jsonl": "79f3bcc591d7c063d2365dcec72ee3e7422b6f04b749de3052b68aba983b831e",
+    "translations/multilingual/de-DE/display.jsonl": "04e25e0ee349eadcdae0fd4f7144d81eeae3a695dbe72592db4fe1534f2b6ec1",
+    "translations/multilingual/de-DE/history.jsonl": "9751251a15f34d4ac06d18aebdf424f8cdca79147c9986a66b75c0a03225be17",
+    "translations/multilingual/de-DE/parts.jsonl": "13f8cfd6caafc1bd71b26b0edc3d1d1375d8264eb273e49e4d04ae2207ccd5c1",
+    "translations/multilingual/es-ES/content.jsonl": "216756e99e9e5a7493cebc141691d9caca753b4ef49f71c25965d6be20a0c8ed",
+    "translations/multilingual/es-ES/core.jsonl": "2e11555565da74eeca85f98d525b93fddc821849bb664cf98482d8b7d3e22605",
+    "translations/multilingual/es-ES/display.jsonl": "daf9944afe34c174c3b74de9ff4bd07633dd6c90aff2cde3af2725b5466962aa",
+    "translations/multilingual/es-ES/history.jsonl": "1f94d02b1bf6b16ee1d113a1808bfd238140197d308e7187f0472e1842149e43",
+    "translations/multilingual/es-ES/parts.jsonl": "4ee0c426d99c2e25045696d004afdc8c361bb7ad20eb6264c3bd175d1fa737f2",
+    "translations/multilingual/fr-FR/content.jsonl": "9c8b3f18a5a7e0ea005baa0ef15232e43bff5dfe39a2d3670d610df6c4c03f4f",
+    "translations/multilingual/fr-FR/core.jsonl": "ef2586fab5bb984d421b155098f25da62e1d56cce6464a189a4df6a42f498b1f",
+    "translations/multilingual/fr-FR/display.jsonl": "abc8e3e8635da203f2fd5aa8fc6abcba30fc24009c534ae07090e27ee561f080",
+    "translations/multilingual/fr-FR/history.jsonl": "8e2b4f9c4dbe40803c86f1219af0e5e879c972e31a77331d516f4d205f247dd9",
+    "translations/multilingual/fr-FR/parts.jsonl": "c3949e18cc2dc8e7932c333b2d79bb7db5bbb8a38bea30aee5c7904efaf4fe4e",
+    "translations/multilingual/it-IT/content.jsonl": "f35c9052565a97adcc341995453b9a7ed9098aff61ed6dfbb0c7e0a405778d3e",
+    "translations/multilingual/it-IT/core.jsonl": "aaf212f2e8fee23d5c9f2a45ae77a61b271a7a6ea23c32dcb16fca0e72815bd1",
+    "translations/multilingual/it-IT/display.jsonl": "e4b10c31926527d58e13c5a368a7bee7d9ecbcc8a61e5def92ae3e6cc9584461",
+    "translations/multilingual/it-IT/history.jsonl": "dc7b5f14fd8a893b1d01b417b2c64c2e9c1d328098ec9d515961ec4760a62255",
+    "translations/multilingual/it-IT/parts.jsonl": "de3b76a3c868f4018132e094931a7e5d637c601f6ce4075ec5683eddc8806a58",
+    "translations/multilingual/ja-JP/content.jsonl": "b4898f1120b0542eeaac1d85b23f06bd4f27db153f6bcda2e1ab411f8d3134cc",
+    "translations/multilingual/ja-JP/core.jsonl": "9f9375bdbc1cb497ab0f18ffe7864e8739f0bafe2ce594cf7cc6062569bd380f",
+    "translations/multilingual/ja-JP/display.jsonl": "3207372ca7b645bcb5d345efaaba4e68109dd52093d05d618f8c25d8567ac459",
+    "translations/multilingual/ja-JP/history.jsonl": "4485c732e8f76724a1e38c73e54581f7a1ddd2af4dc6b10f871173bada2c7f5a",
+    "translations/multilingual/ja-JP/parts.jsonl": "1994787fcb918d696b5b7a4938b17a88826bd66062b1a1b056af2c69dd6df6d0",
+    "translations/multilingual/pt-BR/content.jsonl": "e140d7a0fd9e2821c1a4d80a08012df2daf5a6525ea17408a20c5744eb4fcd7c",
+    "translations/multilingual/pt-BR/core.jsonl": "7e5ac378dea8e8ee1ca114de0b8cff84a76672b2d69c80bb01a2df82b9516090",
+    "translations/multilingual/pt-BR/display.jsonl": "8f3a08975aa2e567226839b87df9e4081ad7703ddfcd3dbbc2fc11c0aa6adda6",
+    "translations/multilingual/pt-BR/history.jsonl": "d5c639bdb48e65e58c8f346f037fdc977e7ea36ca9ea7ed1bf927e67b55a1bef",
+    "translations/multilingual/pt-BR/parts.jsonl": "fc24c993cbd42f8dd27ad7f5fa6840f2fa1c41fae4ac10a65e4cebf419d397b2",
+    "translations/multilingual/ru-RU/content.jsonl": "46ea04578fd016a66503764c9633b39be56ade8f56769d8133aa70f585a2a6f8",
+    "translations/multilingual/ru-RU/core.jsonl": "7c3e5003baadcaab9ba18a58b99b5fb4cac5c5fd3fb7c71453e72e7a3819d272",
+    "translations/multilingual/ru-RU/display.jsonl": "cfcb81f2a5c0fada8cf41ffe34985681e543c3cc2f960a5feb5ec853a5082e17",
+    "translations/multilingual/ru-RU/history.jsonl": "12f95189bf1f72fc986ec06e6e1d560109362dd26448050f66b01b6ddc5b438f",
+    "translations/multilingual/ru-RU/parts.jsonl": "eead8543e52d41d3ba77435e105b8c9bcf07302cb30c3f7198e74e4fef64beeb"
+  }
+}

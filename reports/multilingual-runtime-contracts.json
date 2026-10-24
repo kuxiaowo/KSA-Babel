@@ -1,0 +1,68 @@
+{
+  "scope": "headless real resource provider and native ImGui hash checks; not graphical acceptance",
+  "results": [
+    {
+      "locale": "en-US",
+      "resolution": "Resolution",
+      "gaugeFont": "MilSpec33558",
+      "selectedLocale": "en-US",
+      "dynamicPhase": "Liquid Hydrogen"
+    },
+    {
+      "locale": "zh-CN",
+      "resolution": "\u5206\u8FA8\u7387",
+      "gaugeFont": "KsaUiNotoSC",
+      "selectedLocale": "zh-CN",
+      "dynamicPhase": "\u6DB2\u6001\u6C22"
+    },
+    {
+      "locale": "ja-JP",
+      "resolution": "\u89E3\u50CF\u5EA6",
+      "gaugeFont": "KsaUiNotoSC",
+      "selectedLocale": "ja-JP",
+      "dynamicPhase": "\u6DB2\u4F53\u6C34\u7D20"
+    },
+    {
+      "locale": "ru-RU",
+      "resolution": "\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435",
+      "gaugeFont": "KsaUiNotoSC",
+      "selectedLocale": "ru-RU",
+      "dynamicPhase": "\u0412\u043E\u0434\u043E\u0440\u043E\u0434 (\u0436\u0438\u0434\u043A\u043E\u0441\u0442\u044C)"
+    },
+    {
+      "locale": "de-DE",
+      "resolution": "Aufl\u00F6sung",
+      "gaugeFont": "KsaUiNotoSC",
+      "selectedLocale": "de-DE",
+      "dynamicPhase": "Wasserstoff (fl\u00FCssig)"
+    },
+    {
+      "locale": "fr-FR",
+      "resolution": "R\u00E9solution",
+      "gaugeFont": "KsaUiNotoSC",
+      "selectedLocale": "fr-FR",
+      "dynamicPhase": "Hydrog\u00E8ne (liquide)"
+    },
+    {
+      "locale": "it-IT",
+      "resolution": "Risoluzione",
+      "gaugeFont": "KsaUiNotoSC",
+      "selectedLocale": "it-IT",
+      "dynamicPhase": "Idrogeno (stato liquido)"
+    },
+    {
+      "locale": "es-ES",
+      "resolution": "Resoluci\u00F3n",
+      "gaugeFont": "KsaUiNotoSC",
+      "selectedLocale": "es-ES",
+      "dynamicPhase": "Hidr\u00F3geno (estado l\u00EDquido)"
+    },
+    {
+      "locale": "pt-BR",
+      "resolution": "Resolu\u00E7\u00E3o",
+      "gaugeFont": "KsaUiNotoSC",
+      "selectedLocale": "pt-BR",
+      "dynamicPhase": "Hidrog\u00EAnio (estado l\u00EDquido)"
+    }
+  ]
+}
