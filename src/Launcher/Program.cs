@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
 
-namespace KsaChineseLauncher;
+namespace KsaBabelLauncher;
 
 internal static class Program
 {
@@ -23,8 +23,8 @@ internal static class Program
                 ValidateGame(Path.GetFullPath(args[1]), Path.Combine(Root, "compatibility.json"));
                 return 0;
             }
-            string game = Directory.GetParent(Root)?.FullName ?? throw new IOException("请把 KsaChinese 文件夹放在游戏目录内。");
-            ValidateGame(game, Path.Combine(game, "Content", "KsaChinese", "compatibility.json"));
+            string game = Directory.GetParent(Root)?.FullName ?? throw new IOException("请把 KsaBabel 文件夹放在游戏目录内。");
+            ValidateGame(game, Path.Combine(game, "Content", "KsaBabel", "compatibility.json"));
             string profile = Path.Combine(Root, "Profile");
             string settings = Path.Combine(Root, "launcher-settings.json");
             if (File.Exists(settings))
@@ -40,7 +40,7 @@ internal static class Program
             Directory.CreateDirectory(profile);
             string manifest = Path.Combine(profile, "manifest.toml");
             if (!File.Exists(manifest))
-                File.WriteAllText(manifest, "[[mods]]\nid = \"Core\"\nenabled = true\n\n[[mods]]\nid = \"KsaChinese\"\nenabled = true\n", new UTF8Encoding(false));
+                File.WriteAllText(manifest, "[[mods]]\nid = \"Core\"\nenabled = true\n\n[[mods]]\nid = \"KsaBabel\"\nenabled = true\n", new UTF8Encoding(false));
             string loader = Path.Combine(Root, "Loader");
             string executable = Path.Combine(loader, "StarMap.exe");
             if (!File.Exists(executable)) throw new FileNotFoundException("缺少随包 StarMap 加载器，请完整解压。", executable);
@@ -66,7 +66,7 @@ internal static class Program
             File.WriteAllText(Path.Combine(LogRoot, "last-launch-error.txt"),error.ToString(),new UTF8Encoding(false));
             // Automated failure probes suppress the dialog, regular launches never do.
             if (!(args.Length == 2 && args[0] == "--check"))
-                MessageBoxW(IntPtr.Zero,error.Message+"\n\n日志："+LogRoot,"KSA 汉化启动失败",0x10);
+                MessageBoxW(IntPtr.Zero,error.Message+"\n\n日志："+LogRoot,"KSA Babel 启动失败",0x10);
             return 1;
         }
     }

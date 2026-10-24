@@ -45,9 +45,20 @@ public sealed class LanguagePlugin
     public static bool SupportsGameVersion(string? version)
         => version is "2026.10.19.5638";
 
+    public static bool HasLegacyConflict(IEnumerable<ModEntry> mods)
+        => mods.Any(mod => mod.Enabled && string.Equals(mod.Id, "KsaChinese", StringComparison.OrdinalIgnoreCase));
+
     [StarMapBeforeMain]
     public void BeforeMain()
     {
+        // StarMap has prepared this manifest before invoking BeforeMain. Check the
+        // full enabled set, so the result does not depend on plugin load order.
+        if (HasLegacyConflict(ModLibrary.Manifest.Mods))
+        {
+            Runtime.DisabledReason = "KsaChinese is enabled in this profile. Disable it before enabling KsaBabel.";
+            Runtime.Log("KSA Babel disabled: " + Runtime.DisabledReason);
+            return;
+        }
         var gameVersion = typeof(KSA.Program).Assembly.GetName().Version?.ToString();
         if (!SupportsGameVersion(gameVersion))
         {
@@ -58,14 +69,16 @@ public sealed class LanguagePlugin
         {
             Compatibility.Validate(Path.GetDirectoryName(typeof(KSA.Program).Assembly.Location)!, Path.Combine(Runtime.ModRoot,"compatibility.json"));
             Runtime.Initialize();
-            _patches = new Harmony("local.ksa.chinese.5638");
+            _patches = new Harmony("local.ksa.babel.5638");
             _patches.PatchAll(typeof(LanguagePlugin).Assembly);
+            Runtime.IsActive = true;
             Runtime.Log($"Initialized UI language mod for game {gameVersion}.");
         }
         catch (Exception error)
         {
-            _patches?.UnpatchAll("local.ksa.chinese.5638");
+            _patches?.UnpatchAll("local.ksa.babel.5638");
             _patches = null;
+            Runtime.IsActive = false;
             Runtime.RestoreProvider();
             Runtime.Log("Prototype disabled after initialization error: " + error);
         }
@@ -84,12 +97,15 @@ public sealed class LanguagePlugin
     {
         if (_patches is null) return;
         Runtime.RestoreProvider();
-        _patches.UnpatchAll("local.ksa.chinese.5638");
+        _patches.UnpatchAll("local.ksa.babel.5638");
+        Runtime.IsActive = false;
     }
 }
 
 public static class Runtime
 {
+    public static bool IsActive { get; internal set; }
+    public static string? DisabledReason { get; internal set; }
     public static readonly string ModRoot = Path.GetDirectoryName(typeof(Runtime).Assembly.Location)!;
     public static readonly Dictionary<string, LanguagePack> Packs = new(StringComparer.OrdinalIgnoreCase);
     private static readonly Dictionary<LStringId, string> Translations = new();
@@ -121,13 +137,14 @@ public static class Runtime
             using var config = JsonDocument.Parse(File.ReadAllText(configPath));
             SelectedLocale = config.RootElement.GetProperty("locale").GetString() ?? "zh-CN";
         }
-        SelectedLocale = LocaleSettings.Read(SettingsPath, SelectedLocale, Packs.Keys, Log);
+        SelectedLocale = LocaleSettings.ReadWithMigration(SettingsPath, LegacySettingsPath, SelectedLocale, Packs.Keys, Log);
         if (!Packs.ContainsKey(SelectedLocale)) SelectedLocale = "en-US";
         _previousProvider = NativeStrings.LocalizedStringProvider;
         ApplyLanguage(SelectedLocale);
     }
 
-    public static string SettingsPath => Path.Combine(KSA.Constants.DocumentsFolderPath, "KsaChinese", "settings.json");
+    public static string SettingsPath => Path.Combine(KSA.Constants.DocumentsFolderPath, "KsaBabel", "settings.json");
+    public static string LegacySettingsPath => Path.Combine(KSA.Constants.DocumentsFolderPath, "KsaChinese", "settings.json");
 
     public static void SelectLanguage(string locale)
     {
@@ -352,10 +369,10 @@ public static class Runtime
 
     public static void Log(string message)
     {
-        Console.WriteLine($"[KsaChinese] {message}");
+        Console.WriteLine($"[KsaBabel] {message}");
         var directory = Path.Combine(KSA.Constants.DocumentsFolderPath, "logs");
         Directory.CreateDirectory(directory);
-        File.AppendAllText(Path.Combine(directory, "KsaChinese.log"), $"{DateTimeOffset.UtcNow:O} {message}{Environment.NewLine}");
+        File.AppendAllText(Path.Combine(directory, "KsaBabel.log"), $"{DateTimeOffset.UtcNow:O} {message}{Environment.NewLine}");
     }
 }
 

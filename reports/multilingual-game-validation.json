@@ -1,6 +1,6 @@
 {
   "gameVersion": "2026.10.19.5638",
-  "pluginSha256": "381495fd84969a25204045bc5b42419c0ed76cfea0d527d9889f3a88e862813f",
+  "pluginSha256": "233ddd3cdd7ef78a3880774fbd161e34600357b65db65f1e5b012c39e76ed95d",
   "installedGameFiles": {
     "KSA.dll": "98ecbe7d74b0243eede28077ad5e26c135723d854269ad89a3725c488c18c7cb",
     "Brutal.ImGui.dll": "c3758dc12c2ac5fe76767814ed7ccd845de2f36bd69647ac921c661e4514101b",
@@ -13,7 +13,7 @@
     "Brutal.Strings.dll": "f32d94b7898871ac4777b4e153ad0a9a22922d91bf898594bf7ed307cf3e05dc",
     "imgui.dll": "fd239f291ca8567df772a4d12244e8f5bbb0b9bcb291975e8217043403eefff4"
   },
-  "profile": "work/test-profile-babel-020",
+  "profile": "work/test-profile-babel-021",
   "exitCode": 0,
   "stderrEmpty": true,
   "completedLocales": 9,
@@ -23,10 +23,10 @@
     "ja-JP": 1980,
     "ru-RU": 1991,
     "de-DE": 1991,
-    "fr-FR": 1991,
-    "it-IT": 1980,
+    "fr-FR": 1980,
+    "it-IT": 1991,
     "es-ES": 1991,
-    "pt-BR": 1980,
+    "pt-BR": 1991,
     "zh-CN": 1991
   },
   "numericRegions": {
@@ -50,145 +50,145 @@
     ]
   },
   "numericRegionsMatchEnglishPixels": true,
-  "log": "work/test-profile-babel-020/smoke.log",
-  "logSha256": "3ac1e07006be9961e8a2e5af9ac4a4bd15d8e8039dd1925e05e2cd6bcfcae594",
+  "log": "work/test-profile-babel-021/smoke.log",
+  "logSha256": "aec19dcb7d1ca584b8aad210684de1737704709ca1c71b53cef46e5071331bf6",
   "results": [
     {
       "locale": "en-US",
       "selected": "en-US",
       "resolution": "Resolution",
       "gaugeFont": "MilSpec33558",
-      "plugin": "work/test-profile-babel-020/mods/KsaChinese/KsaChinese.dll",
+      "plugin": "work/test-profile-babel-021/mods/KsaBabel/KsaBabel.dll",
       "actualGameVersion": "2026.10.19.5638",
       "numericPixelSha256": {
         "dose": "242646b417a301400ca7b3690a065ed1a593a581187f2c987071653e540a373c",
         "apoapsis": "43c8eb7c9bc0d2bdba9433f63f95bc614d4e327d02c7748f5d0c876127da5401",
         "deltaV": "1d6da564e2cbf3f37483512b732e06d4cec3cf196faeadea99fd697ef17dba76"
       },
-      "screenshot": "work/test-profile-babel-020/exports/screenshots/ksa_20261024_141217_1920x1080.png",
-      "screenshotSha256": "b72e7d5e5b8cc42401035239bc4d2bb3f9b3880aaa5e0dd898b75d20967ed440"
+      "screenshot": "work/test-profile-babel-021/exports/screenshots/ksa_20261024_151332_1920x1080.png",
+      "screenshotSha256": "caa45bc65a91eeb657f0ce7055f59e55650716ee969f16c49d2131eff663a785"
     },
     {
       "locale": "ja-JP",
       "selected": "ja-JP",
       "resolution": "解像度",
       "gaugeFont": "KsaUiNotoSC",
-      "plugin": "work/test-profile-babel-020/mods/KsaChinese/KsaChinese.dll",
+      "plugin": "work/test-profile-babel-021/mods/KsaBabel/KsaBabel.dll",
       "actualGameVersion": "2026.10.19.5638",
       "numericPixelSha256": {
         "dose": "242646b417a301400ca7b3690a065ed1a593a581187f2c987071653e540a373c",
         "apoapsis": "43c8eb7c9bc0d2bdba9433f63f95bc614d4e327d02c7748f5d0c876127da5401",
         "deltaV": "1d6da564e2cbf3f37483512b732e06d4cec3cf196faeadea99fd697ef17dba76"
       },
-      "screenshot": "work/test-profile-babel-020/exports/screenshots/ksa_20261024_141222_1920x1080.png",
-      "screenshotSha256": "5f2958e04dae3c863cc50db34fb71224f681a1c824fb71a881b9bf58e1efd317"
+      "screenshot": "work/test-profile-babel-021/exports/screenshots/ksa_20261024_151337_1920x1080.png",
+      "screenshotSha256": "96aa6d673809a18974f6761231bc91ce35fa242ac41a7cdc7d638445ada92998"
     },
     {
       "locale": "ru-RU",
       "selected": "ru-RU",
       "resolution": "Разрешение",
       "gaugeFont": "KsaUiNotoSC",
-      "plugin": "work/test-profile-babel-020/mods/KsaChinese/KsaChinese.dll",
+      "plugin": "work/test-profile-babel-021/mods/KsaBabel/KsaBabel.dll",
       "actualGameVersion": "2026.10.19.5638",
       "numericPixelSha256": {
         "dose": "242646b417a301400ca7b3690a065ed1a593a581187f2c987071653e540a373c",
         "apoapsis": "43c8eb7c9bc0d2bdba9433f63f95bc614d4e327d02c7748f5d0c876127da5401",
         "deltaV": "1d6da564e2cbf3f37483512b732e06d4cec3cf196faeadea99fd697ef17dba76"
       },
-      "screenshot": "work/test-profile-babel-020/exports/screenshots/ksa_20261024_141227_1920x1080.png",
-      "screenshotSha256": "8d2df21c4122771a17cf232a0ed6ac06916931c740c34f3122cd6d2044a781d2"
+      "screenshot": "work/test-profile-babel-021/exports/screenshots/ksa_20261024_151342_1920x1080.png",
+      "screenshotSha256": "82ee6eeb13a96b39c4f6034dfae1092c970ab170f3dbb154df717a078c546a5a"
     },
     {
       "locale": "de-DE",
       "selected": "de-DE",
       "resolution": "Auflösung",
       "gaugeFont": "KsaUiNotoSC",
-      "plugin": "work/test-profile-babel-020/mods/KsaChinese/KsaChinese.dll",
+      "plugin": "work/test-profile-babel-021/mods/KsaBabel/KsaBabel.dll",
       "actualGameVersion": "2026.10.19.5638",
       "numericPixelSha256": {
         "dose": "242646b417a301400ca7b3690a065ed1a593a581187f2c987071653e540a373c",
         "apoapsis": "43c8eb7c9bc0d2bdba9433f63f95bc614d4e327d02c7748f5d0c876127da5401",
         "deltaV": "1d6da564e2cbf3f37483512b732e06d4cec3cf196faeadea99fd697ef17dba76"
       },
-      "screenshot": "work/test-profile-babel-020/exports/screenshots/ksa_20261024_141232_1920x1080.png",
-      "screenshotSha256": "50dbef904379e22862f19960114d5f734cb30dca193778f132abb228be277480"
+      "screenshot": "work/test-profile-babel-021/exports/screenshots/ksa_20261024_151347_1920x1080.png",
+      "screenshotSha256": "ae347b5e9361445a7df80ce0ae0fed721eea843cee78aea2736fa1d8b52fe2ee"
     },
     {
       "locale": "fr-FR",
       "selected": "fr-FR",
       "resolution": "Résolution",
       "gaugeFont": "KsaUiNotoSC",
-      "plugin": "work/test-profile-babel-020/mods/KsaChinese/KsaChinese.dll",
+      "plugin": "work/test-profile-babel-021/mods/KsaBabel/KsaBabel.dll",
       "actualGameVersion": "2026.10.19.5638",
       "numericPixelSha256": {
         "dose": "242646b417a301400ca7b3690a065ed1a593a581187f2c987071653e540a373c",
         "apoapsis": "43c8eb7c9bc0d2bdba9433f63f95bc614d4e327d02c7748f5d0c876127da5401",
         "deltaV": "1d6da564e2cbf3f37483512b732e06d4cec3cf196faeadea99fd697ef17dba76"
       },
-      "screenshot": "work/test-profile-babel-020/exports/screenshots/ksa_20261024_141237_1920x1080.png",
-      "screenshotSha256": "d77fea4eb04e4b7535874a89e290f0acb5fb58bc3ed64b38b0e3c2cf11fdb9c2"
+      "screenshot": "work/test-profile-babel-021/exports/screenshots/ksa_20261024_151352_1920x1080.png",
+      "screenshotSha256": "4973904dda539655cc2f6e11c0e294a5be0abfe19ab19fd3c303bf8362158c18"
     },
     {
       "locale": "it-IT",
       "selected": "it-IT",
       "resolution": "Risoluzione",
       "gaugeFont": "KsaUiNotoSC",
-      "plugin": "work/test-profile-babel-020/mods/KsaChinese/KsaChinese.dll",
+      "plugin": "work/test-profile-babel-021/mods/KsaBabel/KsaBabel.dll",
       "actualGameVersion": "2026.10.19.5638",
       "numericPixelSha256": {
         "dose": "242646b417a301400ca7b3690a065ed1a593a581187f2c987071653e540a373c",
         "apoapsis": "43c8eb7c9bc0d2bdba9433f63f95bc614d4e327d02c7748f5d0c876127da5401",
         "deltaV": "1d6da564e2cbf3f37483512b732e06d4cec3cf196faeadea99fd697ef17dba76"
       },
-      "screenshot": "work/test-profile-babel-020/exports/screenshots/ksa_20261024_141242_1920x1080.png",
-      "screenshotSha256": "fcdf5fc984918544a7ae33489205ea024be6cc3b2ade2ed2cd5f189ba572cfec"
+      "screenshot": "work/test-profile-babel-021/exports/screenshots/ksa_20261024_151357_1920x1080.png",
+      "screenshotSha256": "a19dbff6f1cb10ba888f25253c36aff406113a3f9f98d37cb6a4ea4b917b0a13"
     },
     {
       "locale": "es-ES",
       "selected": "es-ES",
       "resolution": "Resolución",
       "gaugeFont": "KsaUiNotoSC",
-      "plugin": "work/test-profile-babel-020/mods/KsaChinese/KsaChinese.dll",
+      "plugin": "work/test-profile-babel-021/mods/KsaBabel/KsaBabel.dll",
       "actualGameVersion": "2026.10.19.5638",
       "numericPixelSha256": {
         "dose": "242646b417a301400ca7b3690a065ed1a593a581187f2c987071653e540a373c",
         "apoapsis": "43c8eb7c9bc0d2bdba9433f63f95bc614d4e327d02c7748f5d0c876127da5401",
         "deltaV": "1d6da564e2cbf3f37483512b732e06d4cec3cf196faeadea99fd697ef17dba76"
       },
-      "screenshot": "work/test-profile-babel-020/exports/screenshots/ksa_20261024_141247_1920x1080.png",
-      "screenshotSha256": "8e4a3923985cfc1fff5cc8b6aa4ee456b0dcb8d536fbcb9929c21ae64e3f6fc7"
+      "screenshot": "work/test-profile-babel-021/exports/screenshots/ksa_20261024_151402_1920x1080.png",
+      "screenshotSha256": "2baaeb9968db9f147bba36721ec0665b1021db2256686c2bab3d637861a1f72c"
     },
     {
       "locale": "pt-BR",
       "selected": "pt-BR",
       "resolution": "Resolução",
       "gaugeFont": "KsaUiNotoSC",
-      "plugin": "work/test-profile-babel-020/mods/KsaChinese/KsaChinese.dll",
+      "plugin": "work/test-profile-babel-021/mods/KsaBabel/KsaBabel.dll",
       "actualGameVersion": "2026.10.19.5638",
       "numericPixelSha256": {
         "dose": "242646b417a301400ca7b3690a065ed1a593a581187f2c987071653e540a373c",
         "apoapsis": "43c8eb7c9bc0d2bdba9433f63f95bc614d4e327d02c7748f5d0c876127da5401",
         "deltaV": "1d6da564e2cbf3f37483512b732e06d4cec3cf196faeadea99fd697ef17dba76"
       },
-      "screenshot": "work/test-profile-babel-020/exports/screenshots/ksa_20261024_141252_1920x1080.png",
-      "screenshotSha256": "ef6d31243dc622d8317a8e05f25233e8ce8039a1dc4cef2bbc3fece0aa9645ff"
+      "screenshot": "work/test-profile-babel-021/exports/screenshots/ksa_20261024_151407_1920x1080.png",
+      "screenshotSha256": "40a31aa5f115d2f0ad152e67b77196b65430e0055d22be27691195911bbc317a"
     },
     {
       "locale": "zh-CN",
       "selected": "zh-CN",
       "resolution": "分辨率",
       "gaugeFont": "KsaUiNotoSC",
-      "plugin": "work/test-profile-babel-020/mods/KsaChinese/KsaChinese.dll",
+      "plugin": "work/test-profile-babel-021/mods/KsaBabel/KsaBabel.dll",
       "actualGameVersion": "2026.10.19.5638",
       "numericPixelSha256": {
         "dose": "242646b417a301400ca7b3690a065ed1a593a581187f2c987071653e540a373c",
         "apoapsis": "43c8eb7c9bc0d2bdba9433f63f95bc614d4e327d02c7748f5d0c876127da5401",
         "deltaV": "1d6da564e2cbf3f37483512b732e06d4cec3cf196faeadea99fd697ef17dba76"
       },
-      "screenshot": "work/test-profile-babel-020/exports/screenshots/ksa_20261024_141257_1920x1080.png",
-      "screenshotSha256": "fbaf27cad1c91cb70a7eabbf5719e9f90962e282487d8be917eed2eb63afa134"
+      "screenshot": "work/test-profile-babel-021/exports/screenshots/ksa_20261024_151412_1920x1080.png",
+      "screenshotSha256": "d35c19d83082b0db39c06e75b24bb63e4c8cac7e2fca33a418ff8d82dec5872b"
     }
   ],
   "scope": "Real loaded game and display-settings/HUD screenshots at 1920x1080; not exhaustive window, resolution or native-speaker acceptance",
-  "visualReview": "Separate manual image review is documented in the accompanying Markdown report"
+  "visualReview": "No fresh manual visual sign-off; native text outputs, font selection, screenshots and fixed numeric regions checked"
 }

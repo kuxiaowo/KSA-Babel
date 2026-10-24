@@ -4,7 +4,7 @@ import json
 
 ROOT = Path(__file__).resolve().parents[1]
 REF = ROOT / '.tools/reference/KsaUiLanguages'
-pack = json.loads((ROOT / 'assets/KsaChinese/Locales/zh-CN.json').read_text(encoding='utf-8'))
+pack = json.loads((ROOT / 'assets/KsaBabel/Locales/zh-CN.json').read_text(encoding='utf-8'))
 native = {r['key']: r for r in map(json.loads, (ROOT / 'work/translation-candidates-5602.jsonl').read_text(encoding='utf-8').splitlines()) if r.get('kind') == 'native-lstring'}
 context = json.loads((REF / 'reference/translation-context.zh-CN.json').read_text(encoding='utf-8'))['sections']
 native_ref = json.loads((REF / 'reference/native-source-5541.json').read_text(encoding='utf-8'))

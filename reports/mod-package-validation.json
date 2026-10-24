@@ -1,9 +1,9 @@
 {
-  "archive": "KsaChinese-0.2.0.zip",
-  "sha256": "ba654dcef2af2ea20cdc8bb33913debacd1463e02ef7f4983ec6be3b6f5d35f4",
+  "archive": "KsaBabel-0.2.1.zip",
+  "sha256": "bed6d6f226d036324e018ced5fd8840584c6ba00b69bdbd8803a4ab17e7cfc8a",
   "files": 26,
-  "bytes": 1586162,
-  "install_root": "KsaChinese",
+  "bytes": 1584720,
+  "install_root": "KsaBabel",
   "loader_bundled": false,
   "game_binaries_included": false,
   "player_data_included": false

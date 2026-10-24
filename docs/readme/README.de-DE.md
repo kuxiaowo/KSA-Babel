@@ -4,7 +4,7 @@
 
 Ein Framework zur mehrsprachigen Lokalisierung von **Kitten Space Agency**, das über StarMap geladen wird. KSA Babel bietet Sprachpakete, eine Sprachauswahl im Spiel, Anpassungen der Textdarstellung und einen gemeinsamen reduzierten Schriftzeichensatz. Die ausführbare Datei und die Ressourcen des Spiels werden nicht ersetzt.
 
-KSA Babel ist ein eigenständiges mehrsprachiges Projekt, das aus [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) hervorgegangen ist. Die aktuelle Version ist die **Vorschauversion 0.2.0**. Sie unterstützt ausschließlich **KSA 2026.10.19.5638** unter Windows x64 mit den geprüften Datei-Hashes. Als Loader wird **StarMap 0.4.8** verwendet.
+KSA Babel ist ein eigenständiges mehrsprachiges Projekt, das aus [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) hervorgegangen ist. Die aktuelle Version ist die **Vorschauversion 0.2.1**. Sie unterstützt ausschließlich **KSA 2026.10.19.5638** unter Windows x64 mit den geprüften Datei-Hashes. Als Loader wird **StarMap 0.4.8** verwendet.
 
 ## Sprachen und Umfang
 
@@ -16,14 +16,18 @@ Der aktuelle Umfang umfasst die Benutzeroberfläche, Hinweise, Bauteile, Stoffe 
 
 ## Installation
 
-Lade das Paket unter [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/releases) herunter. Die Pakete der Version 0.2.0 sind Vorschauversionen.
+Lade das Paket unter [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/releases) herunter. Die Pakete der Version 0.2.1 sind Vorschauversionen.
 
-- **StarMap/Borea bereits vorhanden:** Verwende `KsaChinese-0.2.0.zip`. Lege den darin enthaltenen Ordner `KsaChinese` im Verzeichnis `mods` des gewählten Profils ab und aktiviere den Mod. Siehe [Standardinstallation](../../README-生态安装.md).
-- **Paket mit Launcher:** Entpacke `KsaChinese-0.2.0-5638-Portable.zip` in den Ordner mit `KSA.exe` und starte anschließend `KsaChinese/KsaChineseLauncher.exe`. Siehe [Installation des portablen Pakets](../../README-便携Mod.md). Benötigt wird die .NET 10 x64 Runtime.
+- **StarMap/Borea bereits vorhanden:** Verwende `KsaBabel-0.2.1.zip`. Lege den darin enthaltenen Ordner `KsaBabel` im Verzeichnis `mods` des gewählten Profils ab und aktiviere den Mod. Siehe [Standardinstallation](../../README-生态安装.md).
+- **Paket mit Launcher:** Entpacke `KsaBabel-0.2.1-5638-Portable.zip` in den Ordner mit `KSA.exe` und starte anschließend `KsaBabel/KsaBabelLauncher.exe`. Siehe [Installation des portablen Pakets](../../README-便携Mod.md). Benötigt wird die .NET 10 x64 Runtime.
 
-Aus Kompatibilitätsgründen bleiben die interne Mod-ID, der Assemblyname, das Einstellungsverzeichnis und das Archivpräfix bei **`KsaChinese`**. **Aktiviere nur eine Kopie:** Installiere KSA Babel nicht gleichzeitig mit KSA Chinese und behalte nicht gleichzeitig `Content/KsaChinese` und `mods/KsaChinese` im Profil. Sichere vorhandene Profile vor dem Umstieg. Persönliche Spielstände sind nicht enthalten und werden nicht automatisch verschoben.
+Ab 0.2.1 lauten Mod-ID, Installationsverzeichnisse und Archivpräfix **`KsaBabel`**. Die Plugin-Assembly heißt `KsaBabel.dll`, der portable Launcher liegt unter `KsaBabel/KsaBabelLauncher.exe`. Die Spracheinstellung wird in `KsaBabel/settings.json` des aktuellen Profils gespeichert. Beim ersten Start wird nur dann ein gültiger `locale`-Wert aus der alten Datei `KsaChinese/settings.json` desselben Profils übernommen, wenn die neue Einstellungsdatei noch nicht existiert. Vorhandene neue Einstellungen werden nicht überschrieben und die alte Datei bleibt unverändert.
+
+**Deaktiviere zuerst den alten Mod:** Babel verweigert die Aktivierung, solange `KsaChinese` aktiviert ist. Aktiviere nur eine Babel-Kopie und behalte nicht gleichzeitig `Content/KsaBabel` und `mods/KsaBabel` im Profil. Sichere vorhandene Profile vor dem Umstieg. Persönliche Spielstände sind nicht enthalten und werden nicht automatisch verschoben; beim Einstellungsimport werden keine anderen Profile durchsucht.
 
 Für das neue Projekt wurde noch kein eigener Eintrag im öffentlichen Borea-Katalog beantragt. Der KsaChinese-Eintrag im alten Katalog und die Veröffentlichung v0.1.6 gehören zum ursprünglichen Projekt und sind keine Downloadquelle für Babel. Installiere manuell aus den Releases dieses Repositorys. Das Projekt hat keine Nachrichten an das Forum oder die Verantwortlichen des Index gesendet.
+
+Beim Wechsel über Borea zuerst das Profil sichern und den alten Mod KsaChinese aus der Instanz entfernen, dann Babel installieren. Der Katalogkonflikt blockiert die Installation auch bei deaktiviertem altem Mod. Die Profildaten dabei behalten.
 
 ## Bauen und prüfen
 
@@ -40,13 +44,14 @@ Statt mit `-GameDir` lässt sich der lokale Spielpfad auch über `KSA_GAME_DIR` 
 
 Die Übersetzungsentscheidungen stehen in `translations/multilingual/<locale>/*.jsonl`. `build_multilingual.py` prüft IDs, Herkunft, Prüfstatus, Platzhalter und Markup anhand der geprüften Ausgangsdaten; unvollständige oder veraltete Pakete werden abgelehnt. Auch das Erstellen eines Veröffentlichungspakets setzt eine passende, erfolgreiche lokale Buildprüfung und seither unveränderte Quellen und Ressourcen voraus. Die CI prüft Daten und Schriften ohne installierte Spielkopie. Sie kann weder die Kompilierung mit dem lizenzierten Spiel noch eine Abnahme im Spiel durchführen.
 
-Die erzeugte Schrift ist bereits enthalten. Zum erneuten Erstellen werden fontTools und `.tools/NotoSansSC-variable.ttf` benötigt. Dessen SHA-256 muss mit der Angabe in [FONT-SOURCE](../../assets/KsaChinese/FONT-SOURCE.txt) übereinstimmen. Änderungen an der Ausgangsschrift müssen geprüft werden. Angaben zur eindeutigen Identifizierung des StarMap-Downloads und die Lizenzen der Drittanbieter stehen in [THIRD_PARTY](../../THIRD_PARTY.md).
+Die erzeugte Schrift ist bereits enthalten. Zum erneuten Erstellen werden fontTools und `.tools/NotoSansSC-variable.ttf` benötigt. Dessen SHA-256 muss mit der Angabe in [FONT-SOURCE](../../assets/KsaBabel/FONT-SOURCE.txt) übereinstimmen. Änderungen an der Ausgangsschrift müssen geprüft werden. Angaben zur eindeutigen Identifizierung des StarMap-Downloads und die Lizenzen der Drittanbieter stehen in [THIRD_PARTY](../../THIRD_PARTY.md).
 
 ## Nachweise und Mitarbeit
 
 - [Umfang und Prüfung der neun Sprachen](../../reports/0.2.0-九语种翻译与验证.md)
 - [Projektherkunft und Fingerabdrücke importierter Dateien](../../reports/project-origin.json)
 - [Hinweise zur Projektmigration und Veröffentlichung](../../reports/KSA-Babel-项目迁移与公开验证.md)
+- [ID- und Managerprüfung für 0.2.1](../../reports/0.2.1-独立ID与管理器验证.md)
 
 Die Berichte zu 0.1.x beschreiben das ursprüngliche Projekt KSA Chinese und dessen frühere Builds. Sie bleiben als Herkunftsnachweise erhalten und belegen nicht, dass Babel bereits früher veröffentlicht oder in einen Katalog aufgenommen wurde. Die GUI-Nachweise beschränken sich auf die dokumentierte Testszene, Sprachwechsel, Screenshots der Einstellungen und des HUD sowie festgelegte Bildbereiche mit Zahlenanzeigen. Sie sind keine umfassende visuelle Abnahme.
 

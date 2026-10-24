@@ -4,7 +4,7 @@
 
 通过 StarMap 加载的 **Kitten Space Agency 多语言本地化框架**。KSA Babel 提供语言包、游戏内语言菜单、显示适配与共享字体子集，不替换游戏可执行文件或原始资源。
 
-本项目从 [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) 独立整理。当前为 **0.2.0 预览版**，仅适配 Windows x64 的 **KSA 2026.10.19.5638**、已检查的文件哈希与 **StarMap 0.4.8**。
+本项目从 [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) 独立整理。当前为 **0.2.1 预览版**，仅适配 Windows x64 的 **KSA 2026.10.19.5638**、已检查的文件哈希与 **StarMap 0.4.8**。
 
 ## 支持语言与范围
 
@@ -26,14 +26,18 @@
 
 ## 安装
 
-从 [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/releases) 下载。0.2.0 安装包为预览版。
+从 [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/releases) 下载。0.2.1 安装包为预览版。
 
-- **已有 StarMap／Borea：** 使用 `KsaChinese-0.2.0.zip`，把其中的 `KsaChinese` 文件夹放入所选档案的 `mods` 目录，并启用该模组。详见[标准安装](../../README-生态安装.md)。
-- **随包启动器：** 将 `KsaChinese-0.2.0-5638-Portable.zip` 解压到含 `KSA.exe` 的游戏目录，运行 `KsaChinese/KsaChineseLauncher.exe`。详见[便携安装](../../README-便携Mod.md)。需要 .NET 10 x64 Runtime。
+- **已有 StarMap／Borea：** 使用 `KsaBabel-0.2.1.zip`，把其中的 `KsaBabel` 文件夹放入所选档案的 `mods` 目录，并启用该模组。详见[标准安装](../../README-生态安装.md)。
+- **随包启动器：** 将 `KsaBabel-0.2.1-5638-Portable.zip` 解压到含 `KSA.exe` 的游戏目录，运行 `KsaBabel/KsaBabelLauncher.exe`。详见[便携安装](../../README-便携Mod.md)。需要 .NET 10 x64 Runtime。
 
-为兼容旧档案，模组 ID、程序集、设置目录和安装包前缀保留为 **`KsaChinese`**。**只启用一个副本：** 不要同时启用 KSA Babel 与 KSA Chinese，也不要同时留下 `Content/KsaChinese` 与档案 `mods/KsaChinese`。迁移前备份原有档案；安装包不含个人存档，也不会自动搬动它们。
+从 0.2.1 起，模组 ID、安装目录和安装包前缀为 **`KsaBabel`**，插件程序集为 `KsaBabel.dll`，便携启动器为 `KsaBabel/KsaBabelLauncher.exe`。语言设置保存在当前档案的 `KsaBabel/settings.json`。首启时，仅在新设置文件不存在的情况下，才从同一档案旧 `KsaChinese/settings.json` 导入有效的 `locale`；不覆盖已有新设置，也不修改旧文件。
+
+**先禁用旧模组：** `KsaChinese` 仍启用时，Babel 拒绝激活。Babel 只保留一个启用副本，不要同时留下 `Content/KsaBabel` 与档案 `mods/KsaBabel`。迁移前备份原有档案；安装包不含个人存档，也不会自动搬动存档，设置导入不会搜索其他档案。
 
 Babel 尚未单独提交 Borea 公共目录收录。旧目录中的 KsaChinese 记录和 v0.1.6 发布属于原项目，不能作为 Babel 的下载入口。当前使用本仓库 Release 手动安装；本项目没有向论坛或索引维护者发送消息。
+
+通过 Borea 管理迁移时，先备份档案，再从该实例移除旧 KsaChinese 模组后安装 Babel：目录冲突会阻止安装，仅禁用旧模组仍不足以通过管理器规划。移除模组时保留档案数据。
 
 ## 构建与验证
 
@@ -50,13 +54,14 @@ python scripts/package_portable.py
 
 逐条语言决策位于 `translations/multilingual/<locale>/*.jsonl`。`build_multilingual.py` 按已审底稿检查 ID、来源、审校状态、占位符和标记；不完整或过期的语言包会被拒绝。打包还要求源码、资源与已通过本地验证的构建一致。CI 检查可分发源码、数据和字体，不能执行需要合法本地游戏的编译或游戏验收。
 
-生成的字体已包含在仓库中。重建需要 fontTools，以及哈希匹配 [FONT-SOURCE](../../assets/KsaChinese/FONT-SOURCE.txt) 的 `.tools/NotoSansSC-variable.ttf`；更换字体源需先复核。StarMap 下载标识和第三方许可见 [THIRD_PARTY](../../THIRD_PARTY.md)。
+生成的字体已包含在仓库中。重建需要 fontTools，以及哈希匹配 [FONT-SOURCE](../../assets/KsaBabel/FONT-SOURCE.txt) 的 `.tools/NotoSansSC-variable.ttf`；更换字体源需先复核。StarMap 下载标识和第三方许可见 [THIRD_PARTY](../../THIRD_PARTY.md)。
 
 ## 证据与贡献
 
 - [九语种范围与验证](../../reports/0.2.0-九语种翻译与验证.md)
 - [项目来源与导入文件指纹](../../reports/project-origin.json)
 - [迁移与公开验证记录](../../reports/KSA-Babel-项目迁移与公开验证.md)
+- [0.2.1 独立 ID 与管理器验证](../../reports/0.2.1-独立ID与管理器验证.md)
 
 0.1.x 报告描述原 KSA Chinese 项目及其历史构建，保留用于来源追溯，不能证明 Babel 之前已发布或被收录。图形验证仅限记录中的测试场景、语言切换、设置／HUD 截图和固定数码图像区域，不代表完整视觉验收。
 

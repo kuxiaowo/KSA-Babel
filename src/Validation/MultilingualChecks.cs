@@ -7,7 +7,7 @@ internal static partial class Program
 {
     static void MultilingualChecks()
     {
-        if (!File.Exists(Path.Combine(Root, "assets", "KsaChinese", "Locales", "ja-JP.json"))) return;
+        if (!File.Exists(Path.Combine(Root, "assets", "KsaBabel", "Locales", "ja-JP.json"))) return;
         var expected = new[] { "en-US", "zh-CN", "ja-JP", "ru-RU", "de-DE", "fr-FR", "it-IT", "es-ES", "pt-BR" };
         Check(Runtime.Packs.Keys.Order().SequenceEqual(expected.Order()), "九语言完整加载，未混入未知语言包");
         Runtime.ApplyLanguage("en-US");

@@ -94,7 +94,7 @@ public sealed partial class Driver
         =>AccessTools.Field(typeof(ImGuiWindow),"_initialPosition").SetValue(window,new float2(x,y));
     static void ContentSnapshot()
     {
-        var plugin=AppDomain.CurrentDomain.GetAssemblies().Single(a=>a.GetName().Name=="KsaChinese");
+        var plugin=AppDomain.CurrentDomain.GetAssemblies().Single(a=>a.GetName().Name=="KsaBabel");
         var display=plugin.GetType("KsaChinese.ExpandedUi")!;
         var registry=AccessTools.Field(typeof(ModLibrary),"AllParts").GetValue(null)!;
         var templates=(IEnumerable<PartTemplate>)AccessTools.Method(registry.GetType(),"GetList").Invoke(registry,null)!;
@@ -127,7 +127,7 @@ public sealed partial class Driver
     }
     static void Locale(string locale)
     {
-        var runtime=AppDomain.CurrentDomain.GetAssemblies().Single(a=>a.GetName().Name=="KsaChinese").GetType("KsaChinese.Runtime")!;
+        var runtime=AppDomain.CurrentDomain.GetAssemblies().Single(a=>a.GetName().Name=="KsaBabel").GetType("KsaChinese.Runtime")!;
         runtime.GetMethod("ApplyLanguage")!.Invoke(null,new object[]{locale});
     }
     static void Shot(string tag)
@@ -271,7 +271,7 @@ public sealed partial class Driver
                 {
                     var registry=AccessTools.Field(typeof(ModLibrary),"AllParts").GetValue(null)!;
                     var templates=(IEnumerable<PartTemplate>)AccessTools.Method(registry.GetType(),"GetList").Invoke(registry,null)!;
-                    var runtime=AppDomain.CurrentDomain.GetAssemblies().Single(a=>a.GetName().Name=="KsaChinese").GetType("KsaChinese.Runtime")!;
+                    var runtime=AppDomain.CurrentDomain.GetAssemblies().Single(a=>a.GetName().Name=="KsaBabel").GetType("KsaChinese.Runtime")!;
                     var translate=runtime.GetMethod("PartName")!;
                     Log("tested-plugin="+runtime.Assembly.Location);
                     var rows=templates.Select(p=>new {key=p.Id,original=p.DisplayName,chinese=(string)translate.Invoke(null,new object[]{p})!}).ToArray();

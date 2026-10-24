@@ -35,8 +35,8 @@ Copy-Item -LiteralPath (Join-Path $taskRoot 'work\build\SmokeDriver\SmokeDriver.
 [IO.File]::WriteAllText((Join-Path $taskMods 'SmokeDriver\mod.toml'),"name = `"5602 Workspace Smoke Driver`"`nassets = []`n[StarMap]`nEntryAssembly = `"SmokeDriver`"`n",[Text.UTF8Encoding]::new($false))
 $taskManifest="[[mods]]`nid = `"Core`"`nenabled = true`n"
 if(!$Fallback) {
-    Copy-Item -LiteralPath (Join-Path $taskRoot 'work\build\KsaChinese') -Destination $taskMods -Recurse -Force
-    $taskManifest+="`n[[mods]]`nid = `"KsaChinese`"`nenabled = true`n"
+    Copy-Item -LiteralPath (Join-Path $taskRoot 'work\build\KsaBabel') -Destination $taskMods -Recurse -Force
+    $taskManifest+="`n[[mods]]`nid = `"KsaBabel`"`nenabled = true`n"
 }
 $taskManifest+="`n[[mods]]`nid = `"SmokeDriver`"`nenabled = true`n"
 [IO.File]::WriteAllText((Join-Path $Profile 'manifest.toml'),$taskManifest,[Text.UTF8Encoding]::new($false))

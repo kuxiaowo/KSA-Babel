@@ -5,7 +5,7 @@ from package_guard import verify_package_inputs
 
 root = Path(__file__).resolve().parents[1]
 verify_package_inputs(root)
-version=re.search(r'^version = "([0-9.]+)"',(root/'assets/KsaChinese/mod.toml').read_text(encoding='utf-8'),re.M).group(1)
+version=re.search(r'^version = "([0-9.]+)"',(root/'assets/KsaBabel/mod.toml').read_text(encoding='utf-8'),re.M).group(1)
 stage = root/'work'/('portable-package-'+version+'-'+uuid.uuid4().hex[:8])
 stage.mkdir(parents=True)
 
@@ -15,25 +15,25 @@ def copy(src, dest):
     if src.is_dir(): shutil.copytree(src,dest)
     else: shutil.copy2(src,dest)
 
-copy(root/'work/build/KsaChinese/KsaChinese.dll', Path('Content/KsaChinese/KsaChinese.dll'))
-for p in (root/'assets/KsaChinese').iterdir():
-    copy(p,Path('Content/KsaChinese')/p.name)
-for name in ('KsaChineseLauncher.exe','KsaChineseLauncher.dll','KsaChineseLauncher.deps.json','KsaChineseLauncher.runtimeconfig.json'):
-    copy(root/'work/build/Launcher'/name, Path('KsaChinese')/name)
+copy(root/'work/build/KsaBabel/KsaBabel.dll', Path('Content/KsaBabel/KsaBabel.dll'))
+for p in (root/'assets/KsaBabel').iterdir():
+    copy(p,Path('Content/KsaBabel')/p.name)
+for name in ('KsaBabelLauncher.exe','KsaBabelLauncher.dll','KsaBabelLauncher.deps.json','KsaBabelLauncher.runtimeconfig.json'):
+    copy(root/'work/build/Launcher'/name, Path('KsaBabel')/name)
 loader_names=('0Harmony.dll','StarMap.API.dll','StarMap.Core.dll','StarMap.deps.json','StarMap.dll','StarMap.exe','StarMap.runtimeconfig.json','StarMap.Types.dll')
-for name in loader_names: copy(root/'.tools/StarMap-0.4.8'/name,Path('KsaChinese/Loader')/name)
-copy(root/'LICENSES',Path('KsaChinese/LICENSES'))
+for name in loader_names: copy(root/'.tools/StarMap-0.4.8'/name,Path('KsaBabel/Loader')/name)
+copy(root/'LICENSES',Path('KsaBabel/LICENSES'))
 for name in ('README-便携Mod.md','README-生态安装.md','THIRD_PARTY.md','LICENSE'):
-    copy(root/name,Path('KsaChinese')/name)
-allowed={'KsaChinese.dll','KsaChineseLauncher.dll',*(n for n in loader_names if n.endswith('.dll'))}
+    copy(root/name,Path('KsaBabel')/name)
+allowed={'KsaBabel.dll','KsaBabelLauncher.dll',*(n for n in loader_names if n.endswith('.dll'))}
 files=sorted(p for p in stage.rglob('*') if p.is_file())
 for p in files:
     if p.suffix=='.dll' and p.name not in allowed: raise ValueError('Unexpected DLL '+str(p))
     if 'Profile' in p.parts or 'saves' in p.parts: raise ValueError('Player data '+str(p))
 manifest={p.relative_to(stage).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
-(stage/'KsaChinese/FILES-SHA256.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-game_build=json.loads((root/'assets/KsaChinese/compatibility.json').read_text(encoding='utf-8'))['version'].rsplit('.',1)[-1]
-archive=root/f'dist/KsaChinese-{version}-{game_build}-Portable.zip'
+(stage/'KsaBabel/FILES-SHA256.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+game_build=json.loads((root/'assets/KsaBabel/compatibility.json').read_text(encoding='utf-8'))['version'].rsplit('.',1)[-1]
+archive=root/f'dist/KsaBabel-{version}-{game_build}-Portable.zip'
 archive.parent.mkdir(exist_ok=True)
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
     for p in sorted(stage.rglob('*')):

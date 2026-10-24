@@ -45,18 +45,18 @@ def main():
             errors.append([rel.as_posix(), 'credential pattern; value withheld'])
         if re.search(r'(?i)[A-Z]:[\\/]+Users[\\/]+(?!Public[\\/]|Default[\\/])[^\\/\s`<>]+', text):
             errors.append([rel.as_posix(), 'user-specific absolute path'])
-    for notice in ('LICENSE', 'assets/KsaChinese/LICENSE.txt'):
+    for notice in ('LICENSE', 'assets/KsaBabel/LICENSE.txt'):
         text = (ROOT / notice).read_text(encoding='utf-8')
         if 'KSA Chinese contributors' not in text or 'KSA Babel contributors' not in text:
             errors.append([notice, 'missing inherited or project copyright'])
     for name in ('KsaUiLanguages-MIT.txt', 'NotoSansSC-OFL.txt', 'StarMap-MIT.txt', 'Harmony-MIT.txt'):
         if not (ROOT / 'LICENSES' / name).is_file():
             errors.append(['LICENSES/' + name, 'missing license'])
-    font_path = ROOT / 'assets/KsaChinese/Fonts/KsaUiNotoSC.ttf'
+    font_path = ROOT / 'assets/KsaBabel/Fonts/KsaUiNotoSC.ttf'
     with TTFont(font_path) as font:
         cmap = set(font.getBestCmap())
     required = set()
-    for path in (ROOT / 'assets/KsaChinese/Locales').glob('*.json'):
+    for path in (ROOT / 'assets/KsaBabel/Locales').glob('*.json'):
         pack = json.loads(path.read_text(encoding='utf-8'))
         texts = [pack['displayName']]
         for section in pack.values():

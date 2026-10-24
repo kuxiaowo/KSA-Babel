@@ -14,7 +14,7 @@ parser.add_argument('--game-dir',type=Path,required=True)
 parser.add_argument('--check',action='store_true',help='Fail on differences without rewriting the asset')
 args=parser.parse_args()
 AUDIT=args.audit_dir.resolve()
-compat=json.loads((ROOT/'assets/KsaChinese/compatibility.json').read_text(encoding='utf8'))
+compat=json.loads((ROOT/'assets/KsaBabel/compatibility.json').read_text(encoding='utf8'))
 for name,expected in compat['files'].items():
     if hashlib.sha256((args.game_dir/name).read_bytes()).hexdigest()!=expected:
         raise SystemExit('Uninspected game identity: '+name)
@@ -94,7 +94,7 @@ for site in sites.values():
     site['Fields']={v for v in site['Fields'] if needed(v)}
     site['Literals']={v for v in site['Literals'] if needed(v)}
     manifest.append({k:sorted(v) if isinstance(v,set) else v for k,v in site.items()})
-output=ROOT/'assets/KsaChinese/display-sites.json'
+output=ROOT/'assets/KsaBabel/display-sites.json'
 content=json.dumps(sorted(manifest,key=lambda s:(s['Type'],s['Method'])),ensure_ascii=False,indent=2)+'\n'
 if args.check:
     if not output.exists() or output.read_text(encoding='utf8')!=content:

@@ -49,7 +49,7 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "74e4a92e55f85ff53e9b3f74668b7d169aadad6df98b4a47f2d5c743c63ddc43"
+      "runtime_sha256": "01deaa2b1a72ca6a99367c585b14a27a30596946a4be52b9d9c388f9e235325c"
     },
     "ru-RU": {
       "decisions": 4786,
@@ -94,7 +94,7 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "c86809fdd739e7a07a3485d1588560ee70c0ae3461c796111b565a7b742cc7b6"
+      "runtime_sha256": "33b934d37b7084473ad094a4e708a5e34260062646d8deec947d93225fb634a2"
     },
     "de-DE": {
       "decisions": 4786,
@@ -272,7 +272,7 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "f18b9c0240ced36639f662b2b8e354c035d775d14104a46a5bfa4773f3136a49"
+      "runtime_sha256": "93d72646197f03d18db792438010873dca6ef26ee4152cf4cb61c1c8c12d0e37"
     },
     "fr-FR": {
       "decisions": 4786,
@@ -482,7 +482,7 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "ae88b26f94bb4a16ff3ee20e000f30bd340ca3ef525a5cc713cfa1de2e40d220"
+      "runtime_sha256": "1ca785ccf896c26f9bae33f3db181a9a8d2a313afcb77f7a6e792cb20f2ac928"
     },
     "it-IT": {
       "decisions": 4786,
@@ -599,7 +599,7 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "0ffefb7d4bc99f9d496aadd0829f78cddf4c63caaa2f7a3c36d0cde9f0290e0d"
+      "runtime_sha256": "6f4575ccb9be18ba979656fd4fa5e919b115f1f2c36b147cff2651944e100cc1"
     },
     "es-ES": {
       "decisions": 4786,
@@ -703,7 +703,7 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "f5f290c64ad15155430b8b44e992c775f4da1fca31c285f2b330356902e34bad"
+      "runtime_sha256": "76af4412bc15e4130c1ce84947b654fa9011c258c938007c2ca16a5f0b574b26"
     },
     "pt-BR": {
       "decisions": 4786,
@@ -811,7 +811,7 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "2048ed52d2250894fc27c96c43e9968bb5a1182f84032b8bc2b101bf9663a607"
+      "runtime_sha256": "ce9723c52b397fd1f742b0a935457b62a60fd16722f7965f6ffd3d889a81b5de"
     }
   },
   "errors": [],
