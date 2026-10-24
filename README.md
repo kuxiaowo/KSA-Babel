@@ -1,16 +1,28 @@
 # KSA Babel · 喵语塔
 
+[English](README.md) · [简体中文](docs/readme/README.zh-CN.md) · [日本語](docs/readme/README.ja-JP.md) · [Русский](docs/readme/README.ru-RU.md) · [Deutsch](docs/readme/README.de-DE.md) · [Français](docs/readme/README.fr-FR.md) · [Italiano](docs/readme/README.it-IT.md) · [Español](docs/readme/README.es-ES.md) · [Português (Brasil)](docs/readme/README.pt-BR.md)
+
 A multilingual localization framework for **Kitten Space Agency**, loaded through StarMap. KSA Babel provides language packs, an in-game language menu, display adapters and a shared font subset. It does not replace the game executable or game resources.
 
-KSA Babel 是从 [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) 独立整理的多语言项目。当前版本为 **0.2.0 预览版**，仅适配 Windows x64 的 **KSA 2026.10.19.5638** 与已检查的文件哈希；加载器为 **StarMap 0.4.8**。
+KSA Babel is an independent multilingual project derived from [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE). The current version is the **0.2.0 preview**, supporting only **KSA 2026.10.19.5638 on Windows x64** with the inspected file hashes and **StarMap 0.4.8**.
 
 ## Languages and scope
 
-English · 简体中文 · 日本語 · Русский · Deutsch · Français · Italiano · Español · Português (Brasil)
+| Language | Locale | Game text | README |
+| --- | --- | --- | --- |
+| English | `en-US` | Original game text + 11 dynamic templates | [English](README.md) |
+| 简体中文 | `zh-CN` | 4,786 records + 11 dynamic templates | [简体中文](docs/readme/README.zh-CN.md) |
+| 日本語 | `ja-JP` | 4,786 records + 11 dynamic templates | [日本語](docs/readme/README.ja-JP.md) |
+| Русский | `ru-RU` | 4,786 records + 11 dynamic templates | [Русский](docs/readme/README.ru-RU.md) |
+| Deutsch | `de-DE` | 4,786 records + 11 dynamic templates | [Deutsch](docs/readme/README.de-DE.md) |
+| Français | `fr-FR` | 4,786 records + 11 dynamic templates | [Français](docs/readme/README.fr-FR.md) |
+| Italiano | `it-IT` | 4,786 records + 11 dynamic templates | [Italiano](docs/readme/README.it-IT.md) |
+| Español | `es-ES` | 4,786 records + 11 dynamic templates | [Español](docs/readme/README.es-ES.md) |
+| Português (Brasil) | `pt-BR` | 4,786 records + 11 dynamic templates | [Português (Brasil)](docs/readme/README.pt-BR.md) |
 
 Seven additional languages each cover **4,786 records** from the existing reviewed Chinese scope, plus **11 dynamic templates**. English uses the game's original text. Record completeness is **not full-game coverage**. New translations have AI context review, **not independent native-speaker sign-off**. Older changelogs, native library/error text, texture lettering and some UI states remain outside the reviewed scope. Narrow controls and other resolutions still need broader visual review.
 
-本轮范围包括界面、提示、部件、物质与相态、仪表及部分更新正文。保留型号、单位、占位符、资源／控件／存档 ID、枚举数据和玩家自定义名称；未知版本安全拒绝，缺译文回退原文。Noto Sans SC 子集覆盖已盘点字符，但不保证任意玩家命名或所有日语地区字形。
+The reviewed scope includes UI, tooltips, parts, substances and phases, gauges and selected changelogs. Model numbers, units, placeholders, resource/widget/save IDs, enum data and player-defined names are preserved. Unknown builds are rejected; untranslated text falls back to the original. The Noto Sans SC subset covers the inventoried characters, but does not guarantee arbitrary player names or every Japanese regional glyph form.
 
 ## Install
 
@@ -21,7 +33,7 @@ Download from [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/release
 
 The internal mod ID, assembly, settings directory and archive prefix remain **`KsaChinese`** for compatibility. **Enable only one copy:** do not install KSA Babel alongside KSA Chinese or keep both `Content/KsaChinese` and profile `mods/KsaChinese`. Back up existing profiles before migrating. No personal saves are included or automatically moved.
 
-新项目尚未提交新的 Borea 公共目录收录；旧目录中的 KsaChinese 记录与 v0.1.6 发布属于原项目，不能当作 Babel 的下载入口。使用本仓库 Release 手动安装；本项目没有向论坛或索引维护者发送消息。
+Babel has not been separately submitted to Borea's public catalog. The existing KsaChinese entry and v0.1.6 release belong to the original project; use this repository's Releases for manual installation. No messages have been sent to forum or index maintainers on behalf of this project.
 
 ## Build and validate
 
