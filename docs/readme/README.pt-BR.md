@@ -6,6 +6,10 @@ Uma estrutura de localização multilíngue para **Kitten Space Agency**, carreg
 
 KSA Babel é um projeto multilíngue independente derivado de [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE). A versão atual é a **prévia 0.2.1** e é compatível apenas com **KSA 2026.10.19.5638 para Windows x64**, com os hashes de arquivos verificados. O carregador utilizado é o **StarMap 0.4.8**.
 
+**Revisão e modo inglês:** o autor confirmou pessoalmente apenas a tradução para chinês simplificado. Japonês, russo, alemão, francês, italiano, espanhol e português brasileiro foram traduzidos e revisados pelo GPT no contexto do KSA, usando a terminologia aeroespacial do KSP como referência; ainda falta revisão independente de falantes nativos. Parte das traduções japonesas iniciais veio do KsaUiLanguages sob MIT, com os créditos preservados. O modo inglês mostra o texto inglês original do KSA e mantém o menu `Language` adicionado pelo mod. Os 11 modelos dinâmicos servem à composição multilíngue e ao retorno ao original, não representam 11 textos ingleses reescritos.
+
+**Edição chinesa:** [KSA Chinese / KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE), ID `KsaChinese`, oferece inglês e chinês simplificado. A versão atual é [v0.1.6](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.6), arquivo padrão `KsaChinese-0.1.6.zip`, para os arquivos verificados do KSA 2026.10.19.5638 no Windows x64 e StarMap 0.4.8. Tem sua própria [entrada no Borea](https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml). Babel é a prévia independente com nove idiomas e ID `KsaBabel`. Não ative os dois mods no mesmo perfil.
+
 ## Idiomas e escopo
 
 English · 简体中文 · 日本語 · Русский · Deutsch · Français · Italiano · Español · Português (Brasil)

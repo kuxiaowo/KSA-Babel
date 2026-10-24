@@ -6,6 +6,10 @@
 
 KSA Babel は [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) から独立した多言語プロジェクトです。現在のバージョンは **0.2.1 プレビュー版**で、Windows x64 の **KSA 2026.10.19.5638** と、確認済みのファイルハッシュにのみ対応しています。ローダーは **StarMap 0.4.8** です。
 
+**翻訳確認と英語モード：**作者本人が確認した訳文は簡体字中国語のみです。日本語、ロシア語、ドイツ語、フランス語、イタリア語、スペイン語、ブラジルポルトガル語は、KSP の宇宙航行用語を参考に GPT が KSA の文脈に合わせて翻訳・確認したもので、独立した母語話者の校閲は未実施です。日本語の初期訳の一部は、署名を保持した MIT プロジェクト KsaUiLanguages に由来します。英語モードでは KSA の英語原文を表示し、Mod が追加する `Language` メニューを残します。11 個の動的テンプレートは多言語表示と原文への復帰に使うもので、英語原文を 11 か所書き換えたという意味ではありません。
+
+**中国語向けの版：**[KSA Chinese / KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) は ID `KsaChinese` で、英語／簡体字中国語を切り替えます。現在の [v0.1.6](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.6) の標準 ZIP は `KsaChinese-0.1.6.zip`。確認済みの Windows x64 KSA 2026.10.19.5638 と StarMap 0.4.8 に対応し、独自の [Borea 登録](https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml)があります。Babel は ID `KsaBabel` の独立した 9 言語プレビューです。同じプロファイルで両方を有効にしないでください。
+
 ## 対応言語と対象範囲
 
 English · 简体中文 · 日本語 · Русский · Deutsch · Français · Italiano · Español · Português (Brasil)

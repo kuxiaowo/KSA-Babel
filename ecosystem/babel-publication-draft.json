@@ -1,0 +1,37 @@
+{
+  "status": "DRAFT FOR OWNER REVIEW; forum publication and external index submission pending",
+  "forum": {
+    "category": "User Interface",
+    "title": "KSA Babel 0.2.1 — Nine-language localization preview for KSA 5638",
+    "zh-CN": [
+      "KSA Babel（喵语塔）是 Kitten Space Agency 的社区多语言本地化模组，提供游戏内语言菜单。当前为 0.2.1 预览版，包含英文、简体中文、日语、俄语、德语、法语、意大利语、西班牙语和巴西葡萄牙语。",
+      "翻译来源与确认：我本人只确认了现有简体中文译文。其余七种非中文译文由 GPT 结合 KSA 语境、参考 KSP 的航天专业词汇翻译与复核，尚无独立母语审校。日语部分初始译文来自采用 MIT 许可的 KsaUiLanguages，原始署名保留。KSP 资源只作术语参考，没有将整套词典分发，也不代表官方背书。",
+      "英文模式显示 KSA 原有英文文本，并保留模组新增的 Language 语言切换菜单。英文不是另行翻译的语言包；11 个动态模板用于多语言文本拼接与原文回退，不表示改写了 11 处游戏英文。",
+      "只需要简体中文的玩家，可选择我原来的 KSA Chinese / KSA-CHINESE 项目：https://github.com/kuxiaowo/KSA-CHINESE 。其模组 ID 为 KsaChinese，支持 English／简体中文切换；当前发布为 v0.1.6：https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.6 ，标准包为 KsaChinese-0.1.6.zip。它适配已检查的 Windows x64 KSA 2026.10.19.5638 与 StarMap 0.4.8，并已有独立的 Borea 条目：https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml 。",
+      "Babel 的 ID 为 KsaBabel，是独立的九语言预览项目。按需求选择，同一档案不要同时启用两者。通过 Borea 迁移时，备份档案并移除旧 KsaChinese 模组、保留档案数据；仅禁用旧模组仍会被目录冲突阻止。手动安装时旧 ID 仍启用会使 Babel 拒绝激活。",
+      "覆盖范围包括部分菜单、提示、部件和物质名称、仪表及选定的更新正文。未覆盖内容保留原文。更早更新正文、原生库错误文字、贴图印字及部分界面尚未全面处理；技术检查通过不代表全游戏覆盖或译文质量验收。",
+      "适配：仅支持 Windows x64、已检查文件的 KSA 2026.10.19.5638。依赖 .NET 10 x64 Runtime 和 StarMap 0.4.8（KlaasWhite，MIT）：https://github.com/StarMapLoader/StarMap/releases/tag/0.4.8 。",
+      "Babel 下载：https://github.com/kuxiaowo/KSA-Babel/releases/tag/v0.2.1 。已有 StarMap/Borea 的玩家使用 KsaBabel-0.2.1.zip，将其中 KsaBabel 文件夹放入所选档案 mods 目录，启用后通过 StarMap 启动。标准包不含加载器或启动器。新设置不存在时，仅导入同档案旧 KsaChinese/settings.json 的有效语言选项，保留旧文件，不自动移动存档。Babel 公共目录收录尚待申请。",
+      "源码：https://github.com/kuxiaowo/KSA-Babel/tree/v0.2.1 。代码和本项目编写的译文为 MIT，字体子集为 SIL OFL 1.1；标准包 SPDX 为 MIT AND OFL-1.1。保留 KSA Chinese、LiX-Works/KsaUiLanguages 的原始署名。具体固定提交、字体来源和完整许可见 https://github.com/kuxiaowo/KSA-Babel/blob/v0.2.1/THIRD_PARTY.md 。",
+      "欢迎母语使用者通过 https://github.com/kuxiaowo/KSA-Babel/issues 提供语言、英文原文、界面语境和建议译法。"
+    ],
+    "en-US": [
+      "KSA Babel is a community localization mod for Kitten Space Agency with an in-game language menu. Version 0.2.1 is a nine-language preview: English, Simplified Chinese, Japanese, Russian, German, French, Italian, Spanish and Brazilian Portuguese.",
+      "Translation authorship and review: I have personally confirmed only the Simplified Chinese translation. The seven other non-English language packs were translated/reviewed by GPT for the KSA context using KSP aerospace terminology as reference. They await independent native-speaker review. Some initial Japanese translations came from the credited MIT-licensed KsaUiLanguages project. KSP resources are terminology references; no complete KSP dictionary is distributed and no official endorsement is implied.",
+      "English mode displays KSA's original English text and retains the mod's added Language menu. English is not a separately translated corpus. The 11 dynamic templates support multilingual text composition and original-English fallback; they do not mean 11 rewritten game texts.",
+      "For a Chinese-focused edition, my original KSA Chinese / KSA-CHINESE project is https://github.com/kuxiaowo/KSA-CHINESE . Its mod ID is KsaChinese and it offers English / Simplified Chinese switching. Its current release is v0.1.6 at https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.6 ; choose KsaChinese-0.1.6.zip for a standard installation. It targets inspected Windows x64 KSA 2026.10.19.5638 files and StarMap 0.4.8, with its own Borea listing: https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml .",
+      "Babel is the independent nine-language preview under ID KsaBabel. Choose the edition you need; do not enable both in the same profile. For Borea-managed migration, back up the profile, remove KsaChinese from the instance and retain profile data; disabling alone does not resolve the catalog conflict. In a manual installation, Babel refuses activation while the old ID is enabled.",
+      "The reviewed scope includes supported menus, tooltips, part/substance captions, gauges and selected changelogs. Untranslated text remains original. Older changelogs, native library/error text, texture lettering and some UI states remain outside the reviewed scope. Technical checks do not certify full-game coverage or linguistic accuracy.",
+      "Compatibility: inspected Windows x64 KSA 2026.10.19.5638 only. Requires .NET 10 x64 Runtime and StarMap 0.4.8 by KlaasWhite, MIT: https://github.com/StarMapLoader/StarMap/releases/tag/0.4.8 .",
+      "Babel download: https://github.com/kuxiaowo/KSA-Babel/releases/tag/v0.2.1 . Existing StarMap/Borea users should choose KsaBabel-0.2.1.zip, extract KsaBabel into the selected profile's mods folder, enable it, and launch through StarMap. The standard ZIP bundles no loader or launcher. If new settings do not exist, only a valid locale from the same profile's old KsaChinese/settings.json is imported; the old file is preserved and saves are not moved automatically. Babel public-catalog inclusion is still pending.",
+      "Source: https://github.com/kuxiaowo/KSA-Babel/tree/v0.2.1 . Code and project-authored translations: MIT. Font subset: SIL OFL 1.1. Standard-package SPDX expression: MIT AND OFL-1.1. Original KSA Chinese and LiX-Works/KsaUiLanguages notices are retained. Fixed commits, font provenance and complete credits: https://github.com/kuxiaowo/KSA-Babel/blob/v0.2.1/THIRD_PARTY.md .",
+      "Native-speaker corrections are welcome at https://github.com/kuxiaowo/KSA-Babel/issues ; include the language, English source, UI context and suggested wording."
+    ]
+  },
+  "index_application": {
+    "title": "Add KsaBabel — nine-language localization preview",
+    "scope": "listings/KsaBabel.toml only",
+    "forum_url": "__FORUM_THREAD_URL__",
+    "summary": "New independent KsaBabel ID, release host kuxiaowo/KSA-Babel since 0.2.1, standard payload KsaBabel-0.2.1.zip; Windows KSA 2026.10.19.5638 and StarMap 0.4.8 exact bounds, MIT AND OFL-1.1, conflict with KsaChinese. The author's existing Chinese-focused project remains kuxiaowo/KSA-CHINESE, ID KsaChinese, v0.1.6, with its existing separate Borea entry. Only Simplified Chinese has been personally confirmed by the maintainer. Seven additional language packs use GPT translation/review with KSP terminology reference and await independent native-speaker review; Japanese includes credited MIT-licensed initial translations. English mode uses original KSA English with the added Language menu. Technical verification is documented in reports/0.2.1-独立ID与管理器验证.md; it is not linguistic sign-off or proof of public-catalog installation. Fill the actual published forum URL and rerun final upstream checks before submission."
+  }
+}
