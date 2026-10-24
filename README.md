@@ -8,17 +8,17 @@ KSA Babel is an independent multilingual project derived from [KSA-CHINESE](http
 
 ## Languages and scope
 
-| Language | Locale | Game text | README |
-| --- | --- | --- | --- |
-| English | `en-US` | Original game text + 11 dynamic templates | [English](README.md) |
-| 简体中文 | `zh-CN` | 4,786 records + 11 dynamic templates | [简体中文](docs/readme/README.zh-CN.md) |
-| 日本語 | `ja-JP` | 4,786 records + 11 dynamic templates | [日本語](docs/readme/README.ja-JP.md) |
-| Русский | `ru-RU` | 4,786 records + 11 dynamic templates | [Русский](docs/readme/README.ru-RU.md) |
-| Deutsch | `de-DE` | 4,786 records + 11 dynamic templates | [Deutsch](docs/readme/README.de-DE.md) |
-| Français | `fr-FR` | 4,786 records + 11 dynamic templates | [Français](docs/readme/README.fr-FR.md) |
-| Italiano | `it-IT` | 4,786 records + 11 dynamic templates | [Italiano](docs/readme/README.it-IT.md) |
-| Español | `es-ES` | 4,786 records + 11 dynamic templates | [Español](docs/readme/README.es-ES.md) |
-| Português (Brasil) | `pt-BR` | 4,786 records + 11 dynamic templates | [Português (Brasil)](docs/readme/README.pt-BR.md) |
+| Language | Locale | Game text |
+| --- | --- | --- |
+| English | `en-US` | Original game text + 11 dynamic templates |
+| 简体中文 | `zh-CN` | 4,786 records + 11 dynamic templates |
+| 日本語 | `ja-JP` | 4,786 records + 11 dynamic templates |
+| Русский | `ru-RU` | 4,786 records + 11 dynamic templates |
+| Deutsch | `de-DE` | 4,786 records + 11 dynamic templates |
+| Français | `fr-FR` | 4,786 records + 11 dynamic templates |
+| Italiano | `it-IT` | 4,786 records + 11 dynamic templates |
+| Español | `es-ES` | 4,786 records + 11 dynamic templates |
+| Português (Brasil) | `pt-BR` | 4,786 records + 11 dynamic templates |
 
 Seven additional languages each cover **4,786 records** from the existing reviewed Chinese scope, plus **11 dynamic templates**. English uses the game's original text. Record completeness is **not full-game coverage**. New translations have AI context review, **not independent native-speaker sign-off**. Older changelogs, native library/error text, texture lettering and some UI states remain outside the reviewed scope. Narrow controls and other resolutions still need broader visual review.
 
