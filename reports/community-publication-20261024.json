@@ -1,0 +1,207 @@
+{
+  "checked_at": "2026-10-24T23:02:55+08:00",
+  "forum": {
+    "url": "https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/",
+    "public_author": "zhengxin pang",
+    "manually_published_by_owner": true,
+    "http_status": 200,
+    "disclosures_verified": true
+  },
+  "index_pull_request": {
+    "headRefOid": "71273290f49fe30598acd6d4afd403c95e727d3c",
+    "mergeCommit": {
+      "oid": "398053eb2e4d4386e24909d956ace9760ee0c1bc"
+    },
+    "mergedAt": "2026-10-24T14:59:04Z",
+    "state": "MERGED",
+    "statusCheckRollup": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-24T14:58:25Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/KSAModding/content-index/actions/runs/40104848685/job/120904303420",
+        "name": "layout",
+        "startedAt": "2026-10-24T14:58:22Z",
+        "status": "COMPLETED",
+        "workflowName": "checks"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-24T14:58:38Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/KSAModding/content-index/actions/runs/40104848685/job/120904303399",
+        "name": "schema",
+        "startedAt": "2026-10-24T14:58:22Z",
+        "status": "COMPLETED",
+        "workflowName": "checks"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-24T14:58:30Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/KSAModding/content-index/actions/runs/40104848685/job/120904303425",
+        "name": "page",
+        "startedAt": "2026-10-24T14:58:23Z",
+        "status": "COMPLETED",
+        "workflowName": "checks"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-24T14:58:35Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/KSAModding/content-index/actions/runs/40104848685/job/120904303296",
+        "name": "verdict",
+        "startedAt": "2026-10-24T14:58:22Z",
+        "status": "COMPLETED",
+        "workflowName": "checks"
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "validate",
+        "startedAt": "2026-10-24T14:58:52Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://github.com/KSAModding/content-index/actions/runs/40104848685"
+      }
+    ],
+    "url": "https://github.com/KSAModding/content-index/pull/227"
+  },
+  "upstream_checks": [
+    {
+      "command": [
+        "tools/check_layout.py"
+      ],
+      "exit_code": 0,
+      "stdout": "checked 31 document(s), all in the right place\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools/check_schema.py"
+      ],
+      "exit_code": 0,
+      "stdout": "checked 31 document(s) against the schema, all valid\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools/check_index.py"
+      ],
+      "exit_code": 0,
+      "stdout": "checked 31 document(s) against the index, no collisions or wrong references\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools/check_license.py"
+      ],
+      "exit_code": 0,
+      "stdout": "checked 31 license expression(s) against the SPDX list, all resolve\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools/check_status.py"
+      ],
+      "exit_code": 0,
+      "stdout": "index-status.toml is well formed and every state resolves\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools/check_images.py"
+      ],
+      "exit_code": 0,
+      "stdout": "note: listings/KSAero.toml: images.icon: the icon is 360 by 314 pixels, so clients show the square from 23,0 to 337,314\nchecked the images of 31 document(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools/check_packs.py"
+      ],
+      "exit_code": 0,
+      "stdout": "Pack owner records are valid.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools/check_tags.py"
+      ],
+      "exit_code": 0,
+      "stdout": "tags.toml is well formed\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools/check_images.py",
+        "listings/KsaBabel.toml"
+      ],
+      "exit_code": 0,
+      "stdout": "note: listings/KSAero.toml: images.icon: the icon is 360 by 314 pixels, so clients show the square from 23,0 to 337,314\nchecked the images of 31 document(s)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "tools/check_release.py",
+        "listings/KsaBabel.toml",
+        "--releases",
+        "<project>\\.tools\\content-index-releases"
+      ],
+      "exit_code": 0,
+      "stdout": "listings/KsaBabel.toml: pass: the latest release 0.2.1 stamps cleanly\n",
+      "stderr": ""
+    }
+  ],
+  "all_local_checks_passed": true,
+  "listing": "ecosystem/KsaBabel.toml",
+  "public_snapshot": {
+    "url": "https://ksamodding.github.io/content-index-releases/v1/index.json",
+    "listing_present": true,
+    "release_present": true,
+    "status": "VERIFIED",
+    "sha256": "9130a10fbaa1819ad8f899dff3f1639cf5501344d1d559b14acb6a8f601786fb",
+    "sources": {
+      "authored": {
+        "repository": "KSAModding/content-index",
+        "commit": "398053eb2e4d4386e24909d956ace9760ee0c1bc"
+      },
+      "generated": {
+        "repository": "KSAModding/content-index-releases",
+        "commit": "879af32ab3cbfc8660ebb1d9c6faab8043d51aac"
+      }
+    },
+    "release_version": "0.2.1",
+    "release_status": "testing",
+    "download": {
+      "url": "https://github.com/kuxiaowo/KSA-Babel/releases/download/v0.2.1/KsaBabel-0.2.1.zip",
+      "sha256": "BED6D6F226D036324E018CED5FD8840584C6BA00B69BDBD8803A4AB17E7CFC8A",
+      "size": 1584720,
+      "content_type": "application/zip"
+    },
+    "install": {
+      "root": "KsaBabel",
+      "derived": true
+    },
+    "loader": {
+      "id": "StarMap",
+      "min": "0.4.8",
+      "max": "0.4.8",
+      "source": "authored"
+    },
+    "dependencies": [
+      {
+        "id": "KsaChinese",
+        "kind": "conflict",
+        "source": "authored"
+      }
+    ],
+    "authored_matches_submitted_document": true,
+    "download_hash_and_zip_verified": true,
+    "archive_file_count": 26,
+    "install_size": 4580848
+  },
+  "release_archive": {
+    "name": "KsaBabel-0.2.1.zip",
+    "sha256": "bed6d6f226d036324e018ced5fd8840584c6ba00b69bdbd8803a4ab17e7cfc8a"
+  },
+  "scope": "Public forum, real-URL listing and actual hosted release checks. No new desktop automation, game run or GUI manager test; not native-speaker review."
+}

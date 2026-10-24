@@ -6,9 +6,9 @@
 
 ## Borea
 
-KSA Babel 尚未单独提交 Borea 公共目录收录。原项目的 [Ahwoo 帖子](https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-chinese-0-1-6-simplified-chinese-ui-for-ksa-5638.1440/) 与 [索引 PR #223](https://github.com/KSAModding/content-index/pull/223) 只证明 KSA Chinese 0.1.6 曾被收录，不能作为 Babel 当前的下载或安装验证。当前使用本仓库 Release 手动安装。
+KSA Babel 的 [Ahwoo 帖子](https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/)已发布，[收录 PR #227](https://github.com/KSAModding/content-index/pull/227)已合并。公共目录已包含 `KsaBabel 0.2.1`，并已按快照地址下载核对标准包，证据见[发布记录](reports/community-publication-20261024.md)。在 Borea 刷新目录后查找 `KSA Babel`；0.2.1 标为 `testing`，需要使用允许测试版本的发布通道。原项目的 KsaChinese 条目与 v0.1.6 仍属于独立的纯中文版本。
 
-也可以在 Borea 创建实例、安装 StarMap，把 ZIP 中的整个 `KsaBabel` 文件夹放到该实例的 `mods` 目录。禁用旧 `KsaChinese` 后启用 `KsaBabel`，再由 Borea 启动；手动安装的文件需要使用 Borea 的扫描/接管功能才能由它管理更新。不要把便携包作为标准模组导入。社区索引模板声明了与 `KsaChinese` 的 `conflict` 依赖，这不代表模板已提交或被收录。
+也可以在 Borea 创建实例、安装 StarMap，把 ZIP 中的整个 `KsaBabel` 文件夹放到该实例的 `mods` 目录。禁用旧 `KsaChinese` 后启用 `KsaBabel`，再由 Borea 启动；手动安装的文件需要使用 Borea 的扫描/接管功能才能由它管理更新。不要把便携包作为标准模组导入。已合并的社区索引条目声明了与 `KsaChinese` 的 `conflict` 依赖。
 
 通过 Borea 管理迁移时，先备份档案，再从该实例移除旧 KsaChinese 模组后安装 Babel：目录冲突会阻止安装，仅禁用旧模组仍不足以通过管理器规划。移除模组时保留档案数据。
 

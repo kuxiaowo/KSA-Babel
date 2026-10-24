@@ -29,7 +29,7 @@ A partir da versão 0.2.1, o ID do mod, os diretórios de instalação e o prefi
 
 **Desative primeiro o mod antigo:** o Babel recusa a ativação enquanto `KsaChinese` estiver ativado. Mantenha apenas uma cópia ativa do Babel e não conserve simultaneamente `Content/KsaBabel` e `mods/KsaBabel` no perfil. Faça backup dos perfis existentes antes de migrar. Partidas pessoais não são incluídas nem movidas automaticamente; a importação de configurações não procura em outros perfis.
 
-Este novo projeto ainda não foi enviado para inclusão própria no catálogo público do Borea. A entrada KsaChinese e a versão v0.1.6 do catálogo anterior pertencem ao projeto original e não são uma forma de baixar Babel. Instale manualmente pelas versões publicadas neste repositório. O projeto não enviou mensagens aos fóruns nem aos responsáveis pelo índice.
+[O anúncio no Ahwoo](https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/) foi publicado e a [PR #227 do catálogo do Borea](https://github.com/KSAModding/content-index/pull/227) foi integrada. Consulte o [registro de publicação](../../reports/community-publication-20261024.md) para acompanhar o processamento da versão e a verificação do snapshot público. A entrada KsaChinese existente e a versão v0.1.6 pertencem ao projeto separado dedicado ao chinês. KSA Babel 0.2.1 já está no catálogo público como prévia `testing`; use um canal que permita versões de teste.
 
 Para migrar pelo Borea, faça uma cópia do perfil e remova o mod antigo KsaChinese da instância antes de instalar o Babel. O conflito do catálogo bloqueia a instalação mesmo com o mod antigo desativado. Preserve os dados do perfil.
 
