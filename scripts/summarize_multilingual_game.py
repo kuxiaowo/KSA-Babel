@@ -43,7 +43,7 @@ def collect(profile, tag, game):
     if len(screenshots) != 9:
         raise ValueError('Expected exactly nine actual screenshots')
     build = json.loads((ROOT / 'reports/5638-bootstrap-validation.json').read_text(encoding='utf-8'))
-    compatibility = json.loads((ROOT / 'assets/KsaChinese/compatibility.json').read_text(encoding='utf-8'))
+    compatibility = json.loads((ROOT / 'assets/KsaBabel/compatibility.json').read_text(encoding='utf-8'))
     checked_files = {name: digest(game / name) for name in compatibility['files']}
     if checked_files != compatibility['files']:
         raise ValueError('Installed game identity changed')
@@ -51,7 +51,7 @@ def collect(profile, tag, game):
     numeric_reference = None
     for row, screenshot in zip(result['results'], screenshots):
         plugin = Path(row['plugin'])
-        expected = profile / 'mods/KsaChinese/KsaChinese.dll'
+        expected = profile / 'mods/KsaBabel/KsaBabel.dll'
         if plugin.resolve() != expected.resolve() or digest(plugin) != build['pluginSha256']:
             raise ValueError('Game loaded a stale or shadowing plugin')
         if row['selected'] != row['locale'] or row['actualGameVersion'] != compatibility['version']:
@@ -79,7 +79,7 @@ def collect(profile, tag, game):
                 numericRegions=NUMERIC_REGIONS, numericRegionsMatchEnglishPixels=True,
                 log=log.relative_to(ROOT).as_posix(), logSha256=digest(log), results=records,
                 scope='Real loaded game and display-settings/HUD screenshots at 1920x1080; not exhaustive window, resolution or native-speaker acceptance',
-                visualReview='Separate manual image review is documented in the accompanying Markdown report')
+                visualReview='No fresh manual visual sign-off; native text outputs, font selection, screenshots and fixed numeric regions checked')
 
 
 if __name__ == '__main__':

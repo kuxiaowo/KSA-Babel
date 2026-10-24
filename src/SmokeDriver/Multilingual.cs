@@ -20,7 +20,7 @@ public sealed partial class Driver
     public static void LocaleBodyMetrics(ReadOnlySpan<char> id, float2 pos, float2 size)
     {
         if (!id.StartsWith("Settings")) return;
-        var runtime=AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a=>a.GetName().Name=="KsaChinese")?.GetType("KsaChinese.Runtime");
+        var runtime=AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a=>a.GetName().Name=="KsaBabel")?.GetType("KsaChinese.Runtime");
         string locale=(string?)runtime?.GetProperty("SelectedLocale")?.GetValue(null)??"unknown";
         string key=locale+":"+id.ToString();
         int count=BodyMetricsFrames.GetValueOrDefault(key)+1; BodyMetricsFrames[key]=count;
@@ -47,8 +47,8 @@ public sealed partial class Driver
             LocaleCaptionStart=CaptionDraws;
             Locale(locale);
             Tab("Display");
-            var assembly = AppDomain.CurrentDomain.GetAssemblies().Single(a => a.GetName().Name == "KsaChinese");
-            string expectedPlugin = Path.Combine(Constants.DocumentsFolderPath, "mods", "KsaChinese", "KsaChinese.dll");
+            var assembly = AppDomain.CurrentDomain.GetAssemblies().Single(a => a.GetName().Name == "KsaBabel");
+            string expectedPlugin = Path.Combine(Constants.DocumentsFolderPath, "mods", "KsaBabel", "KsaBabel.dll");
             if (!string.Equals(Path.GetFullPath(assembly.Location), Path.GetFullPath(expectedPlugin), StringComparison.OrdinalIgnoreCase))
                 throw new InvalidOperationException("Fixture loaded a shadowing plugin: " + assembly.Location);
             var runtime = assembly.GetType("KsaChinese.Runtime")!;

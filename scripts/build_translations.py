@@ -39,20 +39,20 @@ for r in reviewed.values():
         errors.append((r['id'],'missing review evidence/notes'))
     pack[r['section']][r['key']]=zh
 if errors: raise ValueError(errors)
-out=root/'assets/KsaChinese/Locales/zh-CN.json'
+out=root/'assets/KsaBabel/Locales/zh-CN.json'
 dynamic_source=root/'translations/multilingual/dynamic.json'
 if dynamic_source.exists():
     pack['dynamic']={key:values['zh-CN'] for key,values in json.loads(dynamic_source.read_text(encoding='utf-8'))['entries'].items()}
 out.write_text(json.dumps(pack,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 ledger=sorted(reviewed.values(),key=lambda r:(r['section'],r['key']))
-game_build=json.loads((root/'assets/KsaChinese/compatibility.json').read_text(encoding='utf-8'))['version'].rsplit('.',1)[-1]
+game_build=json.loads((root/'assets/KsaBabel/compatibility.json').read_text(encoding='utf-8'))['version'].rsplit('.',1)[-1]
 (root/f'translations/reviewed-{game_build}.jsonl').write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in ledger),encoding='utf-8')
 resx=ET.Element('root')
 for key,value in [('Language','简体中文'),('Font','KsaUiNotoSC.ttf'),*pack['native'].items()]:
     data=ET.SubElement(resx,'data',{'name':key,'{http://www.w3.org/XML/1998/namespace}space':'preserve'})
     ET.SubElement(data,'value').text=value
 ET.indent(resx,space='  ')
-lang=root/'assets/KsaChinese/Languages'; lang.mkdir(exist_ok=True)
+lang=root/'assets/KsaBabel/Languages'; lang.mkdir(exist_ok=True)
 ET.ElementTree(resx).write(lang/'zh-CN.resx',encoding='utf-8',xml_declaration=True)
 report={'schema':1,'ledger_rows':len(ledger),'review_status_counts':dict(collections.Counter(r['review_status'] for r in ledger)),
         'active_translation_sections':{s:len(v) for s,v in pack.items() if isinstance(v,dict) and s!='dynamic'},

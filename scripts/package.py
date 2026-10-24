@@ -1,4 +1,6 @@
 """Package explicit Mod/loader/license/source/report allowlists, never game files."""
+raise SystemExit("Historical KSA Chinese 5602 tool; use package_mod.py/package_portable.py or summarize_multilingual_game.py for current Babel releases.")
+
 from pathlib import Path
 import datetime,hashlib,json,shutil,uuid,zipfile,re
 

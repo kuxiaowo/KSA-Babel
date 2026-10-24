@@ -1,7 +1,7 @@
 # Pending community publication. Render with scripts/prepare_listing.py only
 # after the maintainer approves the external post and supplies its real URL.
 spec_version = 1
-id = "KsaChinese"
+id = "KsaBabel"
 type = "mod"
 name = "KSA Babel / 喵语塔"
 authors = ["kuxiaowo", "KsaUiLanguages contributors"]
@@ -10,16 +10,19 @@ description = '''
 Multilingual display-layer localization for **KSA 2026.10.19.5638 on Windows x64**.
 
 - Translates supported UI, part and substance captions, tooltips and selected version history.
-- Includes a renamed Noto Sans SC font subset and an nine-language menu.
+- Includes a renamed Noto Sans SC font subset and a nine-language menu.
+- Seven additional languages each cover 4,786 baseline records plus 11 dynamic templates; AI review is not native-speaker approval.
 - Language preferences are saved per game profile, outside the mod files, so Borea instances remain independent.
 - Preserves technical identifiers, part/model numbers, units, placeholders and player names.
 - Refuses uninspected game/dependency hashes; untranslated text falls back to the original.
 
 This is **partial localization**, not an official translation or a claim of complete coverage. Older version-history text, native library/error text, texture lettering and complete UI/visual coverage remain unfinished. Compatibility with other localization mods has not been established.
 
-Requires .NET 10 x64 Runtime and StarMap 0.4.8. Install through Borea, or extract the standard ZIP into the selected profile's `mods` folder and enable `KsaChinese`. Launch through StarMap/Borea.
+Requires .NET 10 x64 Runtime and StarMap 0.4.8. Extract the standard `KsaBabel-0.2.1.zip` into the selected profile's `mods` folder and enable `KsaBabel`. The plugin assembly is KsaBabel.dll. Launch through StarMap/Borea; this local listing template is not proof of public catalog inclusion.
 
-When migrating from the portable package, first back up its Profile and move the old `<game>/Content/KsaChinese` out of Content. Do not keep two copies with the same mod id. The standard mod ZIP does not bundle a loader or launcher.
+Disable the old KsaChinese mod before enabling Babel; Babel refuses activation while KsaChinese is enabled. When migrating from the old portable package, first back up its Profile and move the old `<game>/Content/KsaChinese` out of Content. Do not keep both Content/KsaBabel and profile mods/KsaBabel. The standard mod ZIP does not bundle a loader or launcher.
+
+Settings use the current profile's KsaBabel/settings.json. On first startup, only if this new file does not exist, Babel imports a valid locale from the same profile's old KsaChinese/settings.json, without modifying the old file or overwriting existing new settings. No saves are automatically moved and no other profiles are searched. The portable archive is KsaBabel-0.2.1-5638-Portable.zip; its launcher is KsaBabel/KsaBabelLauncher.exe.
 
 Code and translations: MIT, including portions derived from LiX-Works/KsaUiLanguages at b504774158cc03b582a0e75bfe94330cb841f11d. Font: Noto Sans SC subset, OFL-1.1. Original credits and license texts are included.
 '''
@@ -28,7 +31,7 @@ tags = ["user-interface"]
 
 [releases]
 github = "kuxiaowo/KSA-Babel"
-since = "0.2.0"
+since = "0.2.1"
 
 [links]
 forums = "__FORUM_THREAD_URL__"
@@ -45,3 +48,7 @@ os = ["windows"]
 id = "StarMap"
 min = "0.4.8"
 max = "0.4.8"
+
+[[dependencies]]
+id = "KsaChinese"
+kind = "conflict"

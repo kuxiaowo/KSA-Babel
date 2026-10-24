@@ -28,7 +28,7 @@ def main():
     args = parser.parse_args()
     source = [json.loads(line) for line in (ROOT/'translations/reviewed-5638.jsonl').read_text(encoding='utf-8').splitlines()]
     source = {row['id']: row for row in source if row['review_status'] == 'reviewed'}
-    sections = list(json.loads((ROOT/'assets/KsaChinese/Locales/zh-CN.json').read_text(encoding='utf-8')))
+    sections = list(json.loads((ROOT/'assets/KsaBabel/Locales/zh-CN.json').read_text(encoding='utf-8')))
     sections = [s for s in sections if s not in ('locale','displayName','fontFile','dynamic')]
     dynamic = json.loads((ROOT/'translations/multilingual/dynamic.json').read_text(encoding='utf-8'))['entries']
     report = {'source_entries': len(source), 'source_game': '2026.10.19.5638',
@@ -89,7 +89,7 @@ def main():
         if not args.allow_incomplete: raise SystemExit('Incomplete or invalid decisions: inspect reports/multilingual-validation.json')
         return
     for locale, pack in packs.items():
-        path = ROOT/f'assets/KsaChinese/Locales/{locale}.json'
+        path = ROOT/f'assets/KsaBabel/Locales/{locale}.json'
         content=json.dumps(pack,ensure_ascii=False,indent=2)+'\n'
         if args.check:
             if not path.is_file() or path.read_text(encoding='utf-8')!=content:
@@ -97,7 +97,7 @@ def main():
         else: path.write_text(content,encoding='utf-8')
         report['locales'][locale]['runtime_sha256'] = hashlib.sha256(path.read_bytes()).hexdigest()
     for locale in ('en-US','zh-CN'):
-        path = ROOT/f'assets/KsaChinese/Locales/{locale}.json'
+        path = ROOT/f'assets/KsaBabel/Locales/{locale}.json'
         pack = json.loads(path.read_text(encoding='utf-8'))
         expected_dynamic = {key:values[locale] for key,values in dynamic.items()}
         if args.check:

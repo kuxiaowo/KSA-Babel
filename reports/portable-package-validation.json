@@ -1,8 +1,8 @@
 {
-  "archive": "KsaChinese-0.2.0-5638-Portable.zip",
-  "sha256": "0943b65c4feef6292f74a2d912bb7f19a27e93862cd502f43a046b9fc8a7478f",
+  "archive": "KsaBabel-0.2.1-5638-Portable.zip",
+  "sha256": "5933dda0268d0353aab617efacd2fab7d8e186eb28b21954fd5cd52cc0216d0a",
   "files": 41,
-  "bytes": 2561246,
+  "bytes": 2560194,
   "game_binaries_included": false,
   "player_data_included": false
 }

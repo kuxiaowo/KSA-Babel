@@ -13,11 +13,11 @@ root = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--game', required=True, type=Path)
 args = parser.parse_args()
-compat = json.loads((root/'assets/KsaChinese/compatibility.json').read_text(encoding='utf-8'))
+compat = json.loads((root/'assets/KsaBabel/compatibility.json').read_text(encoding='utf-8'))
 if hashlib.sha256((args.game/'KSA.dll').read_bytes()).hexdigest() != compat['files']['KSA.dll']:
     raise ValueError('Uninspected KSA.dll; part audit stopped.')
 game_build = compat['version'].rsplit('.',1)[-1]
-pack = json.loads((root/'assets/KsaChinese/Locales/zh-CN.json').read_text(encoding='utf-8'))
+pack = json.loads((root/'assets/KsaBabel/Locales/zh-CN.json').read_text(encoding='utf-8'))
 ledger = {r['key']: r for r in map(json.loads, (root/f'translations/reviewed-{game_build}.jsonl').read_text(encoding='utf-8').splitlines()) if r['section']=='parts' and r['review_status']=='reviewed'}
 parts, data, subparts = {}, {}, {}
 sources = {}

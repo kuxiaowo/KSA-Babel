@@ -3,22 +3,22 @@
     {
       "check": "check_layout.py",
       "exit_code": 0,
-      "output": "checked 29 document(s), all in the right place\n"
+      "output": "checked 31 document(s), all in the right place\n"
     },
     {
       "check": "check_schema.py",
       "exit_code": 0,
-      "output": "checked 29 document(s) against the schema, all valid\n"
+      "output": "checked 31 document(s) against the schema, all valid\n"
     },
     {
       "check": "check_index.py",
       "exit_code": 0,
-      "output": "checked 29 document(s) against the index, no collisions or wrong references\n"
+      "output": "checked 31 document(s) against the index, no collisions or wrong references\n"
     },
     {
       "check": "check_license.py",
       "exit_code": 0,
-      "output": "checked 29 license expression(s) against the SPDX list, all resolve\n"
+      "output": "checked 31 license expression(s) against the SPDX list, all resolve\n"
     },
     {
       "check": "check_status.py",
@@ -28,11 +28,11 @@
     {
       "check": "check_images.py",
       "exit_code": 0,
-      "output": "note: listings/KSAero.toml: images.icon: the icon is 360 by 314 pixels, so clients show the square from 23,0 to 337,314\nchecked the images of 29 document(s)\n"
+      "output": "note: listings/KSAero.toml: images.icon: the icon is 360 by 314 pixels, so clients show the square from 23,0 to 337,314\nchecked the images of 31 document(s)\n"
     }
   ],
   "install": {
-    "root": "KsaChinese",
+    "root": "KsaBabel",
     "derived": true
   },
   "loader": {
@@ -41,10 +41,38 @@
     "max": "0.4.8",
     "source": "authored"
   },
+  "previous_fixture": "LOCAL SYNTHETIC 0.2.0 versioned build of current source; never publicly released under KsaBabel ID; validates Borea version upgrade mechanics, not historical code migration",
+  "previous_build_command": [
+    "dotnet",
+    "build",
+    "<project>\\src\\KsaChinese\\KsaChinese.csproj",
+    "-c",
+    "Release",
+    "--nologo",
+    "-p:Version=0.2.0",
+    "-p:KsaDir=<legacy-project>\\work\\game-5638-015",
+    "-p:LoaderDir=<project>\\.tools\\StarMap-0.4.8",
+    "-p:BaseIntermediateOutputPath=<project>\\work\\ecosystem-candidate\\fixture-obj\\",
+    "-p:OutputPath=<project>\\work\\ecosystem-candidate\\fixture-build\\"
+  ],
+  "previous_archive": "<project>\\work\\ecosystem-candidate\\KsaBabel-0.2.0-LOCAL-SYNTHETIC-FIXTURE.zip",
+  "previous_archive_sha256": "83f84b3d860ee6220ede5370b96316116d6fb61e983ce9683d000dea43e84c03",
+  "previous_dll_sha256": "9d37e4461a0cc0f80804958484534d4c9967cadeaa8a3631e95f9d0a2bc30c0f",
+  "current_archive": "<project>\\dist\\KsaBabel-0.2.1.zip",
+  "current_archive_sha256": "bed6d6f226d036324e018ced5fd8840584c6ba00b69bdbd8803a4ab17e7cfc8a",
+  "current_dll_sha256": "233ddd3cdd7ef78a3880774fbd161e34600357b65db65f1e5b012c39e76ed95d",
   "standard_archive_selected_over_portable": true,
-  "archive_sha256": "c35de18c4833878b7cc4ba4de8a57f1828029e7aee28ea2ebf08f03f28af8646",
   "real_forum_url_pending": true,
   "fixture_forum_url_used_only_locally": true,
   "final_listing_schema_passed": false,
-  "public_index_submitted": false
+  "public_index_submitted": false,
+  "dependencies_read_only": [
+    "<project>\\.tools\\content-index",
+    "<project>\\.tools\\content-index-releases"
+  ],
+  "release_channel": "testing; both synthetic 0.2.0 and candidate 0.2.1 are prereleases",
+  "dependency_commits": {
+    "content-index": "01e5c4b93217d667f69af26edf5f09f0ce930444",
+    "content-index-releases": "b2d07c3f0ba6b21d9e145019911bb2bf46e54db6"
+  }
 }

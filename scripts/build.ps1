@@ -5,15 +5,15 @@ if([string]::IsNullOrWhiteSpace($GameDir)) { throw 'Specify -GameDir or set KSA_
 $GameDir=[IO.Path]::GetFullPath($GameDir)
 if(!(Test-Path -LiteralPath (Join-Path $GameDir 'KSA.dll') -PathType Leaf)) { throw 'GameDir must contain KSA.dll.' }
 if(!$LoaderDir) { $LoaderDir=Join-Path $taskRoot '.tools\StarMap-0.4.8' }
-$taskExpected=(Get-Content -LiteralPath (Join-Path $taskRoot 'assets\KsaChinese\compatibility.json') -Raw | ConvertFrom-Json).files.'KSA.dll'
+$taskExpected=(Get-Content -LiteralPath (Join-Path $taskRoot 'assets\KsaBabel\compatibility.json') -Raw | ConvertFrom-Json).files.'KSA.dll'
 if((Get-FileHash -LiteralPath (Join-Path $GameDir 'KSA.dll') -Algorithm SHA256).Hash.ToLowerInvariant() -ne $taskExpected) { throw 'Uninspected KSA.dll; build/validation stopped.' }
 $taskLauncher=Join-Path $taskRoot 'work\build\Launcher'
 & dotnet build (Join-Path $taskRoot 'src\Launcher\Launcher.csproj') -c Release --nologo "-p:BaseIntermediateOutputPath=$(Join-Path $taskRoot 'work\obj\Launcher\')" "-p:OutputPath=$taskLauncher\"
 if($LASTEXITCODE -ne 0) { throw 'Launcher build failed' }
-$taskOutput=Join-Path $taskRoot 'work\build\KsaChinese'
+$taskOutput=Join-Path $taskRoot 'work\build\KsaBabel'
 & dotnet build (Join-Path $taskRoot 'src\KsaChinese\KsaChinese.csproj') -c Release --nologo "-p:KsaDir=$GameDir" "-p:LoaderDir=$LoaderDir" "-p:BaseIntermediateOutputPath=$(Join-Path $taskRoot 'work\obj\KsaChinese\')" "-p:OutputPath=$taskOutput\"
 if($LASTEXITCODE -ne 0) { throw 'Plugin build failed' }
-Copy-Item -Path (Join-Path $taskRoot 'assets\KsaChinese\*') -Destination $taskOutput -Recurse -Force
+Copy-Item -Path (Join-Path $taskRoot 'assets\KsaBabel\*') -Destination $taskOutput -Recurse -Force
 if($Validate) {
     $taskValidation=Join-Path $taskRoot 'work\build\Validation'
     & dotnet build (Join-Path $taskRoot 'src\Validation\Validation.csproj') -c Release --nologo "-p:KsaDir=$GameDir" "-p:LoaderDir=$LoaderDir" "-p:BaseIntermediateOutputPath=$(Join-Path $taskRoot 'work\obj\Validation\')" "-p:OutputPath=$taskValidation\"

@@ -11,7 +11,7 @@ parser.add_argument("--output", type=Path, required=True)
 args = parser.parse_args()
 if not re.fullmatch(r"https://forums\.ahwoo\.com/(?:threads/|forums/(?:[^/?#\s]+/)+)(?:[^/?#\s]*\.)?[0-9]+/?", args.forums_url):
     parser.error("Use the actual HTTPS Ahwoo thread URL after publication approval.")
-text = (root / "ecosystem/KsaChinese.toml.in").read_text(encoding="utf-8")
+text = (root / "ecosystem/KsaBabel.toml.in").read_text(encoding="utf-8")
 text = text.replace("__FORUM_THREAD_URL__", args.forums_url)
 tomllib.loads(text)
 args.output.parent.mkdir(parents=True, exist_ok=True)

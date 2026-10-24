@@ -1,0 +1,13 @@
+{
+  "boreaVersion": "0.5.1",
+  "sourceCommit": "284d5cf929c8ede99320f8afc451fa44f12aeadd",
+  "scope": "One successful actual Borea-component launch from earlier run; the full graphical lifecycle run later timed out and is not claimed as passed",
+  "profile": "work/test-profile-borea-021/Instances/68df032e-1bce-4e4d-bded-bb293bb6f598",
+  "mode": "verify-zh",
+  "exitCode": 0,
+  "pluginSha256": "233ddd3cdd7ef78a3880774fbd161e34600357b65db65f1e5b012c39e76ed95d",
+  "smokeLogSha256": "5c301bc44cab9bd4ef2cda6246ab72d3f9566cfbdae6a412baf9b25423398ef7",
+  "runnerLogSha256": "c42d1db08a77a8af4b33c1089c2e5d478a242b9f33766abb262a4d91ce4e373c",
+  "wholeGraphicalLifecyclePassed": false,
+  "noNewGraphicalRunAfterComputerControlStopped": true
+}

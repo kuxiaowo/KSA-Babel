@@ -16,7 +16,7 @@ texts=['Language','English','简体中文','显示器刷新率','日本語','Р�
 # lose glyphs merely because it is outside a locale JSON section.
 for p in (root/'src/KsaChinese').glob('*.cs'):
     texts.append(''.join(c for c in p.read_text(encoding='utf-8') if '\u3400' <= c <= '\u9fff'))
-for p in (root/'assets/KsaChinese/Locales').glob('*.json'):
+for p in (root/'assets/KsaBabel/Locales').glob('*.json'):
     pack=json.loads(p.read_text(encoding='utf-8'))
     texts.append(pack['displayName'])
     for section in pack.values():
@@ -35,7 +35,7 @@ for ident,value in names.items():
     for record in list(font['name'].names):
         if record.nameID==ident: font['name'].setName(value,ident,record.platformID,record.platEncID,record.langID)
     font['name'].setName(value,ident,3,1,0x409)
-out=root/'assets/KsaChinese/Fonts/KsaUiNotoSC.ttf'; font.save(out)
+out=root/'assets/KsaBabel/Fonts/KsaUiNotoSC.ttf'; font.save(out)
 actual=set(TTFont(out).getBestCmap())
 assert not required-actual
 report=dict(source='https://github.com/google/fonts/tree/main/ofl/notosanssc',source_sha256=expected,

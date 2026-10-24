@@ -1,4 +1,6 @@
 """Record only observed runtime/log evidence and exact screenshot identities."""
+raise SystemExit("Historical KSA Chinese 5602 tool; use package_mod.py/package_portable.py or summarize_multilingual_game.py for current Babel releases.")
+
 from pathlib import Path
 import hashlib,json,re,shutil
 root=Path(__file__).resolve().parents[1]

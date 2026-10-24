@@ -23,7 +23,7 @@ internal static partial class Program
         Game = Path.GetFullPath(Game);
         if (!File.Exists(Path.Combine(Game, "KSA.dll")))
             throw new InvalidOperationException("KSA_GAME_DIR must contain KSA.dll.");
-        var dirs = new[]{Game,Loader,Path.Combine(Root,"work","build","KsaChinese")};
+        var dirs = new[]{Game,Loader,Path.Combine(Root,"work","build","KsaBabel")};
         AssemblyLoadContext.Default.Resolving += (_,n) => dirs.Select(d=>Path.Combine(d,n.Name+".dll"))
             .Where(File.Exists).Select(AssemblyLoadContext.Default.LoadFromAssemblyPath).FirstOrDefault();
         NativeLibrary.SetDllImportResolver(typeof(Program).Assembly,(n,a,s)=> n=="KsaCheckImGui" ? NativeLibrary.Load(Path.Combine(Game,"imgui.dll")) : IntPtr.Zero);
@@ -40,11 +40,12 @@ internal static partial class Program
         Check(KSA.Constants.DocumentsFolderPath==Fixture,"玩家目录重定向至工作区");
         Check(LanguagePlugin.SupportsGameVersion("2026.10.19.5638") && !LanguagePlugin.SupportsGameVersion(null) && !LanguagePlugin.SupportsGameVersion("2026.10.19.5639"),"精确版本保护及未知版本拒绝");
         var previous=Brutal.Localization.LStrings.LocalizedStringProvider;
-        Compatibility.Validate(Game,Path.Combine(Root,"assets","KsaChinese","compatibility.json"));
+        Compatibility.Validate(Game,Path.Combine(Root,"assets","KsaBabel","compatibility.json"));
         Check(true,"游戏及依赖指纹匹配");
         ProfileSettingsChecks();
+        LauncherChecks();
         bool mismatch=false;
-        try { Compatibility.Validate(Fixture,Path.Combine(Root,"assets","KsaChinese","compatibility.json")); }
+        try { Compatibility.Validate(Fixture,Path.Combine(Root,"assets","KsaBabel","compatibility.json")); }
         catch(IOException) { mismatch=true; }
         Check(mismatch,"缺少或不同游戏文件安全拒绝");
         Runtime.Initialize();
@@ -74,7 +75,7 @@ internal static partial class Program
         Check(EditorLiteralPatch.StaticText("玩家自定义部件").ToString()=="玩家自定义部件","未知玩家名称回退");
         Check(PartContextCaptionPatch.InteractiveText("Control 用户飞船").Contains("用户飞船"),"动态对象名称后缀保留");
         Check(GaugeFontPatch.Name()==Runtime.FontName,"仪表选择中文字体");
-        var fontCandidates=new[]{"Content/KsaChinese/Fonts/KsaUiNotoSC.ttf",Runtime.FontPath,"Content/Core/Fonts/OtherFont.ttf"};
+        var fontCandidates=new[]{"Content/KsaBabel/Fonts/KsaUiNotoSC.ttf",Runtime.FontPath,"Content/Core/Fonts/OtherFont.ttf"};
         Check(FontRegistrationPatch.WithoutLocaleFont(fontCandidates,Runtime.FontName).SequenceEqual(new[]{"Content/Core/Fonts/OtherFont.ttf"}),"Content 相对路径与绝对路径的中文字体按图集键去重，其他字体保留");
         var startupLabels=new[]{"Interstellar (Dense)","Earth and Moon"};
         var startupIds=startupLabels.ToDictionary(x=>x,Runtime.StartupMenuText);
@@ -180,10 +181,15 @@ internal static partial class Program
         string DigestFile(string path) => Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(path))).ToLowerInvariant();
         var buildInputs = Directory.GetFiles(Path.Combine(Root,"src","KsaChinese"))
             .Where(p => Path.GetExtension(p) is ".cs" or ".csproj")
-            .Concat(Directory.GetFiles(Path.Combine(Root,"assets","KsaChinese"),"*",SearchOption.AllDirectories))
+            .Concat(Directory.GetFiles(Path.Combine(Root,"src","Launcher"))
+                .Where(p => Path.GetExtension(p) is ".cs" or ".csproj"))
+            .Concat(Directory.GetFiles(Path.Combine(Root,"assets","KsaBabel"),"*",SearchOption.AllDirectories))
             .ToDictionary(p => Path.GetRelativePath(Root,p).Replace('\\','/'),DigestFile);
+        var launcherFiles = new[] { ".exe", ".dll", ".deps.json", ".runtimeconfig.json" }
+            .Select(suffix => Path.Combine(Root, "work/build/Launcher", "KsaBabelLauncher" + suffix))
+            .ToDictionary(p => Path.GetFileName(p), DigestFile);
         var report=new{schema=1,gameVersion=typeof(KSA.Program).Assembly.GetName().Version?.ToString(),ksaSha256=DigestFile(Path.Combine(Game,"KSA.dll")),
-            pluginSha256=DigestFile(typeof(LanguagePlugin).Assembly.Location),buildInputs,
+            pluginSha256=DigestFile(typeof(LanguagePlugin).Assembly.Location),buildInputs,launcherFiles,
             fixture=Path.GetRelativePath(Root,Fixture),checks=Checks,targets=Targets,graphicalValidation="not covered by this headless test"};
         File.WriteAllText(Path.Combine(Root,"reports","5638-bootstrap-validation.json"),JsonSerializer.Serialize(report,new JsonSerializerOptions{WriteIndented=true}));
         Console.WriteLine($"PASS: {Checks.Count} checks, {Targets.Count} target references");
