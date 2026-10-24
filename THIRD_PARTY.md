@@ -20,5 +20,6 @@ KSP 词典或说明文字进入运行包；公开镜像来源与核对局限见 
 - 字体：Google Noto Sans SC，SIL OFL 1.1。源文件 SHA-256：`a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da`。来源：https://github.com/google/fonts/tree/main/ofl/notosanssc 。生成字体已重新命名家族，保留版权、字体许可证和来源记录。
 - KSA 本体 DLL、Core 文件、反编译源码、KSP 字典只作本机检查或术语参考，不在发行包和源码包中分发。
 - 历史验证截图来自原项目已公开的测试记录，仅用于展示游戏界面和验证范围；画面中的游戏美术、标识和 UI 归原权利人，不由本项目按 MIT 重新授权。
+- 正式封面为 `docs/branding/ksa-babel-cover-v3.png`，使用 AI 工具参考实机截图再创作；原始提示词与来源见 `docs/branding/`。封面及其缩放导出采用独立美术声明 `LicenseRef-KSA-Babel-Cover`，保留游戏元素权利，不继承模组包的 MIT/OFL 组合许可，详见 `docs/branding/ARTWORK-NOTICE.md`。
 
 运行需要已安装的 Microsoft .NET 10 x64 Runtime；本包不包含 .NET 安装器、SDK 或游戏运行时。
