@@ -1,5 +1,5 @@
-# Pending community publication. Render with scripts/prepare_listing.py only
-# after the maintainer approves the external post and supplies its real URL.
+# KSA Babel community listing source template.
+# Render with scripts/prepare_listing.py using the actual published forum URL.
 spec_version = 1
 id = "KsaBabel"
 type = "mod"
@@ -22,7 +22,7 @@ Multilingual display-layer localization for **KSA 2026.10.19.5638 on Windows x64
 
 This is **partial localization**, not an official translation or a claim of complete coverage. Older version-history text, native library/error text, texture lettering and complete UI/visual coverage remain unfinished. Compatibility with other localization mods has not been established.
 
-Requires .NET 10 x64 Runtime and StarMap 0.4.8. Extract the standard `KsaBabel-0.2.1.zip` into the selected profile's `mods` folder and enable `KsaBabel`. The plugin assembly is KsaBabel.dll. Launch through StarMap/Borea; this local listing template is not proof of public catalog inclusion.
+Requires .NET 10 x64 Runtime and StarMap 0.4.8. Extract the standard `KsaBabel-0.2.1.zip` into the selected profile's `mods` folder and enable `KsaBabel`. The plugin assembly is KsaBabel.dll. Launch through StarMap/Borea.
 
 For Borea-managed migration, remove KsaChinese from the instance while retaining profile data; disabling it alone does not resolve the catalog conflict. For manual installation, disable KsaChinese before enabling Babel; Babel refuses activation while KsaChinese is enabled. When migrating from the old portable package, first back up its Profile and move the old `<game>/Content/KsaChinese` out of Content. Do not keep both Content/KsaBabel and profile mods/KsaBabel. The standard mod ZIP does not bundle a loader or launcher.
 

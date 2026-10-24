@@ -2,7 +2,7 @@
 
 本项目预览包为 `KsaBabel-0.2.1-5638-Portable.zip`，从 [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/releases) 获取。原项目的 v0.1.6 Release 为简中版。0.2.1 的语言菜单包含英文、简中、日语、俄语、德语、法语、意大利语、西班牙语和巴西葡萄牙语。七种新增语言各覆盖现有 4,786 条底稿，另有 11 个动态模板；已完成 AI 语境复核，尚无独立母语审校，也不代表全游戏覆盖。
 
-本版使用独立模组 ID `KsaBabel`、插件程序集 `KsaBabel.dll` 和启动器 `KsaBabelLauncher.exe`。**先禁用旧 `KsaChinese`；旧模组仍启用时，Babel 拒绝激活。** 新项目尚未单独提交 Borea 公共目录收录，旧 KsaChinese 索引记录不能作为 Babel 的下载入口。
+本版使用独立模组 ID `KsaBabel`、插件程序集 `KsaBabel.dll` 和启动器 `KsaBabelLauncher.exe`。**先禁用旧 `KsaChinese`；旧模组仍启用时，Babel 拒绝激活。** Babel 的[收录 PR #227](https://github.com/KSAModding/content-index/pull/227)已合并，公共目录的验证状态见[发布记录](reports/community-publication-20261024.md)；旧 KsaChinese 条目仍属于纯中文项目。
 
 已有 StarMap/Borea 时优先选择独立的标准模组包，见 [生态安装与迁移](README-生态安装.md)；不要把整个便携包导入 Borea。完整解压便携包 **到含 `KSA.exe` 的游戏目录**。最终位置应为：
 

@@ -1,5 +1,5 @@
 {
-  "status": "DRAFT FOR OWNER REVIEW; forum publication and external index submission pending",
+  "status": "Forum published by owner; index PR #227 merged; KsaBabel 0.2.1 testing verified in the public snapshot with actual download",
   "forum": {
     "category": "User Interface",
     "title": "KSA Babel 0.2.1 — Nine-language localization preview for KSA 5638",
@@ -26,12 +26,20 @@
       "Babel download: https://github.com/kuxiaowo/KSA-Babel/releases/tag/v0.2.1 . Existing StarMap/Borea users should choose KsaBabel-0.2.1.zip, extract KsaBabel into the selected profile's mods folder, enable it, and launch through StarMap. The standard ZIP bundles no loader or launcher. If new settings do not exist, only a valid locale from the same profile's old KsaChinese/settings.json is imported; the old file is preserved and saves are not moved automatically. Babel public-catalog inclusion is still pending.",
       "Source: https://github.com/kuxiaowo/KSA-Babel/tree/v0.2.1 . Code and project-authored translations: MIT. Font subset: SIL OFL 1.1. Standard-package SPDX expression: MIT AND OFL-1.1. Original KSA Chinese and LiX-Works/KsaUiLanguages notices are retained. Fixed commits, font provenance and complete credits: https://github.com/kuxiaowo/KSA-Babel/blob/v0.2.1/THIRD_PARTY.md .",
       "Native-speaker corrections are welcome at https://github.com/kuxiaowo/KSA-Babel/issues ; include the language, English source, UI context and suggested wording."
-    ]
+    ],
+    "url": "https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/",
+    "published_by": "zhengxin pang (owner, manually posted)",
+    "copy_note": "The bilingual arrays preserve the reviewed draft, not a byte-for-byte transcript of the published post. The URL identifies the actual announcement."
   },
   "index_application": {
     "title": "Add KsaBabel — nine-language localization preview",
     "scope": "listings/KsaBabel.toml only",
-    "forum_url": "__FORUM_THREAD_URL__",
-    "summary": "New independent KsaBabel ID, release host kuxiaowo/KSA-Babel since 0.2.1, standard payload KsaBabel-0.2.1.zip; Windows KSA 2026.10.19.5638 and StarMap 0.4.8 exact bounds, MIT AND OFL-1.1, conflict with KsaChinese. The author's existing Chinese-focused project remains kuxiaowo/KSA-CHINESE, ID KsaChinese, v0.1.6, with its existing separate Borea entry. Only Simplified Chinese has been personally confirmed by the maintainer. Seven additional language packs use GPT translation/review with KSP terminology reference and await independent native-speaker review; Japanese includes credited MIT-licensed initial translations. English mode uses original KSA English with the added Language menu. Technical verification is documented in reports/0.2.1-独立ID与管理器验证.md; it is not linguistic sign-off or proof of public-catalog installation. Fill the actual published forum URL and rerun final upstream checks before submission."
+    "forum_url": "https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/",
+    "summary": "New independent KsaBabel ID, release host kuxiaowo/KSA-Babel since 0.2.1, standard payload KsaBabel-0.2.1.zip; Windows KSA 2026.10.19.5638 and StarMap 0.4.8 exact bounds, MIT AND OFL-1.1, conflict with KsaChinese. The author's existing Chinese-focused project remains kuxiaowo/KSA-CHINESE, ID KsaChinese, v0.1.6, with its existing separate Borea entry. Only Simplified Chinese has been personally confirmed by the maintainer. Seven additional language packs use GPT translation/review with KSP terminology reference and await independent native-speaker review; Japanese includes credited MIT-licensed initial translations. English mode uses original KSA English with the added Language menu. Technical verification is documented in reports/0.2.1-独立ID与管理器验证.md; it is not linguistic sign-off or proof of public-catalog installation. The actual forum URL is recorded, final local checks passed, and upstream PR #227 was validated and merged. See the publication record for public-snapshot verification.",
+    "pull_request": "https://github.com/KSAModding/content-index/pull/227",
+    "state": "MERGED",
+    "merge_commit": "398053eb2e4d4386e24909d956ace9760ee0c1bc",
+    "public_snapshot_verified": true,
+    "release_status": "testing"
   }
 }

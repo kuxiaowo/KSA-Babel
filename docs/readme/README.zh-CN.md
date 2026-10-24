@@ -39,7 +39,7 @@
 
 **先禁用旧模组：** `KsaChinese` 仍启用时，Babel 拒绝激活。Babel 只保留一个启用副本，不要同时留下 `Content/KsaBabel` 与档案 `mods/KsaBabel`。迁移前备份原有档案；安装包不含个人存档，也不会自动搬动存档，设置导入不会搜索其他档案。
 
-Babel 尚未单独提交 Borea 公共目录收录。旧目录中的 KsaChinese 记录和 v0.1.6 发布属于原项目，不能作为 Babel 的下载入口。当前使用本仓库 Release 手动安装；本项目没有向论坛或索引维护者发送消息。
+[Ahwoo 帖子](https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/)已发布，[Borea 收录 PR #227](https://github.com/KSAModding/content-index/pull/227)已合并。发布记录生成与公共快照验证状态见[发布记录](../../reports/community-publication-20261024.md)。旧目录中的 KsaChinese 条目和 v0.1.6 发布属于独立的纯中文项目。 KSA Babel 0.2.1 已进入公共目录，标为 `testing` 预览版；请使用允许测试版本的发布通道。
 
 通过 Borea 管理迁移时，先备份档案，再从该实例移除旧 KsaChinese 模组后安装 Babel：目录冲突会阻止安装，仅禁用旧模组仍不足以通过管理器规划。移除模组时保留档案数据。
 

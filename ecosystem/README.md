@@ -1,8 +1,8 @@
 # KSA Babel 社区索引准备
 
-当前模板为 `KsaBabel.toml.in`，对应独立 ID `KsaBabel` 和 0.2.1 起的发布。模板尚缺真实论坛 URL，不能直接提交。`scripts/prepare_listing.py` 只在填入发布后的真实 Ahwoo 帖子地址时生成最终条目。
+最终 Babel 条目为 [KsaBabel.toml](KsaBabel.toml)，对应独立 ID `KsaBabel` 和 0.2.1 起的发布，已填入维护者发布的真实 Ahwoo 地址。[收录 PR #227](https://github.com/KSAModding/content-index/pull/227)已通过检查并合并；发布记录和公共目录快照验证状态见[发布记录](../reports/community-publication-20261024.md)。`KsaBabel.toml.in` 保留为生成源模板；`scripts/prepare_listing.py` 用实际论坛 URL 生成最终条目。
 
-新的 Babel 论坛中英文草稿及申请内容见 [babel-publication-draft.json](babel-publication-draft.json)，供维护者审阅，尚未发布。草稿明确区分游戏原有英文、新增语言菜单、本人确认的中文与 GPT 参考 KSP 术语生成的七种新增语言，并列出纯中文项目仓库、ID、v0.1.6 发布及独立目录条目。下方历史帖子属于原中文项目。
+已审阅的 Babel 中英文草稿及实际公开链接见 [babel-publication-draft.json](babel-publication-draft.json)。维护者已手动发布[正式帖子](https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/)；草稿数组保留原审阅文案，实际发布内容以帖子为准。帖子与条目明确区分游戏原有英文、新增语言菜单、本人确认的中文与 GPT 参考 KSP 术语生成的七种新增语言，并列出纯中文项目仓库、ID、v0.1.6 发布及独立目录条目。下方历史帖子属于原中文项目。
 
 接入前验证与范围见 [0.2.1 报告](../reports/0.2.1-独立ID与管理器验证.md)。`scripts/prepare_ecosystem_validation.py` 使用本机 `.tools/content-index`、`.tools/content-index-releases` 与已构建标准包生成忽略目录中的候选索引；不向外部服务提交元数据。Python 需要上游 tools/requirements.txt 中的依赖，优先使用 conda。
 
@@ -15,7 +15,7 @@ dotnet work/ecosystem-artifacts/bin/EcosystemValidation/release/Borea.Cli.Tests.
 
 项目根、全新 work/test-profile-* 目录与隔离游戏副本必须换成自己的路径。`--management-only` 实际执行文件安装、启停、更新和卸载，但以记录器替代 OS 进程边界，不启动游戏窗口；其中 saves 哨兵只验证所有权保留，不是游戏存档加载测试。省略该参数会进入独立档案的真实游戏验证，会打开游戏窗口；窗口被最小化时可能暂停渲染，不能把超时或中断写成通过。
 
-候选旧 0.2.0 是当前源码以不同版本构建的本地合成夹具，不是曾公开的 KsaBabel 发行版。合成论坛地址只用于本地规范验证，不能发布。最终正式申请还需真实论坛地址、最终上游检查及收录后的公共目录下载验证。
+候选旧 0.2.0 是当前源码以不同版本构建的本地合成夹具，不是曾公开的 KsaBabel 发行版。合成论坛地址只用于历史本地规范验证，不用于公开条目。实际论坛地址、最终上游检查与后续公共目录下载验证独立记录在[发布记录](../reports/community-publication-20261024.md)中，历史夹具报告不改写为公开收录证据。
 
 ## 原中文项目的历史材料
 
