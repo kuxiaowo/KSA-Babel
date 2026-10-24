@@ -1,0 +1,26 @@
+{
+  "origin": "Independent KSA contextual translation, 2026-10-24; AI reviewed, native-language review pending",
+  "entries": {
+    "LanguageMenu": {"en-US":"Language","zh-CN":"语言","ja-JP":"言語","ru-RU":"Язык","de-DE":"Sprache","fr-FR":"Langue","it-IT":"Lingua","es-ES":"Idioma","pt-BR":"Idioma"},
+    "Mixture.RatioPrefix": {
+      "en-US":"The oxidizer-to-fuel mass ratio fed to the combustion chamber.\nTypical value for this mixture: ",
+      "zh-CN":"送入燃烧室的氧化剂与燃料质量比。\n此组合的典型值：",
+      "ja-JP":"燃焼室に供給される酸化剤と燃料の質量比。\nこの組み合わせの標準値：",
+      "ru-RU":"Массовое отношение окислителя к горючему, подаваемым в камеру сгорания.\nТипичное значение для этой смеси: ",
+      "de-DE":"Massenverhältnis von Oxidator zu Brennstoff am Eintritt in die Brennkammer.\nTypischer Wert für diese Mischung: ",
+      "fr-FR":"Rapport massique entre le comburant et le combustible alimentant la chambre de combustion.\nValeur typique pour ce mélange : ",
+      "it-IT":"Rapporto in massa tra ossidante e combustibile immessi nella camera di combustione.\nValore tipico per questa miscela: ",
+      "es-ES":"Relación de masas de oxidante y combustible suministrados a la cámara de combustión.\nValor típico para esta mezcla: ",
+      "pt-BR":"Razão de massa entre oxidante e combustível fornecidos à câmara de combustão.\nValor típico desta mistura: "
+    },
+    "Phase.Liquid": {"en-US":"Liquid {0}","zh-CN":"液态{0}","ja-JP":"液体{0}","ru-RU":"{0} (жидкость)","de-DE":"{0} (flüssig)","fr-FR":"{0} (liquide)","it-IT":"{0} (stato liquido)","es-ES":"{0} (estado líquido)","pt-BR":"{0} (estado líquido)"},
+    "Phase.Vapor": {"en-US":"{0} Vapor","zh-CN":"{0}蒸气","ja-JP":"{0}蒸気","ru-RU":"{0} (пар)","de-DE":"{0} (Dampf)","fr-FR":"{0} (vapeur)","it-IT":"{0} (vapore)","es-ES":"{0} (vapor)","pt-BR":"{0} (vapor)"},
+    "Phase.Ice": {"en-US":"{0} Ice","zh-CN":"固态{0}","ja-JP":"固体{0}","ru-RU":"{0} (лёд)","de-DE":"{0} (Eis)","fr-FR":"{0} (glace)","it-IT":"{0} (ghiaccio)","es-ES":"{0} (hielo)","pt-BR":"{0} (gelo)"},
+    "Phase.Gas": {"en-US":"Gas {0}","zh-CN":"气态{0}","ja-JP":"気体{0}","ru-RU":"{0} (газ)","de-DE":"{0} (gasförmig)","fr-FR":"{0} (gaz)","it-IT":"{0} (stato gassoso)","es-ES":"{0} (estado gaseoso)","pt-BR":"{0} (estado gasoso)"},
+    "Phase.Solid": {"en-US":"Solid {0}","zh-CN":"固态{0}","ja-JP":"固体{0}","ru-RU":"{0} (твёрдое вещество)","de-DE":"{0} (fest)","fr-FR":"{0} (solide)","it-IT":"{0} (stato solido)","es-ES":"{0} (estado sólido)","pt-BR":"{0} (estado sólido)"},
+    "Orbit.EccentricAnomaly": {"en-US":"Eccentric anomaly","zh-CN":"偏近点角","ja-JP":"離心近点角","ru-RU":"Эксцентрическая аномалия","de-DE":"Exzentrische Anomalie","fr-FR":"Anomalie excentrique","it-IT":"Anomalia eccentrica","es-ES":"Anomalía excéntrica","pt-BR":"Anomalia excêntrica"},
+    "Orbit.TrueAnomaly": {"en-US":"True anomaly","zh-CN":"真近点角","ja-JP":"真近点角","ru-RU":"Истинная аномалия","de-DE":"Wahre Anomalie","fr-FR":"Anomalie vraie","it-IT":"Anomalia vera","es-ES":"Anomalía verdadera","pt-BR":"Anomalia verdadeira"},
+    "Profiler.FramePrefix": {"en-US":"Profiler    frame ","zh-CN":"性能分析    帧 ","ja-JP":"プロファイラー    フレーム ","ru-RU":"Профилировщик    кадр ","de-DE":"Profiler    Frame ","fr-FR":"Profileur    image ","it-IT":"Profiler    fotogramma ","es-ES":"Perfilador    fotograma ","pt-BR":"Analisador    quadro "},
+    "Profiler.CpuPrefix": {"en-US":"CPU Profiler - ","zh-CN":"CPU 性能分析 - ","ja-JP":"CPU プロファイラー - ","ru-RU":"Профилировщик CPU - ","de-DE":"CPU-Profiler - ","fr-FR":"Profileur CPU - ","it-IT":"Profiler CPU - ","es-ES":"Perfilador de CPU - ","pt-BR":"Analisador de CPU - "}
+  }
+}

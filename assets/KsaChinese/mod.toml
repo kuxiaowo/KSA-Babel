@@ -1,0 +1,7 @@
+name = "KSA Babel 5638"
+version = "0.2.0"
+description = "Nine-language UI preview with English fallback for inspected KSA build 5638; native-speaker review pending"
+assets = []
+
+[StarMap]
+EntryAssembly = "KsaChinese"
