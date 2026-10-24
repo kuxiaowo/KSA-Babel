@@ -6,11 +6,15 @@ A multilingual localization framework for **Kitten Space Agency**, loaded throug
 
 KSA Babel is an independent multilingual project derived from [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE). The current version is the **0.2.1 preview**, supporting only **KSA 2026.10.19.5638 on Windows x64** with the inspected file hashes and **StarMap 0.4.8**.
 
+**Translation review and English mode:** The maintainer has personally confirmed only the Simplified Chinese translation. The Japanese, Russian, German, French, Italian, Spanish and Brazilian Portuguese packs were translated/reviewed by GPT in the KSA context, using KSP aerospace terminology as reference; they await independent native-speaker review. Some initial Japanese translations came from the credited MIT-licensed KsaUiLanguages project. English mode displays KSA's original English text and retains the mod's added `Language` menu. The 11 dynamic entries support multilingual text composition and original-English fallback; they do not mean 11 rewritten game texts.
+
+**Chinese-focused edition:** [KSA Chinese / KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE), mod ID `KsaChinese`, offers English / Simplified Chinese switching. Its current release is [v0.1.6](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.6), with standard archive `KsaChinese-0.1.6.zip`; it targets the inspected Windows x64 KSA 2026.10.19.5638 build with StarMap 0.4.8. It has its own [Borea catalog entry](https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml). Babel is the independent nine-language preview with ID `KsaBabel`. Choose the appropriate edition and do not enable both in the same profile.
+
 ## Languages and scope
 
 | Language | Locale | Game text |
 | --- | --- | --- |
-| English | `en-US` | Original game text + 11 dynamic templates |
+| English | `en-US` | Original game text; added language menu |
 | 简体中文 | `zh-CN` | 4,786 records + 11 dynamic templates |
 | 日本語 | `ja-JP` | 4,786 records + 11 dynamic templates |
 | Русский | `ru-RU` | 4,786 records + 11 dynamic templates |

@@ -6,11 +6,15 @@
 
 本项目从 [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) 独立整理。当前为 **0.2.1 预览版**，仅适配 Windows x64 的 **KSA 2026.10.19.5638**、已检查的文件哈希与 **StarMap 0.4.8**。
 
+**翻译确认与英文模式：**维护者本人仅确认了简体中文译文。日语、俄语、德语、法语、意大利语、西班牙语和巴西葡萄牙语由 GPT 结合 KSA 语境、参考 KSP 航天专业术语翻译与复核，尚无独立母语审校；日语部分初始译文来自已署名的 MIT 项目 KsaUiLanguages。英文模式显示 KSA 原有英文文本，并保留模组新增的 `Language` 语言菜单。11 个动态模板用于多语言文本拼接和原文回退，不表示改写了 11 处游戏英文。
+
+**只需要中文时：**可使用 [KSA Chinese / KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE)，模组 ID 为 `KsaChinese`，支持 English／简体中文切换。当前发布为 [v0.1.6](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.6)，标准包为 `KsaChinese-0.1.6.zip`，适配已检查的 Windows x64 KSA 2026.10.19.5638 与 StarMap 0.4.8，并有独立的 [Borea 目录条目](https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml)。Babel 是 ID 为 `KsaBabel` 的独立九语言预览项目；按需求选择，同一档案不要同时启用两者。
+
 ## 支持语言与范围
 
 | 语言 | 语言代码 | 游戏文本 |
 | --- | --- | --- |
-| English | `en-US` | 游戏原文 + 11 个动态模板 |
+| English | `en-US` | 游戏原有英文；新增语言菜单 |
 | 简体中文 | `zh-CN` | 4,786 条记录 + 11 个动态模板 |
 | 日本語 | `ja-JP` | 4,786 条记录 + 11 个动态模板 |
 | Русский | `ru-RU` | 4,786 条记录 + 11 个动态模板 |
