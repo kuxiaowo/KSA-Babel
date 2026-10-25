@@ -1,5 +1,5 @@
 {
-  "status": "Forum published by owner; index PR #227 merged; KsaBabel 0.2.1 testing verified in the public snapshot with actual download",
+  "status": "Historical 0.2.1 announcement and listing record; current stable software release is 0.2.2. Translation review limits remain unchanged.",
   "forum": {
     "category": "User Interface",
     "title": "KSA Babel 0.2.1 — Nine-language localization preview for KSA 5638",
@@ -41,5 +41,12 @@
     "merge_commit": "398053eb2e4d4386e24909d956ace9760ee0c1bc",
     "public_snapshot_verified": true,
     "release_status": "testing"
+  },
+  "current_release": {
+    "version": "0.2.2",
+    "release_status": "stable",
+    "url": "https://github.com/kuxiaowo/KSA-Babel/releases/tag/v0.2.2",
+    "previous_version": "0.2.1",
+    "previous_release_status": "testing"
   }
 }

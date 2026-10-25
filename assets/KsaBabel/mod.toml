@@ -1,6 +1,6 @@
 name = "KSA Babel 5638"
-version = "0.2.1"
-description = "Nine-language UI preview with English fallback for inspected KSA build 5638; native-speaker review pending"
+version = "0.2.2"
+description = "Nine-language UI localization with English fallback for inspected KSA build 5638; native-speaker review pending"
 assets = []
 
 [StarMap]

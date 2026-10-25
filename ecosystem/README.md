@@ -1,5 +1,7 @@
 # KSA Babel 社区索引准备
 
+当前正式版本为 **0.2.2**，使用 `stable` 通道。原 0.2.1 保留为历史 testing 预览版；目录会固定已收录版本的通道，因此正式发布采用新版本。构建与打包证据见 [0.2.2 报告](../reports/0.2.2-正式发布与验证.md)。`[releases].since = "0.2.1"` 保留历史发布，不限制后续正式版本。
+
 最终 Babel 条目为 [KsaBabel.toml](KsaBabel.toml)，对应独立 ID `KsaBabel` 和 0.2.1 起的发布，已填入维护者发布的真实 Ahwoo 地址。[收录 PR #227](https://github.com/KSAModding/content-index/pull/227)已通过检查并合并；发布记录和公共目录快照验证状态见[发布记录](../reports/community-publication-20261024.md)。`KsaBabel.toml.in` 保留为生成源模板；`scripts/prepare_listing.py` 用实际论坛 URL 生成最终条目。
 
 维护者已选定九语言文字 v3 封面。[目录封面更新 PR #228](https://github.com/KSAModding/content-index/pull/228)只更新 Babel 的图标与描述图片；记录中的 URL 固定到公开提交，尺寸、字节数与 SHA-256 已通过实际网络下载检查。原图、缩放导出和来源说明见[封面目录](../docs/branding/README.md)。模组二进制、版本号、兼容范围和原 KsaChinese 条目不变。论坛追加封面用的 BBCode 见 [babel-forum-cover.bbcode](babel-forum-cover.bbcode)；当前论坛 API 返回 403，本轮没有修改论坛正文。

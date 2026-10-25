@@ -1,6 +1,6 @@
-# KSA Babel：5638 九语种便携 Mod 预览
+# KSA Babel：5638 九语种便携 Mod
 
-本项目预览包为 `KsaBabel-0.2.1-5638-Portable.zip`，从 [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/releases) 获取。原项目的 v0.1.6 Release 为简中版。0.2.1 的语言菜单包含英文、简中、日语、俄语、德语、法语、意大利语、西班牙语和巴西葡萄牙语。七种新增语言各覆盖现有 4,786 条底稿，另有 11 个动态模板；已完成 AI 语境复核，尚无独立母语审校，也不代表全游戏覆盖。
+本项目正式包为 `KsaBabel-0.2.2-5638-Portable.zip`，从 [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/releases) 获取。原项目的 v0.1.6 Release 为简中版。0.2.2 的语言菜单包含英文、简中、日语、俄语、德语、法语、意大利语、西班牙语和巴西葡萄牙语。七种新增语言各覆盖现有 4,786 条底稿，另有 11 个动态模板；已完成 AI 语境复核，尚无独立母语审校，也不代表全游戏覆盖。
 
 本版使用独立模组 ID `KsaBabel`、插件程序集 `KsaBabel.dll` 和启动器 `KsaBabelLauncher.exe`。**先禁用旧 `KsaChinese`；旧模组仍启用时，Babel 拒绝激活。** Babel 的[收录 PR #227](https://github.com/KSAModding/content-index/pull/227)已合并，公共目录的验证状态见[发布记录](reports/community-publication-20261024.md)；旧 KsaChinese 条目仍属于纯中文项目。
 
@@ -19,7 +19,7 @@ Kitten Space Agency/
 
 本版随包加载器为 StarMap 0.4.8，修复了 5638 的 BRUTAL 依赖更名；旧 0.4.7 不能用于本版。
 
-汉化本身是 StarMap 代码 Mod，便携包将文件放在 `Content/KsaBabel`；加载器仅用于执行 Mod。**原始 `KSA.exe` 不会执行汉化代码**。没有替换原程序，也没有修改游戏 DLL。已使用 StarMap 的玩家请选标准模组包 `KsaBabel-0.2.1.zip`，安装到所选档案的 `mods/KsaBabel`，并在自己的 Mod 清单中启用 `KsaBabel`；不要同时留下 Content 和 mods 两份 Babel。
+汉化本身是 StarMap 代码 Mod，便携包将文件放在 `Content/KsaBabel`；加载器仅用于执行 Mod。**原始 `KSA.exe` 不会执行汉化代码**。没有替换原程序，也没有修改游戏 DLL。已使用 StarMap 的玩家请选标准模组包 `KsaBabel-0.2.2.zip`，安装到所选档案的 `mods/KsaBabel`，并在自己的 Mod 清单中启用 `KsaBabel`；不要同时留下 Content 和 mods 两份 Babel。
 
 默认将档案保存在 `KsaBabel/Profile`，原来的个人存档不搬动。`launcher-settings.json` 可指定已有档案路径，例如 `{"profile":"D:/KSA-Profile"}`；只在关闭游戏后修改，且已有清单需要启用 Core 和 KsaBabel、禁用 KsaChinese。若要继续使用旧便携档案，先备份旧 `KsaChinese/Profile`，再明确指定这个已有档案；不会自动搜索、复制或迁移另一个档案。
 
