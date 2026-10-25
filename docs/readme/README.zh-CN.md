@@ -6,11 +6,11 @@
 
 通过 StarMap 加载的 **Kitten Space Agency 多语言本地化框架**。KSA Babel 提供语言包、游戏内语言菜单、显示适配与共享字体子集，不替换游戏可执行文件或原始资源。
 
-本项目从 [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) 独立整理。当前为 **0.2.1 预览版**，仅适配 Windows x64 的 **KSA 2026.10.19.5638**、已检查的文件哈希与 **StarMap 0.4.8**。
+本项目从 [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) 独立整理。当前为 **0.2.2 正式版**，仅适配 Windows x64 的 **KSA 2026.10.19.5638**、已检查的文件哈希与 **StarMap 0.4.8**。
 
 **翻译确认与英文模式：**维护者本人仅确认了简体中文译文。日语、俄语、德语、法语、意大利语、西班牙语和巴西葡萄牙语由 GPT 结合 KSA 语境、参考 KSP 航天专业术语翻译与复核，尚无独立母语审校；日语部分初始译文来自已署名的 MIT 项目 KsaUiLanguages。英文模式显示 KSA 原有英文文本，并保留模组新增的 `Language` 语言菜单。11 个动态模板用于多语言文本拼接和原文回退，不表示改写了 11 处游戏英文。
 
-**只需要中文时：**可使用 [KSA Chinese / KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE)，模组 ID 为 `KsaChinese`，支持 English／简体中文切换。当前发布为 [v0.1.6](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.6)，标准包为 `KsaChinese-0.1.6.zip`，适配已检查的 Windows x64 KSA 2026.10.19.5638 与 StarMap 0.4.8，并有独立的 [Borea 目录条目](https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml)。Babel 是 ID 为 `KsaBabel` 的独立九语言预览项目；按需求选择，同一档案不要同时启用两者。
+**只需要中文时：**可使用 [KSA Chinese / KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE)，模组 ID 为 `KsaChinese`，支持 English／简体中文切换。当前发布为 [v0.1.6](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.6)，标准包为 `KsaChinese-0.1.6.zip`，适配已检查的 Windows x64 KSA 2026.10.19.5638 与 StarMap 0.4.8，并有独立的 [Borea 目录条目](https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml)。Babel 是 ID 为 `KsaBabel` 的独立九语言项目；按需求选择，同一档案不要同时启用两者。
 
 ## 支持语言与范围
 
@@ -32,16 +32,16 @@
 
 ## 安装
 
-从 [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/releases) 下载。0.2.1 安装包为预览版。
+从 [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/releases) 下载。0.2.2 安装包为正式版。
 
-- **已有 StarMap／Borea：** 使用 `KsaBabel-0.2.1.zip`，把其中的 `KsaBabel` 文件夹放入所选档案的 `mods` 目录，并启用该模组。详见[标准安装](../../README-生态安装.md)。
-- **随包启动器：** 将 `KsaBabel-0.2.1-5638-Portable.zip` 解压到含 `KSA.exe` 的游戏目录，运行 `KsaBabel/KsaBabelLauncher.exe`。详见[便携安装](../../README-便携Mod.md)。需要 .NET 10 x64 Runtime。
+- **已有 StarMap／Borea：** 使用 `KsaBabel-0.2.2.zip`，把其中的 `KsaBabel` 文件夹放入所选档案的 `mods` 目录，并启用该模组。详见[标准安装](../../README-生态安装.md)。
+- **随包启动器：** 将 `KsaBabel-0.2.2-5638-Portable.zip` 解压到含 `KSA.exe` 的游戏目录，运行 `KsaBabel/KsaBabelLauncher.exe`。详见[便携安装](../../README-便携Mod.md)。需要 .NET 10 x64 Runtime。
 
 从 0.2.1 起，模组 ID、安装目录和安装包前缀为 **`KsaBabel`**，插件程序集为 `KsaBabel.dll`，便携启动器为 `KsaBabel/KsaBabelLauncher.exe`。语言设置保存在当前档案的 `KsaBabel/settings.json`。首启时，仅在新设置文件不存在的情况下，才从同一档案旧 `KsaChinese/settings.json` 导入有效的 `locale`；不覆盖已有新设置，也不修改旧文件。
 
 **先禁用旧模组：** `KsaChinese` 仍启用时，Babel 拒绝激活。Babel 只保留一个启用副本，不要同时留下 `Content/KsaBabel` 与档案 `mods/KsaBabel`。迁移前备份原有档案；安装包不含个人存档，也不会自动搬动存档，设置导入不会搜索其他档案。
 
-[Ahwoo 帖子](https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/)已发布，[Borea 收录 PR #227](https://github.com/KSAModding/content-index/pull/227)已合并。发布记录生成与公共快照验证状态见[发布记录](../../reports/community-publication-20261024.md)。旧目录中的 KsaChinese 条目和 v0.1.6 发布属于独立的纯中文项目。 KSA Babel 0.2.1 已进入公共目录，标为 `testing` 预览版；请使用允许测试版本的发布通道。
+[Ahwoo 帖子](https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/)已发布，[Borea 收录 PR #227](https://github.com/KSAModding/content-index/pull/227)已合并。发布记录生成与公共快照验证状态见[发布记录](../../reports/community-publication-20261024.md)。旧目录中的 KsaChinese 条目和 v0.1.6 发布属于独立的纯中文项目。 KSA Babel 0.2.2 为正式发布，使用默认的 stable 通道。七种新增译文仍待独立母语审校。
 
 通过 Borea 管理迁移时，先备份档案，再从该实例移除旧 KsaChinese 模组后安装 Babel：目录冲突会阻止安装，仅禁用旧模组仍不足以通过管理器规划。移除模组时保留档案数据。
 
