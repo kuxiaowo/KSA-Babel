@@ -46,8 +46,8 @@ internal static partial class Program
                 "相态显示九语言保留底层字段: " + locale);
             if (locale != "en-US")
             {
-                Check(pack.Parts.Count == 650 && pack.Native.Count == 216 && pack.Display.Count == 1991
-                    && pack.Content.Count == 257 && pack.History.Count == 228,
+                Check(pack.Parts.Count == 650 && pack.Native.Count == 220 && pack.Display.Count == 2092
+                    && pack.Content.Count == 259 && pack.History.Count == 383,
                     "现有审阅范围各区段齐全: " + locale);
                 Check(Runtime.ImText(native).ToString() == native, "非 ASCII 原生文字 UTF-8 往返: " + locale);
             }

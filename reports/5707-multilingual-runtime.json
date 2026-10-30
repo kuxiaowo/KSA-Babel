@@ -1,0 +1,166 @@
+{
+  "scope": "Real loaded 5707 game, all nine locale switches, HDR settings and space weather screenshots; not exhaustive linguistic or HDR-output acceptance",
+  "results": [
+    {
+      "locale": "en-US",
+      "selected": "en-US",
+      "resolution": "Resolution",
+      "gaugeFont": "MilSpec33558",
+      "plugin": "mods/KsaBabel/KsaBabel.dll",
+      "weather": "Solar wind: ",
+      "actualGameVersion": "2026.10.25.5707"
+    },
+    {
+      "locale": "ja-JP",
+      "selected": "ja-JP",
+      "resolution": "解像度",
+      "gaugeFont": "KsaUiNotoSC",
+      "plugin": "mods/KsaBabel/KsaBabel.dll",
+      "weather": "太陽風: ",
+      "actualGameVersion": "2026.10.25.5707"
+    },
+    {
+      "locale": "ru-RU",
+      "selected": "ru-RU",
+      "resolution": "Разрешение",
+      "gaugeFont": "KsaUiNotoSC",
+      "plugin": "mods/KsaBabel/KsaBabel.dll",
+      "weather": "Солнечный ветер: ",
+      "actualGameVersion": "2026.10.25.5707"
+    },
+    {
+      "locale": "de-DE",
+      "selected": "de-DE",
+      "resolution": "Auflösung",
+      "gaugeFont": "KsaUiNotoSC",
+      "plugin": "mods/KsaBabel/KsaBabel.dll",
+      "weather": "Sonnenwind: ",
+      "actualGameVersion": "2026.10.25.5707"
+    },
+    {
+      "locale": "fr-FR",
+      "selected": "fr-FR",
+      "resolution": "Résolution",
+      "gaugeFont": "KsaUiNotoSC",
+      "plugin": "mods/KsaBabel/KsaBabel.dll",
+      "weather": "Vent solaire: ",
+      "actualGameVersion": "2026.10.25.5707"
+    },
+    {
+      "locale": "it-IT",
+      "selected": "it-IT",
+      "resolution": "Risoluzione",
+      "gaugeFont": "KsaUiNotoSC",
+      "plugin": "mods/KsaBabel/KsaBabel.dll",
+      "weather": "Vento solare: ",
+      "actualGameVersion": "2026.10.25.5707"
+    },
+    {
+      "locale": "es-ES",
+      "selected": "es-ES",
+      "resolution": "Resolución",
+      "gaugeFont": "KsaUiNotoSC",
+      "plugin": "mods/KsaBabel/KsaBabel.dll",
+      "weather": "Viento solar: ",
+      "actualGameVersion": "2026.10.25.5707"
+    },
+    {
+      "locale": "pt-BR",
+      "selected": "pt-BR",
+      "resolution": "Resolução",
+      "gaugeFont": "KsaUiNotoSC",
+      "plugin": "mods/KsaBabel/KsaBabel.dll",
+      "weather": "Vento solar: ",
+      "actualGameVersion": "2026.10.25.5707"
+    },
+    {
+      "locale": "zh-CN",
+      "selected": "zh-CN",
+      "resolution": "分辨率",
+      "gaugeFont": "KsaUiNotoSC",
+      "plugin": "mods/KsaBabel/KsaBabel.dll",
+      "weather": "太阳风: ",
+      "actualGameVersion": "2026.10.25.5707"
+    }
+  ],
+  "game_version": "2026.10.25.5707",
+  "exit_code": 0,
+  "stderr_empty": true,
+  "profile": "work/test-profile-5707-nine",
+  "screenshots": [
+    {
+      "path": "reports/screenshots/023-display-en-US.png",
+      "sha256": "beafecd7b13d4544666c3cae1cea2b8aedfb8b4e020e7144238863705230d880"
+    },
+    {
+      "path": "reports/screenshots/023-weather-en-US.png",
+      "sha256": "e6897d8c60ef3b74e5aed28425c10609dffec89d4e5a8c60e390931a23b85775"
+    },
+    {
+      "path": "reports/screenshots/023-display-ja-JP.png",
+      "sha256": "40bf8e4f7b4437937c821306c67f50724bca5d62a89b664cb17185d02f3f4336"
+    },
+    {
+      "path": "reports/screenshots/023-weather-ja-JP.png",
+      "sha256": "e3d3d05c97b46fe35cb46a9b18d146c7b14bd56075f02235ec5810dd4a40d820"
+    },
+    {
+      "path": "reports/screenshots/023-display-ru-RU.png",
+      "sha256": "02288dcdd1dbfd5f5b2742e69a588ee9f43cb687db3f281559471297f0e7c9b3"
+    },
+    {
+      "path": "reports/screenshots/023-weather-ru-RU.png",
+      "sha256": "74f553dd39cc0072f77639e0cf6d6eafb7284b091a84a8e7e6bdb8feefb74c3b"
+    },
+    {
+      "path": "reports/screenshots/023-display-de-DE.png",
+      "sha256": "9b04e0aa7d6f9ecfd91f26c0faa16086f633a09513a981e066e4c6ed2779c2ff"
+    },
+    {
+      "path": "reports/screenshots/023-weather-de-DE.png",
+      "sha256": "0c00b3430bcaa99fcddbb17de749f548ec0ad6fe36be338b98e3f8a7e5d43874"
+    },
+    {
+      "path": "reports/screenshots/023-display-fr-FR.png",
+      "sha256": "79ecfd567f3499d818ecb313fcc62d8af2014bbde31d5f979136814bfd5615be"
+    },
+    {
+      "path": "reports/screenshots/023-weather-fr-FR.png",
+      "sha256": "dad85be244a82a81bed885455a342a8009361120c1c98d49ad2c23c051afce85"
+    },
+    {
+      "path": "reports/screenshots/023-display-it-IT.png",
+      "sha256": "92226d8c0ece1ae471c48d893af5b6ac14682c4d982ba3fdfe0fa1ac1c1f6cd9"
+    },
+    {
+      "path": "reports/screenshots/023-weather-it-IT.png",
+      "sha256": "e54b4e963dd90e8e0154ea923e45bb8fddb88cacf8965082268ffb9649bed8ad"
+    },
+    {
+      "path": "reports/screenshots/023-display-es-ES.png",
+      "sha256": "d5aa4063a01eec8feff00ab2f7143f7f6aaa6885fef30c5e65e7599fc17f51c5"
+    },
+    {
+      "path": "reports/screenshots/023-weather-es-ES.png",
+      "sha256": "91f6fb1586e72b3b246cf116eb7a3bf7485474eb7973f581783e73a709ee59d7"
+    },
+    {
+      "path": "reports/screenshots/023-display-pt-BR.png",
+      "sha256": "afcfa2d644c10d9753c7dcf333f0f844335855bfc085793132dba856e2fd5081"
+    },
+    {
+      "path": "reports/screenshots/023-weather-pt-BR.png",
+      "sha256": "5c6ee1d34fe269a06eb731efadd0927c2f32cc5cbccef2c615f77936ee40dbeb"
+    },
+    {
+      "path": "reports/screenshots/023-display-zh-CN.png",
+      "sha256": "abb5212a11e14fa4a1e7a31de4f8b83e6cc24a760ab508cedfa3d92364076109"
+    },
+    {
+      "path": "reports/screenshots/023-weather-zh-CN.png",
+      "sha256": "b48253745b6cc057711f7a03ad459cf1e05c84bce1b49680c4a5244f098ac29a"
+    }
+  ],
+  "plugin_sha256": "192ea9d11f0303c5146fedbc602b2e280d7ab25bacba39a5c0defc64fdb85e13",
+  "visual_limits": "Sampled Japanese/Russian/German HDR and German/French/Portuguese space weather windows. Existing narrow HUD buttons still clip some long translations. Not all UI states, resolutions or physical HDR output were accepted."
+}

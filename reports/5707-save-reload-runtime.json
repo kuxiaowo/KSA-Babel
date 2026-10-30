@@ -1,0 +1,16 @@
+{
+  "game_version": "2026.10.25.5707",
+  "profile": "work/test-profile-5707-release",
+  "exit_code": 0,
+  "stderr_empty": true,
+  "plugin_sha256": "192ea9d11f0303c5146fedbc602b2e280d7ab25bacba39a5c0defc64fdb85e13",
+  "save_reload": true,
+  "loaded_parts": 650,
+  "translated_parts": 649,
+  "substances": 84,
+  "phases": 121,
+  "reactions": 17,
+  "input_actions": 103,
+  "original_content_fields_unchanged": true,
+  "scope": "Isolated Chinese/English runtime exercise of the final Babel plugin; roster, HDR, changelog, weather, map, save/reload. Not exhaustive visual or long-run acceptance."
+}
