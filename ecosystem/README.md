@@ -24,3 +24,5 @@ dotnet work/ecosystem-artifacts/bin/EcosystemValidation/release/Borea.Cli.Tests.
 ## 原中文项目的历史材料
 
 `forum-post.en.md`、`index-pr.en.md` 和原 KsaChinese 条目记录 KSA Chinese 0.1.6 的历史，不是 Babel 的发布文案或收录证明。旧条目的论坛、仓库、安装 ID 与当前 Babel 均需区分；不得把原帖地址直接当作新项目已经发帖的证据。
+
+本轮 5707 更新已完成：[content-index #252](https://github.com/KSAModding/content-index/pull/252) 已合并，公共目录和 Borea 0.5.2 隔离安装验证通过。详见 `../reports/5707-publication.json` 与 `../reports/5707-public-catalog-validation.json`；上方旧记录保留为历史证据。
