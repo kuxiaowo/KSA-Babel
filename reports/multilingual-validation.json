@@ -1,28 +1,28 @@
 {
-  "source_entries": 4786,
-  "source_game": "2026.10.19.5638",
+  "source_entries": 5051,
+  "source_game": "2026.10.25.5707",
   "meaning": "Record completeness against reviewed Chinese scope; not full-game or native-speaker acceptance.",
   "locales": {
     "ja-JP": {
-      "decisions": 4786,
+      "decisions": 5051,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 257,
+        "content": 259,
         "controls": 106,
         "editor": 167,
         "hud": 43,
         "literals": 86,
-        "native": 216,
+        "native": 220,
         "planning": 245,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
         "utility": 297,
-        "gauges": 84,
+        "gauges": 86,
         "scoped": 13,
-        "display": 1991,
-        "history": 228,
+        "display": 2092,
+        "history": 384,
         "parts": 650
       },
       "identical_to_english": [
@@ -49,28 +49,28 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "01deaa2b1a72ca6a99367c585b14a27a30596946a4be52b9d9c388f9e235325c"
+      "runtime_sha256": "2797264443f59d5f3c2c65924349c50992326efd64cc01f9971fa0931e041775"
     },
     "ru-RU": {
-      "decisions": 4786,
+      "decisions": 5051,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 257,
+        "content": 259,
         "controls": 106,
         "editor": 167,
-        "gauges": 84,
+        "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 216,
+        "native": 220,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
         "utility": 297,
-        "display": 1991,
-        "history": 228,
+        "display": 2092,
+        "history": 384,
         "parts": 650
       },
       "identical_to_english": [
@@ -94,28 +94,28 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "33b934d37b7084473ad094a4e708a5e34260062646d8deec947d93225fb634a2"
+      "runtime_sha256": "492413607b8c870fd1d8fe68a0732d4b501cf274024b75a0a6d505fd60df9c9e"
     },
     "de-DE": {
-      "decisions": 4786,
+      "decisions": 5051,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 257,
+        "content": 259,
         "controls": 106,
         "editor": 167,
-        "gauges": 84,
+        "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 216,
+        "native": 220,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
         "utility": 297,
-        "display": 1991,
-        "history": 228,
+        "display": 2092,
+        "history": 384,
         "parts": 650
       },
       "identical_to_english": [
@@ -269,31 +269,32 @@
         "display:VRAM",
         "display:Wind",
         "display:Z-Bins",
-        "parts:CorePropulsionA_Prefab_EngineA4"
+        "parts:CorePropulsionA_Prefab_EngineA4",
+        "5707-update-089"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "93d72646197f03d18db792438010873dca6ef26ee4152cf4cb61c1c8c12d0e37"
+      "runtime_sha256": "84419fd670ba2ca18b41cea3cc3ad4094133bafbd0790643bda765305000ac97"
     },
     "fr-FR": {
-      "decisions": 4786,
+      "decisions": 5051,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 257,
+        "content": 259,
         "controls": 106,
         "editor": 167,
-        "gauges": 84,
+        "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 216,
+        "native": 220,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
         "utility": 297,
-        "display": 1991,
-        "history": 228,
+        "display": 2092,
+        "history": 384,
         "parts": 650
       },
       "identical_to_english": [
@@ -482,28 +483,28 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "1ca785ccf896c26f9bae33f3db181a9a8d2a313afcb77f7a6e792cb20f2ac928"
+      "runtime_sha256": "4e58acbdadce6d4319ecf4bde3039b8d5925cfd2c65ab24dfd221933e8b2fa93"
     },
     "it-IT": {
-      "decisions": 4786,
+      "decisions": 5051,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 257,
+        "content": 259,
         "controls": 106,
         "editor": 167,
-        "gauges": 84,
+        "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 216,
+        "native": 220,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
         "utility": 297,
-        "display": 1991,
-        "history": 228,
+        "display": 2092,
+        "history": 384,
         "parts": 650
       },
       "identical_to_english": [
@@ -599,28 +600,28 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "6f4575ccb9be18ba979656fd4fa5e919b115f1f2c36b147cff2651944e100cc1"
+      "runtime_sha256": "2c909bc641f6cd0c7bc5fa99461f0b91d811107981446093d9e5384c15f8771a"
     },
     "es-ES": {
-      "decisions": 4786,
+      "decisions": 5051,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 257,
+        "content": 259,
         "controls": 106,
         "editor": 167,
-        "gauges": 84,
+        "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 216,
+        "native": 220,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
         "utility": 297,
-        "display": 1991,
-        "history": 228,
+        "display": 2092,
+        "history": 384,
         "parts": 650
       },
       "identical_to_english": [
@@ -703,28 +704,28 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "76af4412bc15e4130c1ce84947b654fa9011c258c938007c2ca16a5f0b574b26"
+      "runtime_sha256": "4bea6905482e14377e31d2cadefa964d99eea42e3055f9392d40a4476859d340"
     },
     "pt-BR": {
-      "decisions": 4786,
+      "decisions": 5051,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 257,
+        "content": 259,
         "controls": 106,
         "editor": 167,
-        "gauges": 84,
+        "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 216,
+        "native": 220,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
         "utility": 297,
-        "display": 1991,
-        "history": 228,
+        "display": 2092,
+        "history": 384,
         "parts": 650
       },
       "identical_to_english": [
@@ -811,7 +812,7 @@
         "parts:CorePropulsionA_Prefab_EngineA4"
       ],
       "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "ce9723c52b397fd1f742b0a935457b62a60fd16722f7965f6ffd3d889a81b5de"
+      "runtime_sha256": "3aa7cbba6bb58c98fd5690eb0829cbf57ed489259fbbd273937fcc567cc1ae1f"
     }
   },
   "errors": [],

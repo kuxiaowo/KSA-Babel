@@ -1,0 +1,11 @@
+LicenseRef-KSA-Test-Screenshots
+
+Applies to reports/screenshots/023-*.png: real Kitten Space Agency screenshots
+captured in an isolated development profile to document localization testing.
+Capture and localization: kuxiaowo / KSA Babel contributors.
+Game: Kitten Space Agency / RocketWerkz. Game imagery and assets remain the
+property of their respective rights holders. These screenshots are evidence in
+the mod documentation, not newly authored game assets or official endorsement.
+The repository MIT license does not relicense the underlying game imagery.
+Clients may fetch, display and cache these documentation images with credit.
+This notice grants no separate right to extract or redistribute game assets.

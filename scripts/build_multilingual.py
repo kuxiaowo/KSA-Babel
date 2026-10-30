@@ -26,12 +26,14 @@ def main():
                         help='Write coverage report only; never emit incomplete runtime packs.')
     parser.add_argument('--check', action='store_true', help='Check all generated packs against decisions without rewriting them.')
     args = parser.parse_args()
-    source = [json.loads(line) for line in (ROOT/'translations/reviewed-5638.jsonl').read_text(encoding='utf-8').splitlines()]
+    game_version = json.loads((ROOT/'assets/KsaBabel/compatibility.json').read_text(encoding='utf-8'))['version']
+    game_build = game_version.rsplit('.', 1)[-1]
+    source = [json.loads(line) for line in (ROOT/f'translations/reviewed-{game_build}.jsonl').read_text(encoding='utf-8').splitlines()]
     source = {row['id']: row for row in source if row['review_status'] == 'reviewed'}
     sections = list(json.loads((ROOT/'assets/KsaBabel/Locales/zh-CN.json').read_text(encoding='utf-8')))
     sections = [s for s in sections if s not in ('locale','displayName','fontFile','dynamic')]
     dynamic = json.loads((ROOT/'translations/multilingual/dynamic.json').read_text(encoding='utf-8'))['entries']
-    report = {'source_entries': len(source), 'source_game': '2026.10.19.5638',
+    report = {'source_entries': len(source), 'source_game': game_version,
               'meaning': 'Record completeness against reviewed Chinese scope; not full-game or native-speaker acceptance.',
               'locales': {}, 'errors': []}
     packs = {}

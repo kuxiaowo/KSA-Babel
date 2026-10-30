@@ -1,8 +1,8 @@
 {
-  "archive": "KsaBabel-0.2.2-5638-Portable.zip",
-  "sha256": "b548144c19788fb44c7430842c24517e0bebb03dfcb673ac034fc47cf5a06679",
-  "files": 41,
-  "bytes": 2560581,
+  "archive": "KsaBabel-0.2.3-5707-Portable.zip",
+  "sha256": "ed68f0c729af9c356a2bf911b19d4e55e51258f06402d268c56d9b5897c5f45a",
+  "files": 42,
+  "bytes": 2736721,
   "game_binaries_included": false,
   "player_data_included": false
 }

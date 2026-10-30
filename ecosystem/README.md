@@ -1,6 +1,6 @@
 # KSA Babel 社区索引准备
 
-当前正式版本为 **0.2.2**，使用 `stable` 通道。原 0.2.1 保留为历史 testing 预览版；目录会固定已收录版本的通道，因此正式发布采用新版本。构建与打包证据见 [0.2.2 报告](../reports/0.2.2-正式发布与验证.md)。`[releases].since = "0.2.1"` 保留历史发布，不限制后续正式版本。
+本轮正式版本为 **0.2.3**，适配精确 KSA 2026.10.25.5707。新增范围及验证见 [0.2.3 报告](../reports/0.2.3-5707适配与验证.md)。下文保留此前目录发布历史。此前正式版本为 **0.2.2**，使用 `stable` 通道。原 0.2.1 保留为历史 testing 预览版；目录会固定已收录版本的通道，因此正式发布采用新版本。构建与打包证据见 [0.2.2 报告](../reports/0.2.2-正式发布与验证.md)。`[releases].since = "0.2.1"` 保留历史发布，不限制后续正式版本。
 
 最终 Babel 条目为 [KsaBabel.toml](KsaBabel.toml)，对应独立 ID `KsaBabel` 和 0.2.1 起的发布，已填入维护者发布的真实 Ahwoo 地址。[收录 PR #227](https://github.com/KSAModding/content-index/pull/227)已通过检查并合并；发布记录和公共目录快照验证状态见[发布记录](../reports/community-publication-20261024.md)。`KsaBabel.toml.in` 保留为生成源模板；`scripts/prepare_listing.py` 用实际论坛 URL 生成最终条目。
 

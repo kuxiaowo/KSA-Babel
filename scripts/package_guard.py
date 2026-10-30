@@ -7,7 +7,7 @@ def verify_package_inputs(root):
     translation=json.loads((root/'reports/multilingual-validation.json').read_text(encoding='utf-8'))
     if translation.get('complete') is not True or translation.get('errors'):
         raise ValueError('Multilingual translation validation is incomplete')
-    validation=json.loads((root/'reports/5638-bootstrap-validation.json').read_text(encoding='utf-8'))
+    validation=json.loads((root/'reports/5707-bootstrap-validation.json').read_text(encoding='utf-8'))
     digest=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
     plugin=root/'work/build/KsaBabel/KsaBabel.dll'
     if validation.get('pluginSha256')!=digest(plugin):raise ValueError('Plugin has no matching completed headless validation')
