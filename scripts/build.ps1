@@ -4,7 +4,7 @@ $taskRoot=Split-Path $PSScriptRoot -Parent
 if([string]::IsNullOrWhiteSpace($GameDir)) { throw 'Specify -GameDir or set KSA_GAME_DIR to the local KSA installation.' }
 $GameDir=[IO.Path]::GetFullPath($GameDir)
 if(!(Test-Path -LiteralPath (Join-Path $GameDir 'KSA.dll') -PathType Leaf)) { throw 'GameDir must contain KSA.dll.' }
-if(!$LoaderDir) { $LoaderDir=Join-Path $taskRoot '.tools\StarMap-0.4.8' }
+if(!$LoaderDir) { $LoaderDir=Join-Path $taskRoot '.tools\StarMap-0.5.4' }
 $taskExpected=(Get-Content -LiteralPath (Join-Path $taskRoot 'assets\KsaBabel\compatibility.json') -Raw | ConvertFrom-Json).files.'KSA.dll'
 if((Get-FileHash -LiteralPath (Join-Path $GameDir 'KSA.dll') -Algorithm SHA256).Hash.ToLowerInvariant() -ne $taskExpected) { throw 'Uninspected KSA.dll; build/validation stopped.' }
 $taskLauncher=Join-Path $taskRoot 'work\build\Launcher'

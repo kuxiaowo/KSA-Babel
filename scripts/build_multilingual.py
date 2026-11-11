@@ -56,13 +56,14 @@ def main():
                 report['errors'].append([locale,key,'dynamic placeholders'])
         identical = []
         by_section = collections.Counter()
+        review_statuses = collections.Counter()
         for ident, row in decisions.items():
             if ident not in source: continue
             original = source[ident]
             value = row['translation']
             if not isinstance(value,str) or not value.strip():
                 report['errors'].append([locale,ident,'empty translation']); continue
-            if not row.get('origin') or row.get('review_status') not in ('ai-reviewed','reviewed'):
+            if not row.get('origin') or row.get('review_status') not in ('ai-reviewed','reviewed','machine-checked','source-fallback'):
                 report['errors'].append([locale,ident,'missing provenance/review status'])
             en = original['english']
             if original['section'] != 'parts':
@@ -78,9 +79,11 @@ def main():
             if value == en: identical.append(ident)
             pack[original['section']][original['key']] = value
             by_section[original['section']] += 1
+            review_statuses[row['review_status']] += 1
         report['locales'][locale] = {'decisions':len(decisions),'missing':missing,'unknown':unknown,
             'sections':dict(by_section),'identical_to_english':identical,
-            'review_status':'AI reviewed; awaiting independent native-language and visual review'}
+            'review_statuses':dict(review_statuses),
+            'review_status':'Independent native-language review pending'}
         if unknown: report['errors'].append([locale,'unknown source IDs',unknown])
         packs[locale] = pack
     report_path = ROOT/'reports/multilingual-validation.json'

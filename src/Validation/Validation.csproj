@@ -4,7 +4,7 @@
     <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <KsaDir Condition="'$(KsaDir)' == ''">$(KSA_GAME_DIR)</KsaDir>
     <LoaderDir Condition="'$(LoaderDir)' == ''">$(KSA_LOADER_DIR)</LoaderDir>
-    <LoaderDir Condition="'$(LoaderDir)' == ''">$(MSBuildThisFileDirectory)..\..\.tools\StarMap-0.4.8</LoaderDir>
+    <LoaderDir Condition="'$(LoaderDir)' == ''">$(MSBuildThisFileDirectory)..\..\.tools\StarMap-0.5.4</LoaderDir>
     <PluginDir Condition="'$(PluginDir)' == ''">$(MSBuildThisFileDirectory)..\..\work\build\KsaBabel</PluginDir>
   </PropertyGroup>
   <ItemGroup>

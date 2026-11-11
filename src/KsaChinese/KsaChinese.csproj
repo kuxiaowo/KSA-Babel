@@ -5,13 +5,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AssemblyName>KsaBabel</AssemblyName>
-    <Version>0.2.3</Version>
+    <Version>0.2.4</Version>
     <DebugType>none</DebugType>
     <DebugSymbols>false</DebugSymbols>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <KsaDir Condition="'$(KsaDir)' == ''">$(KSA_GAME_DIR)</KsaDir>
     <LoaderDir Condition="'$(LoaderDir)' == ''">$(KSA_LOADER_DIR)</LoaderDir>
-    <LoaderDir Condition="'$(LoaderDir)' == ''">$(MSBuildThisFileDirectory)..\..\.tools\StarMap-0.4.8</LoaderDir>
+    <LoaderDir Condition="'$(LoaderDir)' == ''">$(MSBuildThisFileDirectory)..\..\.tools\StarMap-0.5.4</LoaderDir>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="*.cs" />

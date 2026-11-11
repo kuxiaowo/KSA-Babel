@@ -1,0 +1,197 @@
+{
+  "game_version": "2026.11.10.5801",
+  "resolution": "1920x1080",
+  "starmap_version": "0.5.4",
+  "runtime": {
+    "profile": "work/test-profile-5801-nine-package",
+    "exit_code": 0,
+    "stderr_empty": true,
+    "plugin_sha256": "8b556e53c87c2a265fd60e3587d8d658380059b986391abe39e16c2e991e7e92",
+    "version_check_http_502": true,
+    "screenshots": [
+      {
+        "label": "multilingual-en-US",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002305_1920x1080.png",
+        "sha256": "e96d714fe67eb33c5f87a3b41a8617f139a31a054647774359c002a2b12e6495"
+      },
+      {
+        "label": "5801-habitat-en-US",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002309_1920x1080.png",
+        "sha256": "912c65e7a9868aafd1d4a579f6fc13f8b5bb54f984a3b1ae7f9b49c7241f38b3"
+      },
+      {
+        "label": "multilingual-ja-JP",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002315_1920x1080.png",
+        "sha256": "bb3331f9fd42d9d252d867d8befa2927a621194ed362d1685f50d2b97d94998c"
+      },
+      {
+        "label": "5801-habitat-ja-JP",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002319_1920x1080.png",
+        "sha256": "cc7de5fbed76c437ec42dc0ccf21db09fc9fb8543426ba1e0bd8dc64ac118197"
+      },
+      {
+        "label": "multilingual-ru-RU",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002325_1920x1080.png",
+        "sha256": "33c2aebbcb147e0c07a184b81fb3adee3b0bc38c8cfbb895116d78c4e3b22ceb"
+      },
+      {
+        "label": "5801-habitat-ru-RU",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002329_1920x1080.png",
+        "sha256": "6c5c15e339c2c2bad933a1d7e6f930f6e794e9c21aaa4672a9af62a318944f05"
+      },
+      {
+        "label": "multilingual-de-DE",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002335_1920x1080.png",
+        "sha256": "ec6796e32c5f4a76afe21fae75acc4e865409d64cc6834baaaf9534ecb44ed32"
+      },
+      {
+        "label": "5801-habitat-de-DE",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002339_1920x1080.png",
+        "sha256": "8f3d6e9818c2cd4fe579634e7f2ef5ed9da2c2e57896eab124f4de1066ffb1aa"
+      },
+      {
+        "label": "multilingual-fr-FR",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002345_1920x1080.png",
+        "sha256": "5f863fe9c669ab23f24389827cfc3e063d0f1d7737323954ec3a57ddbfd70fa1"
+      },
+      {
+        "label": "5801-habitat-fr-FR",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002349_1920x1080.png",
+        "sha256": "648ce70a6b19a8f65083c29ee74c0995c04b7eeab5ad03f99d3fbff97158751e"
+      },
+      {
+        "label": "multilingual-it-IT",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002355_1920x1080.png",
+        "sha256": "c0b61ddcbc7364edd3d6cc5c5f8801992f3c42ab5710cd28e64199cbcbcbfdea"
+      },
+      {
+        "label": "5801-habitat-it-IT",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002359_1920x1080.png",
+        "sha256": "a8c0d55fba43af5eabce3c5aeff900ab2d3917b6adbc11bf82088a617bb189a1"
+      },
+      {
+        "label": "multilingual-es-ES",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002405_1920x1080.png",
+        "sha256": "632b6ef344354bb756da97a01f6d92ba934de66d07e8f1ccd4d7f028754d1745"
+      },
+      {
+        "label": "5801-habitat-es-ES",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002409_1920x1080.png",
+        "sha256": "458c5985f9780551d57345c5766e4f8000a3e3b5a84d4d9dcf32553a5e6e4a3d"
+      },
+      {
+        "label": "multilingual-pt-BR",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002415_1920x1080.png",
+        "sha256": "e90bc2cde2fca8023394fb8f9bb814b689032de7908746aa9681e95c8907b3ba"
+      },
+      {
+        "label": "5801-habitat-pt-BR",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002419_1920x1080.png",
+        "sha256": "4b452bf5fa2d51b38684c710b02c89cfb201e0b2bc62e2acb857df21c6b8ed7d"
+      },
+      {
+        "label": "multilingual-zh-CN",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002425_1920x1080.png",
+        "sha256": "7d7c5eeeb9708030c40fe6c6ee97c103cb1b4f255c57dd7bae299d6d91ee9828"
+      },
+      {
+        "label": "5801-habitat-zh-CN",
+        "path": "work/test-profile-5801-nine-package/exports/screenshots/ksa_20261112_002429_1920x1080.png",
+        "sha256": "9176633ce76a297f0d799587abf652480ec6649202e257d4ec41b20a6d92a662"
+      }
+    ]
+  },
+  "locale_results": [
+    {
+      "locale": "en-US",
+      "selected": "en-US",
+      "resolution": "Resolution",
+      "gaugeFont": "MilSpec33558",
+      "habitat": "Habitat Zones",
+      "hdr": "HDR Scene Paper White",
+      "actualGameVersion": "2026.11.10.5801",
+      "gauge_caption_passes": 1507
+    },
+    {
+      "locale": "ja-JP",
+      "selected": "ja-JP",
+      "resolution": "解像度",
+      "gaugeFont": "KsaUiNotoSC",
+      "habitat": "居住区画",
+      "hdr": "HDR シーン基準白",
+      "actualGameVersion": "2026.11.10.5801",
+      "gauge_caption_passes": 1551
+    },
+    {
+      "locale": "ru-RU",
+      "selected": "ru-RU",
+      "resolution": "Разрешение",
+      "gaugeFont": "KsaUiNotoSC",
+      "habitat": "Жилые зоны",
+      "hdr": "Опорная яркость белого сцены HDR",
+      "actualGameVersion": "2026.11.10.5801",
+      "gauge_caption_passes": 1661
+    },
+    {
+      "locale": "de-DE",
+      "selected": "de-DE",
+      "resolution": "Auflösung",
+      "gaugeFont": "KsaUiNotoSC",
+      "habitat": "Lebenserhaltungszonen",
+      "hdr": "HDR-Referenzweiß der Szene",
+      "actualGameVersion": "2026.11.10.5801",
+      "gauge_caption_passes": 1980
+    },
+    {
+      "locale": "fr-FR",
+      "selected": "fr-FR",
+      "resolution": "Résolution",
+      "gaugeFont": "KsaUiNotoSC",
+      "habitat": "Zones habitables",
+      "hdr": "Blanc de référence de la scène HDR",
+      "actualGameVersion": "2026.11.10.5801",
+      "gauge_caption_passes": 1980
+    },
+    {
+      "locale": "it-IT",
+      "selected": "it-IT",
+      "resolution": "Risoluzione",
+      "gaugeFont": "KsaUiNotoSC",
+      "habitat": "Zone abitabili",
+      "hdr": "Bianco di riferimento scena HDR",
+      "actualGameVersion": "2026.11.10.5801",
+      "gauge_caption_passes": 1980
+    },
+    {
+      "locale": "es-ES",
+      "selected": "es-ES",
+      "resolution": "Resolución",
+      "gaugeFont": "KsaUiNotoSC",
+      "habitat": "Zonas habitables",
+      "hdr": "Blanco de referencia de escena HDR",
+      "actualGameVersion": "2026.11.10.5801",
+      "gauge_caption_passes": 1980
+    },
+    {
+      "locale": "pt-BR",
+      "selected": "pt-BR",
+      "resolution": "Resolução",
+      "gaugeFont": "KsaUiNotoSC",
+      "habitat": "Zonas habitáveis",
+      "hdr": "Branco de referência da cena HDR",
+      "actualGameVersion": "2026.11.10.5801",
+      "gauge_caption_passes": 1980
+    },
+    {
+      "locale": "zh-CN",
+      "selected": "zh-CN",
+      "resolution": "分辨率",
+      "gaugeFont": "KsaUiNotoSC",
+      "habitat": "居住区",
+      "hdr": "HDR 场景基准白亮度",
+      "actualGameVersion": "2026.11.10.5801",
+      "gauge_caption_passes": 1991
+    }
+  ],
+  "limits": "Nine locale switches and selected flight windows in one isolated profile. No exhaustive linguistic, editor, EVA, Borea desktop or physical HDR output acceptance for Babel."
+}

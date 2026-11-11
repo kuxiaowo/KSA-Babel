@@ -36,7 +36,7 @@ public sealed partial class Driver
         {
             var path = Path.Combine(Constants.DocumentsFolderPath, "multilingual-runtime.json");
             File.WriteAllText(path, JsonSerializer.Serialize(new {
-                scope = "Real loaded 5707 game, all nine locale switches, HDR settings and space weather screenshots; not exhaustive linguistic or HDR-output acceptance",
+                scope = "Real loaded 5801 game, all nine locale switches, HDR settings and habitat-zone screenshots; not exhaustive linguistic or HDR-output acceptance",
                 results = MultilingualResults }, new JsonSerializerOptions { WriteIndented = true }));
             Log("multilingual-completed; locales=" + MultilingualResults.Count);
             Program.Instance.RequestExit(0);
@@ -63,11 +63,13 @@ public sealed partial class Driver
                 throw new InvalidOperationException("Native resource mismatch: " + locale);
             string gaugeFont = (string)assembly.GetType("KsaChinese.GaugeFontPatch")!.GetMethod("Name")!.Invoke(null,null)!;
             var display = (Dictionary<string,string>)pack.GetType().GetProperty("Display")!.GetValue(pack)!;
-            string weather = (string)assembly.GetType("KsaChinese.Update5707Text")!.GetMethod("Text")!.Invoke(null,["Solar wind: "])!;
-            if(weather != (locale=="en-US" ? "Solar wind: " : display["Solar wind: "]))
-                throw new InvalidOperationException("5707 weather translation mismatch: "+locale);
+            string habitat = (string)assembly.GetType("KsaChinese.ExpandedUi")!.GetMethod("Text")!.Invoke(null, ["Habitat Zones"])!;
+            string hdr = LStrings.SettingsDisplayHdrScenePaperWhite.Localized;
+            if (habitat != (locale == "en-US" ? "Habitat Zones" : display["Habitat Zones"])
+                || hdr != (locale == "en-US" ? "HDR Scene Paper White" : native["SettingsDisplayHdrScenePaperWhite"]))
+                throw new InvalidOperationException("5801 habitat/HDR translation mismatch: " + locale);
             MultilingualResults.Add(new { locale, selected, resolution, gaugeFont, plugin = assembly.Location,
-                weather,
+                habitat, hdr,
                 actualGameVersion = typeof(Program).Assembly.GetName().Version?.ToString() });
             Log("multilingual-selected=" + locale + "; resolution=" + resolution + "; gaugeFont=" + gaugeFont);
             LocaleShotPending = true;
@@ -85,22 +87,19 @@ public sealed partial class Driver
         else if(LocaleVisualPhase==1)
         {
             GameSettings.Show=false;
-            SpaceWeatherWindow.Toggle();
-            var window=AccessTools.Field(typeof(SpaceWeatherWindow),"_instance").GetValue(null)!;
-            AccessTools.Field(window.GetType(),"_pickedStarId").SetValue(window,"Sol");
-            AccessTools.Field(window.GetType(),"_pickedBodyId").SetValue(window,"Earth");
+            HabitatZonesWindow.Toggle();
             LocaleVisualPhase=2;
             NextLocaleTime=t+3;
         }
         else if(LocaleVisualPhase==2)
         {
-            Shot("5707-weather-"+locale);
+            Shot("5801-habitat-" + locale);
             LocaleVisualPhase=3;
             NextLocaleTime=t+1;
         }
         else
         {
-            SpaceWeatherWindow.Toggle();
+            HabitatZonesWindow.Toggle();
             LocaleVisualPhase=0;
             LocaleShotPending = false;
             Stage++;

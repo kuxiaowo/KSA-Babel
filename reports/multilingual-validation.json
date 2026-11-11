@@ -1,29 +1,29 @@
 {
-  "source_entries": 5051,
-  "source_game": "2026.10.25.5707",
+  "source_entries": 5716,
+  "source_game": "2026.11.10.5801",
   "meaning": "Record completeness against reviewed Chinese scope; not full-game or native-speaker acceptance.",
   "locales": {
     "ja-JP": {
-      "decisions": 5051,
+      "decisions": 5716,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 259,
-        "controls": 106,
-        "editor": 167,
+        "content": 267,
+        "controls": 112,
+        "editor": 169,
         "hud": 43,
         "literals": 86,
-        "native": 220,
+        "native": 276,
         "planning": 245,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
-        "utility": 297,
+        "utility": 299,
         "gauges": 86,
         "scoped": 13,
-        "display": 2092,
-        "history": 384,
-        "parts": 650
+        "display": 2258,
+        "history": 626,
+        "parts": 833
       },
       "identical_to_english": [
         "editor:\nIsp",
@@ -46,32 +46,38 @@
         "display:Hable",
         "display:ID",
         "display:VRAM",
-        "parts:CorePropulsionA_Prefab_EngineA4"
+        "parts:CorePropulsionA_Prefab_EngineA4",
+        "5801-extra-014",
+        "5801-history-061"
       ],
-      "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "2797264443f59d5f3c2c65924349c50992326efd64cc01f9971fa0931e041775"
+      "review_statuses": {
+        "ai-reviewed": 5137,
+        "machine-checked": 579
+      },
+      "review_status": "Independent native-language review pending",
+      "runtime_sha256": "460bac90cf19dd145183ac8109d9d268061bd81467239825c50938b7fc26e891"
     },
     "ru-RU": {
-      "decisions": 5051,
+      "decisions": 5716,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 259,
-        "controls": 106,
-        "editor": 167,
+        "content": 267,
+        "controls": 112,
+        "editor": 169,
         "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 220,
+        "native": 276,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
-        "utility": 297,
-        "display": 2092,
-        "history": 384,
-        "parts": 650
+        "utility": 299,
+        "display": 2258,
+        "history": 626,
+        "parts": 833
       },
       "identical_to_english": [
         "editor:\nIsp",
@@ -91,32 +97,38 @@
         "display:HUD",
         "display:Hable",
         "display:ID",
-        "parts:CorePropulsionA_Prefab_EngineA4"
+        "parts:CorePropulsionA_Prefab_EngineA4",
+        "5801-extra-014",
+        "5801-history-061"
       ],
-      "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "492413607b8c870fd1d8fe68a0732d4b501cf274024b75a0a6d505fd60df9c9e"
+      "review_statuses": {
+        "ai-reviewed": 5121,
+        "machine-checked": 595
+      },
+      "review_status": "Independent native-language review pending",
+      "runtime_sha256": "cae98d37afb9a1d0e2563a9ebb64e1d960b580b563a257eada0ecb4ab86d6ecd"
     },
     "de-DE": {
-      "decisions": 5051,
+      "decisions": 5716,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 259,
-        "controls": 106,
-        "editor": 167,
+        "content": 267,
+        "controls": 112,
+        "editor": 169,
         "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 220,
+        "native": 276,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
-        "utility": 297,
-        "display": 2092,
-        "history": 384,
-        "parts": 650
+        "utility": 299,
+        "display": 2258,
+        "history": 626,
+        "parts": 833
       },
       "identical_to_english": [
         "content:Substance:Ar:FullName",
@@ -270,32 +282,40 @@
         "display:Wind",
         "display:Z-Bins",
         "parts:CorePropulsionA_Prefab_EngineA4",
-        "5707-update-089"
+        "5707-update-089",
+        "5801-extra-014",
+        "5801-text-035",
+        "5801-history-061",
+        "5801-native-EditorSettingAuto"
       ],
-      "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "84419fd670ba2ca18b41cea3cc3ad4094133bafbd0790643bda765305000ac97"
+      "review_statuses": {
+        "ai-reviewed": 5127,
+        "machine-checked": 589
+      },
+      "review_status": "Independent native-language review pending",
+      "runtime_sha256": "1a35650effaac5ba06d9ec26047f3efcfae0196907abf4d536e30c1884d2a3c5"
     },
     "fr-FR": {
-      "decisions": 5051,
+      "decisions": 5716,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 259,
-        "controls": 106,
-        "editor": 167,
+        "content": 267,
+        "controls": 112,
+        "editor": 169,
         "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 220,
+        "native": 276,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
-        "utility": 297,
-        "display": 2092,
-        "history": 384,
-        "parts": 650
+        "utility": 299,
+        "display": 2258,
+        "history": 626,
+        "parts": 833
       },
       "identical_to_english": [
         "content:Substance:Ar:FullName",
@@ -480,32 +500,46 @@
         "display:Visible",
         "display:Visualisation",
         "display:Zone",
-        "parts:CorePropulsionA_Prefab_EngineA4"
+        "parts:CorePropulsionA_Prefab_EngineA4",
+        "5801-extra-016",
+        "5801-text-087",
+        "5801-text-117",
+        "5801-extra-014",
+        "5801-text-035",
+        "5801-history-061",
+        "5801-native-EditorSettingAuto",
+        "5801-native-EditorSettingCharge",
+        "5801-native-EditorSettingVolume",
+        "5801-native-EditorSettingVolumeOf"
       ],
-      "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "4e58acbdadce6d4319ecf4bde3039b8d5925cfd2c65ab24dfd221933e8b2fa93"
+      "review_statuses": {
+        "ai-reviewed": 5121,
+        "machine-checked": 595
+      },
+      "review_status": "Independent native-language review pending",
+      "runtime_sha256": "ed9eb6acd868be02734ec5406c71fd3f003cdc1eee6a16c07a946289bf742f88"
     },
     "it-IT": {
-      "decisions": 5051,
+      "decisions": 5716,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 259,
-        "controls": 106,
-        "editor": 167,
+        "content": 267,
+        "controls": 112,
+        "editor": 169,
         "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 220,
+        "native": 276,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
-        "utility": 297,
-        "display": 2092,
-        "history": 384,
-        "parts": 650
+        "utility": 299,
+        "display": 2258,
+        "history": 626,
+        "parts": 833
       },
       "identical_to_english": [
         "content:Substance:Ar:FullName",
@@ -597,32 +631,41 @@
         "display:Slot A",
         "display:Slot B",
         "display:VRAM",
-        "parts:CorePropulsionA_Prefab_EngineA4"
+        "parts:CorePropulsionA_Prefab_EngineA4",
+        "5801-extra-014",
+        "5801-history-061",
+        "5801-native-EditorSettingAuto",
+        "5801-native-EditorSettingVolume",
+        "5801-native-EditorSettingVolumeOf"
       ],
-      "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "2c909bc641f6cd0c7bc5fa99461f0b91d811107981446093d9e5384c15f8771a"
+      "review_statuses": {
+        "ai-reviewed": 5123,
+        "machine-checked": 593
+      },
+      "review_status": "Independent native-language review pending",
+      "runtime_sha256": "d1d041db1bd596931f87bc7463ac6372c14f3bf7a00a391b437ed32b31984a5c"
     },
     "es-ES": {
-      "decisions": 5051,
+      "decisions": 5716,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 259,
-        "controls": 106,
-        "editor": 167,
+        "content": 267,
+        "controls": 112,
+        "editor": 169,
         "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 220,
+        "native": 276,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
-        "utility": 297,
-        "display": 2092,
-        "history": 384,
-        "parts": 650
+        "utility": 299,
+        "display": 2258,
+        "history": 626,
+        "parts": 833
       },
       "identical_to_english": [
         "content:GrainGeometry:Progressive:Shape",
@@ -701,32 +744,38 @@
         "display:VRAM total",
         "display:Visible",
         "display:ms | Total GC: ",
-        "parts:CorePropulsionA_Prefab_EngineA4"
+        "parts:CorePropulsionA_Prefab_EngineA4",
+        "5801-extra-014",
+        "5801-history-061"
       ],
-      "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "4bea6905482e14377e31d2cadefa964d99eea42e3055f9392d40a4476859d340"
+      "review_statuses": {
+        "ai-reviewed": 5121,
+        "machine-checked": 595
+      },
+      "review_status": "Independent native-language review pending",
+      "runtime_sha256": "0f66a27f39a8829cd17a0e54afa7cbd9314de177fb5e9b6d28ee633c7891b49c"
     },
     "pt-BR": {
-      "decisions": 5051,
+      "decisions": 5716,
       "missing": [],
       "unknown": [],
       "sections": {
-        "content": 259,
-        "controls": 106,
-        "editor": 167,
+        "content": 267,
+        "controls": 112,
+        "editor": 169,
         "gauges": 86,
         "hud": 43,
         "literals": 86,
-        "native": 220,
+        "native": 276,
         "planning": 245,
         "scoped": 13,
         "startup": 39,
         "tooltips": 171,
         "ui": 193,
-        "utility": 297,
-        "display": 2092,
-        "history": 384,
-        "parts": 650
+        "utility": 299,
+        "display": 2258,
+        "history": 626,
+        "parts": 833
       },
       "identical_to_english": [
         "content:GrainGeometry:Progressive:Shape",
@@ -809,10 +858,18 @@
         "display:Tricolor",
         "display:VRAM",
         "display:VRAM total",
-        "parts:CorePropulsionA_Prefab_EngineA4"
+        "parts:CorePropulsionA_Prefab_EngineA4",
+        "5801-extra-014",
+        "5801-history-061",
+        "5801-native-EditorSettingVolume",
+        "5801-native-EditorSettingVolumeOf"
       ],
-      "review_status": "AI reviewed; awaiting independent native-language and visual review",
-      "runtime_sha256": "3aa7cbba6bb58c98fd5690eb0829cbf57ed489259fbbd273937fcc567cc1ae1f"
+      "review_statuses": {
+        "ai-reviewed": 5121,
+        "machine-checked": 595
+      },
+      "review_status": "Independent native-language review pending",
+      "runtime_sha256": "94053eb7c3fae8b1e6ffd0577f9581fc1c40e1055a9286fb68fab105a33e00e9"
     }
   },
   "errors": [],
