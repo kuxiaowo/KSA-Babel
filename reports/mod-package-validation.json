@@ -1,8 +1,8 @@
 {
-  "archive": "KsaBabel-0.2.3.zip",
-  "sha256": "e6bf3b40422e52de7a704261d05bd9eaa1de33f34cd6107113055724a1fc011b",
+  "archive": "KsaBabel-0.2.4.zip",
+  "sha256": "b4e3b99ba9c7ce19b7cf4c5ffa47773ca0141109e16164e7e3e21d67dd475146",
   "files": 26,
-  "bytes": 1760736,
+  "bytes": 2030324,
   "install_root": "KsaBabel",
   "loader_bundled": false,
   "game_binaries_included": false,

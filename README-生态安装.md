@@ -1,6 +1,8 @@
 # KSA Babel：StarMap / Borea 安装与迁移
 
-本项目九语种正式包为 **KsaBabel-0.2.3.zip**，从 [KSA Babel Releases](https://github.com/kuxiaowo/KSA-Babel/releases) 获取；旧公共目录中的 v0.1.6 属于原 KSA Chinese 项目。只适配 Windows x64 的 KSA **2026.10.25.5707**，需要 .NET 10 x64 Runtime 和 **StarMap 0.4.8**。包不附带加载器、启动器或游戏文件。代码和译文为 MIT；Noto Sans SC 字体子集为 OFL-1.1，来源见包内 THIRD_PARTY.md 和许可文件。新增语言为 AI 翻译与复核预览，尚无独立母语审校。
+公开发行版 0.2.3 对应 5707。以下 5801 安装说明适用于从本源码构建的 0.2.4。
+
+0.2.4 开发版的包名为 **KsaBabel-0.2.4.zip**；旧公共目录中的 v0.1.6 属于原 KSA Chinese 项目。只适配 Windows x64 的 KSA **2026.11.10.5801**，需要 .NET 10 x64 Runtime 和 **StarMap 0.5.4**。包不附带加载器、启动器或游戏文件。代码和译文为 MIT；Noto Sans SC 字体子集为 OFL-1.1，来源见包内 THIRD_PARTY.md 和许可文件。新增语言为 AI 翻译与复核预览，尚无独立母语审校。
 
 0.2.1 使用独立模组 ID **`KsaBabel`**，安装目录和包名前缀均为 `KsaBabel`，插件程序集为 `KsaBabel.dll`。**必须先禁用旧 `KsaChinese` 模组；旧模组仍启用时，Babel 拒绝激活。** 备份个人档案后再迁移，不要同时启用两个 Babel 副本。
 
@@ -14,7 +16,7 @@ KSA Babel 的 [Ahwoo 帖子](https://forums.ahwoo.com/forums/kitten-space-agency
 
 ## 直接使用 StarMap
 
-从 [StarMap 官方发布](https://github.com/StarMapLoader/StarMap/releases/tag/0.4.8) 安装加载器，配置其 GameLocation 指向游戏。把 ZIP 中的 `KsaBabel` 文件夹放入所选玩家档案的 `mods` 文件夹；默认档案为 `Documents/My Games/Kitten Space Agency`，Borea 实例则使用自己的目录。
+从 [StarMap 官方发布](https://github.com/StarMapLoader/StarMap/releases/tag/0.5.4) 安装加载器，配置其 GameLocation 指向游戏。把 ZIP 中的 `KsaBabel` 文件夹放入所选玩家档案的 `mods` 文件夹；默认档案为 `Documents/My Games/Kitten Space Agency`，Borea 实例则使用自己的目录。
 
 在游戏的模组管理界面禁用旧 `KsaChinese` 并启用 `KsaBabel`，或在该档案的 `manifest.toml` 中将旧 `KsaChinese` 条目的 `enabled` 改为 `false`，再加入以下条目，保留已有 Core 和其他模组条目：
 

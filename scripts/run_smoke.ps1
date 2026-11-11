@@ -4,7 +4,7 @@ $taskRoot=Split-Path $PSScriptRoot -Parent
 if([string]::IsNullOrWhiteSpace($GameDir)) { throw 'Specify -GameDir or set KSA_GAME_DIR to the local KSA installation.' }
 $GameDir=[IO.Path]::GetFullPath($GameDir)
 if(!(Test-Path -LiteralPath (Join-Path $GameDir 'KSA.dll') -PathType Leaf)) { throw 'GameDir must contain KSA.dll.' }
-if(!$LoaderDir) { $LoaderDir=Join-Path $taskRoot '.tools\StarMap-0.4.8' }
+if(!$LoaderDir) { $LoaderDir=Join-Path $taskRoot '.tools\StarMap-0.5.4' }
 $taskWorkPrefix=(Join-Path $taskRoot 'work')+[IO.Path]::DirectorySeparatorChar
 function Assert-WorkspacePath([string]$TaskPath) {
     if(!$TaskPath.StartsWith($taskWorkPrefix,[StringComparison]::OrdinalIgnoreCase)) { throw 'Smoke paths must be inside the project work directory.' }
@@ -56,6 +56,12 @@ try {
         [IO.File]::WriteAllText((Join-Path $taskRoot "work\runtime\$Tag.exit-code.txt"),[string]$taskExitCode)
         Write-Output "Fixture exit code: $taskExitCode"
         if($taskExitCode -ne 0) { throw "Fixture failed with exit code $taskExitCode" }
+        if ($env:KSA_SMOKE_5801_REVIEW -eq '1') {
+            $taskLog=Get-Content -Raw -LiteralPath (Join-Path $Profile 'smoke.log')
+            if ($taskLog.Contains('ERROR=') -or !$taskLog.Contains('5801-review-completed')) {
+                throw '5801 fixture did not complete.'
+            }
+        }
         if($env:KSA_SMOKE_MULTILINGUAL -eq '1') {
             $taskLog=Get-Content -Raw -LiteralPath (Join-Path $Profile 'smoke.log')
             if($taskLog.Contains('ERROR=') -or !$taskLog.Contains('multilingual-completed; locales=9')) {

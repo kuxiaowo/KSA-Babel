@@ -20,14 +20,14 @@ internal static partial class Program
                     "总Δv标签与完整数值单位空间互不重叠: " + width + "/" + value);
             }
         }
-        foreach (string name in new[] { nameof(SequenceList.DrawSequenceContent), nameof(SequenceList.DrawTotalDeltaVFooter) })
+        foreach (var method in StagingCaptionLayoutPatch.TargetMethods())
         {
-            var method = AccessTools.Method(typeof(SequenceList), name);
+            string name = method.Name;
             var source = PatchProcessor.GetOriginalInstructions(method).Select(i => new CodeInstruction(i)).ToArray();
             var changed = StagingCaptionLayoutPatch.Translate(source, method).ToArray();
             int expected = name == nameof(SequenceList.DrawSequenceContent) ? 4 : 2;
             Check(changed.Count(i => i.operand is MethodInfo m && m.DeclaringType == typeof(StagingCaptionLayoutPatch)) == expected,
-                "真实5638分级IL仅替换受控绘字入口: " + name);
+                "真实5801分级IL仅替换受控绘字入口: " + name);
         }
         var original = Runtime.SelectedLocale;
         Runtime.ApplyLanguage("en-US");

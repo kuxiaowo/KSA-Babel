@@ -6,29 +6,29 @@
 
 通过 StarMap 加载的 **Kitten Space Agency 多语言本地化框架**。KSA Babel 提供语言包、游戏内语言菜单、显示适配与共享字体子集，不替换游戏可执行文件或原始资源。
 
-本项目从 [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE) 独立整理。当前为 **0.2.3 正式版**，仅适配 Windows x64 的 **KSA 2026.10.25.5707**、已检查的文件哈希与 **StarMap 0.4.8**。
+0.2.4 开发版适配 Windows x64 **KSA 2026.11.10.5801** 与 **StarMap 0.5.4**。已发布的 0.2.3 对应 5707。
 
 **翻译确认与英文模式：**维护者本人仅确认了简体中文译文。日语、俄语、德语、法语、意大利语、西班牙语和巴西葡萄牙语由 GPT 结合 KSA 语境、参考 KSP 航天专业术语翻译与复核，尚无独立母语审校；日语部分初始译文来自已署名的 MIT 项目 KsaUiLanguages。英文模式显示 KSA 原有英文文本，并保留模组新增的 `Language` 语言菜单。11 个动态模板用于多语言文本拼接和原文回退，不表示改写了 11 处游戏英文。
 
 **只需要中文时：**可使用 [KSA Chinese / KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE)，模组 ID 为 `KsaChinese`，支持 English／简体中文切换。当前发布为 [v0.1.7](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.7)，标准包为 `KsaChinese-0.1.7.zip`，适配已检查的 Windows x64 KSA 2026.10.25.5707 与 StarMap 0.4.8，并有独立的 [Borea 目录条目](https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml)。Babel 是 ID 为 `KsaBabel` 的独立九语言项目；按需求选择，同一档案不要同时启用两者。
 
-0.2.3 为 KSA 5707 新增 265 条记录：空间天气与 CME、HDR、乘员辐射/恢复/退役、屏蔽与压力，以及 156 条更新正文。本轮新增译文（含中文）经过 AI 语境复核，尚未经维护者逐条确认或独立母语审校；此前维护者确认只适用于旧版中文范围。运行验证及限制见 0.2.3 报告。 [0.2.3](../../reports/0.2.3-5707适配与验证.md)
+5801 补译生命保障、乘员状态、居住区和舱外物资、游戏规则、编辑器撤销重做和部件变体、HDR 设置及更新正文。七种扩展语言的新增译文使用本地模型辅助，待母语复核。 [5801 validation](../../reports/0.2.4-5801适配与验证.md)
 
 ## 支持语言与范围
 
 | 语言 | 语言代码 | 游戏文本 |
 | --- | --- | --- |
 | English | `en-US` | 游戏原有英文；新增语言菜单 |
-| 简体中文 | `zh-CN` | 5,051 条记录 + 11 个动态模板 |
-| 日本語 | `ja-JP` | 5,051 条记录 + 11 个动态模板 |
-| Русский | `ru-RU` | 5,051 条记录 + 11 个动态模板 |
-| Deutsch | `de-DE` | 5,051 条记录 + 11 个动态模板 |
-| Français | `fr-FR` | 5,051 条记录 + 11 个动态模板 |
-| Italiano | `it-IT` | 5,051 条记录 + 11 个动态模板 |
-| Español | `es-ES` | 5,051 条记录 + 11 个动态模板 |
-| Português (Brasil) | `pt-BR` | 5,051 条记录 + 11 个动态模板 |
+| 简体中文 | `zh-CN` | 审核底稿范围 + 11 个动态模板 |
+| 日本語 | `ja-JP` | 审核底稿范围 + 11 个动态模板 |
+| Русский | `ru-RU` | 审核底稿范围 + 11 个动态模板 |
+| Deutsch | `de-DE` | 审核底稿范围 + 11 个动态模板 |
+| Français | `fr-FR` | 审核底稿范围 + 11 个动态模板 |
+| Italiano | `it-IT` | 审核底稿范围 + 11 个动态模板 |
+| Español | `es-ES` | 审核底稿范围 + 11 个动态模板 |
+| Português (Brasil) | `pt-BR` | 审核底稿范围 + 11 个动态模板 |
 
-七种新增语言各覆盖现有已审中文底稿中的 **5,051 条记录**，另有 **11 个动态模板**。英文使用游戏原文。条目齐全**不等于全游戏覆盖**。新增译文经过 AI 语境复核，**尚无独立母语审校**。较早更新正文、原生库及错误文本、贴图印字和部分界面状态仍在已审范围之外；窄控件与其他分辨率还需要更多视觉检查。
+译文按审核底稿统计。部分新增条目保留英文。
 
 范围包括界面、提示、部件、物质与相态、仪表及部分更新正文。型号、单位、占位符、资源／控件／存档 ID、枚举数据和玩家自定义名称保留；未知版本安全拒绝，缺译文回退原文。Noto Sans SC 子集覆盖已盘点字符，但不保证任意玩家命名或所有日语地区字形。
 
@@ -49,7 +49,7 @@
 
 ## 构建与验证
 
-准备 .NET 10 SDK、合法安装的精确适配版本游戏，以及 [StarMap 0.4.8](https://github.com/StarMapLoader/StarMap/releases/tag/0.4.8)。加载器文件放在 `.tools/StarMap-0.4.8`，或通过 `-LoaderDir` 指定。Python 脚本需要 Python 3，优先使用 conda 环境。
+准备 .NET 10 SDK、合法安装的精确适配版本游戏，以及 [StarMap 0.5.4](https://github.com/StarMapLoader/StarMap/releases/tag/0.5.4)。加载器文件放在 `.tools/StarMap-0.5.4`，或通过 `-LoaderDir` 指定。Python 脚本需要 Python 3，优先使用 conda 环境。
 
 ```powershell
 python scripts/build_multilingual.py --check

@@ -1,5 +1,7 @@
 # KSA Babel · 喵语塔
 
+開発版 0.2.4 は Windows x64 の KSA 2026.11.10.5801 と StarMap 0.5.4 に対応します。公開版 0.2.3 は KSA 5707 向けです。
+
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja-JP.md) · [Русский](README.ru-RU.md) · [Deutsch](README.de-DE.md) · [Français](README.fr-FR.md) · [Italiano](README.it-IT.md) · [Español](README.es-ES.md) · [Português (Brasil)](README.pt-BR.md)
 
 <p align="center"><img src="../branding/ksa-babel-cover-preview-v3.png" alt="KSA Babel · 喵语塔" width="512"></p>

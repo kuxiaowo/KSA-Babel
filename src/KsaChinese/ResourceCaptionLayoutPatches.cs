@@ -93,7 +93,8 @@ public static class StagingCaptionLayoutPatch
     public static IEnumerable<MethodBase> TargetMethods()
     {
         yield return AccessTools.Method(typeof(SequenceList), nameof(SequenceList.DrawSequenceContent));
-        yield return AccessTools.Method(typeof(SequenceList), nameof(SequenceList.DrawTotalDeltaVFooter));
+        yield return AccessTools.Method(typeof(SequenceList), nameof(SequenceList.DrawTotalDeltaVFooter),
+            [typeof(float2), typeof(float2), typeof(float), typeof(LifeSupportForecast).MakeByRefType()]);
     }
 
     [HarmonyPrefix]

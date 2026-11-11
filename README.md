@@ -6,29 +6,29 @@
 
 A multilingual localization framework for **Kitten Space Agency**, loaded through StarMap. KSA Babel provides language packs, an in-game language menu, display adapters and a shared font subset. It does not replace the game executable or game resources.
 
-KSA Babel is an independent multilingual project derived from [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE). The current version is the **0.2.3 stable release**, supporting only **KSA 2026.10.25.5707 on Windows x64** with the inspected file hashes and **StarMap 0.4.8**.
+The 0.2.4 development build targets Windows x64 **KSA 2026.11.10.5801** and **StarMap 0.5.4**. The published 0.2.3 release targets 5707.
 
 **Translation review and English mode:** The maintainer has personally confirmed only the Simplified Chinese translation. The Japanese, Russian, German, French, Italian, Spanish and Brazilian Portuguese packs were translated/reviewed by GPT in the KSA context, using KSP aerospace terminology as reference; they await independent native-speaker review. Some initial Japanese translations came from the credited MIT-licensed KsaUiLanguages project. English mode displays KSA's original English text and retains the mod's added `Language` menu. The 11 dynamic entries support multilingual text composition and original-English fallback; they do not mean 11 rewritten game texts.
 
 **Chinese-focused edition:** [KSA Chinese / KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE), mod ID `KsaChinese`, offers English / Simplified Chinese switching. Its current release is [v0.1.7](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.7), with standard archive `KsaChinese-0.1.7.zip`; it targets the inspected Windows x64 KSA 2026.10.25.5707 build with StarMap 0.4.8. It has its own [Borea catalog entry](https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml). Babel is the independent nine-language mod with ID `KsaBabel`. Choose the appropriate edition and do not enable both in the same profile.
 
-0.2.3 adds 265 records for KSA 5707: space weather and CME, HDR, crew radiation/recovery/retirement, shielding and pressure, and 156 changelog entries. All new translations, including Chinese, have AI context review; they have not received maintainer or independent native-speaker sign-off. Earlier maintainer confirmation applies only to the older Chinese scope. See the 0.2.3 validation report for bounded runtime evidence. [0.2.3](reports/0.2.3-5707适配与验证.md)
+The 5801 update covers life support, crew condition, habitat zones and EVA supplies, game rules, editor undo/redo and part variants, HDR settings and the new changelog. Machine-assisted additions in the seven extra locales await independent linguistic review. [5801 validation](reports/0.2.4-5801适配与验证.md)
 
 ## Languages and scope
 
 | Language | Locale | Game text |
 | --- | --- | --- |
 | English | `en-US` | Original game text; added language menu |
-| 简体中文 | `zh-CN` | 5,051 records + 11 dynamic templates |
-| 日本語 | `ja-JP` | 5,051 records + 11 dynamic templates |
-| Русский | `ru-RU` | 5,051 records + 11 dynamic templates |
-| Deutsch | `de-DE` | 5,051 records + 11 dynamic templates |
-| Français | `fr-FR` | 5,051 records + 11 dynamic templates |
-| Italiano | `it-IT` | 5,051 records + 11 dynamic templates |
-| Español | `es-ES` | 5,051 records + 11 dynamic templates |
-| Português (Brasil) | `pt-BR` | 5,051 records + 11 dynamic templates |
+| 简体中文 | `zh-CN` | Reviewed scope + 11 dynamic templates |
+| 日本語 | `ja-JP` | Reviewed scope + 11 dynamic templates |
+| Русский | `ru-RU` | Reviewed scope + 11 dynamic templates |
+| Deutsch | `de-DE` | Reviewed scope + 11 dynamic templates |
+| Français | `fr-FR` | Reviewed scope + 11 dynamic templates |
+| Italiano | `it-IT` | Reviewed scope + 11 dynamic templates |
+| Español | `es-ES` | Reviewed scope + 11 dynamic templates |
+| Português (Brasil) | `pt-BR` | Reviewed scope + 11 dynamic templates |
 
-Seven additional languages each cover **5,051 records** from the existing reviewed Chinese scope, plus **11 dynamic templates**. English uses the game's original text. Record completeness is **not full-game coverage**. New translations have AI context review, **not independent native-speaker sign-off**. Older changelogs, native library/error text, texture lettering and some UI states remain outside the reviewed scope. Narrow controls and other resolutions still need broader visual review.
+Coverage is measured against the source ledger. Some new entries retain the source English text.
 
 The reviewed scope includes UI, tooltips, parts, substances and phases, gauges and selected changelogs. Model numbers, units, placeholders, resource/widget/save IDs, enum data and player-defined names are preserved. Unknown builds are rejected; untranslated text falls back to the original. The Noto Sans SC subset covers the inventoried characters, but does not guarantee arbitrary player names or every Japanese regional glyph form.
 
@@ -49,7 +49,7 @@ For migration managed by Borea, back up the profile and remove the old KsaChines
 
 ## Build and validate
 
-Use .NET 10 SDK, a legally installed copy of the exact supported game, and [StarMap 0.4.8](https://github.com/StarMapLoader/StarMap/releases/tag/0.4.8). Place loader files under `.tools/StarMap-0.4.8`, or pass `-LoaderDir`. Python scripts require Python 3; conda is preferred.
+Use .NET 10 SDK, a legally installed copy of the exact supported game, and [StarMap 0.5.4](https://github.com/StarMapLoader/StarMap/releases/tag/0.5.4). Place loader files under `.tools/StarMap-0.5.4`, or pass `-LoaderDir`. Python scripts require Python 3; conda is preferred.
 
 ```powershell
 python scripts/build_multilingual.py --check
