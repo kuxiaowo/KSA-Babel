@@ -1,0 +1,209 @@
+{
+  "game": "2026.11.16.5901",
+  "product_commit": "c24f6a3bf9827bdb4dac48a643aec14534539930",
+  "game_dll_sha256": "170c28aa34845026195c89a23c0f3c241db00ea4a8b86ef60ec097c32a7f8a39",
+  "loader": "StarMap 0.5.4",
+  "loader_zip_sha256": "bcf14ac68dfb6558152586fd98776fc5013006a0406c37792f5f6afcf0561366",
+  "exit_code": 0,
+  "profile": "work/test-profile-5901-nine-final",
+  "game_version_lookup_http_502": true,
+  "plugin_sha256": "8fa4bac58bdb130b20d24b274e72052aae25ae45bda2f39d4d1d760985c6b6eb",
+  "archives": {
+    "KsaBabel-0.2.5.zip": {
+      "sha256": "2f85e31d16cde317f1e7296305e9f581ade6c641f3d2f41a5390c1c7929e561a",
+      "entries": 26,
+      "hashed_entries": 25
+    },
+    "KsaBabel-0.2.5-5901-Portable.zip": {
+      "sha256": "2cc7952cbbf3b7820b9456eabec8c0d618f8c66f078ebc7d0fc68ca2fe5ad55d",
+      "entries": 45,
+      "hashed_entries": 44
+    }
+  },
+  "portable_launcher_check": {
+    "known_game_exit": 0,
+    "missing_game_exit": 1
+  },
+  "borea": {
+    "version": "0.6.27",
+    "windows_cli_zip_sha256": "96c0f01b8dcadf745dc361ef0e90faefb358b6f4a3fe3a55414bfe6586dbb306",
+    "mode": "Official release assemblies, CLI command handlers with isolated Borea root and shared-profile path; create instance, unpack local candidate, scan and verify files. No public-catalog candidate installation.",
+    "scan": "foreignFolders",
+    "matched_archive_files": 25
+  },
+  "screenshots": [
+    {
+      "scene": "multilingual-en-US",
+      "file": "ksa_20261118_081412_1920x1080.png",
+      "sha256": "3cd64e77d05619002e97f2166aaf188175779fbcb685ebe8090addae7bd63283"
+    },
+    {
+      "scene": "5901-habitat-en-US",
+      "file": "ksa_20261118_081416_1920x1080.png",
+      "sha256": "f2162b2254169576602ec8bbbdf72b5cb6b62a00dd9b8436204234f22d85dff9"
+    },
+    {
+      "scene": "multilingual-ja-JP",
+      "file": "ksa_20261118_081422_1920x1080.png",
+      "sha256": "a5551b31b84f9528478b118380ac5326f70dd95c9cc1d9f092cc28501201dcff"
+    },
+    {
+      "scene": "5901-habitat-ja-JP",
+      "file": "ksa_20261118_081426_1920x1080.png",
+      "sha256": "c0af547f72ad9b49994a0227ad4f3816e7a9ea28cdc07cb3002bc929c2804535"
+    },
+    {
+      "scene": "multilingual-ru-RU",
+      "file": "ksa_20261118_081432_1920x1080.png",
+      "sha256": "6328a4fa0d7351dbc8a828b8ab49111ede2afef9e51c2a69bb764db376e31ca4"
+    },
+    {
+      "scene": "5901-habitat-ru-RU",
+      "file": "ksa_20261118_081436_1920x1080.png",
+      "sha256": "3967e0edd9840098a8949b8e8d11af8052d3f52a90cb32e561e58edf9efbb251"
+    },
+    {
+      "scene": "multilingual-de-DE",
+      "file": "ksa_20261118_081442_1920x1080.png",
+      "sha256": "407bc6ce8e898c8be120cd0813bff4b6e3ee533a23ea0e6c7d44c334a1a3f140"
+    },
+    {
+      "scene": "5901-habitat-de-DE",
+      "file": "ksa_20261118_081446_1920x1080.png",
+      "sha256": "a415a169093b4634099bf53c19fd320e7623fb2b90aa453b9597710d70d4c5f2"
+    },
+    {
+      "scene": "multilingual-fr-FR",
+      "file": "ksa_20261118_081452_1920x1080.png",
+      "sha256": "d24772c3894eefd43cac23e54bdc14f8025b901e8b2b15194c7d7b127e195100"
+    },
+    {
+      "scene": "5901-habitat-fr-FR",
+      "file": "ksa_20261118_081456_1920x1080.png",
+      "sha256": "128f7ad0f17e698766405aa82b5dc4dadc6562c3a99f0991d01de812f919f5be"
+    },
+    {
+      "scene": "multilingual-it-IT",
+      "file": "ksa_20261118_081502_1920x1080.png",
+      "sha256": "6107468239cd33b1fcfc60f58e13c927b845b788b6bb0c639795285c29f836ee"
+    },
+    {
+      "scene": "5901-habitat-it-IT",
+      "file": "ksa_20261118_081506_1920x1080.png",
+      "sha256": "80055e7c4a6c942e0a05bf4f75d7c9d3ac5fb01ff83eac197424e187666a3477"
+    },
+    {
+      "scene": "multilingual-es-ES",
+      "file": "ksa_20261118_081512_1920x1080.png",
+      "sha256": "ba907cfb43a93e05eaa73e2dc270eb2da87792e872482734c00c6c8d534703a9"
+    },
+    {
+      "scene": "5901-habitat-es-ES",
+      "file": "ksa_20261118_081516_1920x1080.png",
+      "sha256": "1a84bfd1a6ec9d5e91747ba6077f80f852e8b6cee36ae722301a4e00985e07a3"
+    },
+    {
+      "scene": "multilingual-pt-BR",
+      "file": "ksa_20261118_081522_1920x1080.png",
+      "sha256": "65e435487d3886868d2f1daafb9093e5dbf3785ee84d247d1b151d7bd4675a8f"
+    },
+    {
+      "scene": "5901-habitat-pt-BR",
+      "file": "ksa_20261118_081526_1920x1080.png",
+      "sha256": "bc2293f761b5a7cd7bfd50c18ca90067d1ae52cf3ecd899cb97eac3e7f622e67"
+    },
+    {
+      "scene": "multilingual-zh-CN",
+      "file": "ksa_20261118_081532_1920x1080.png",
+      "sha256": "5838a32dc641efba38961f782b069a2a051a50c51a869bba8e0dd89bf880efca"
+    },
+    {
+      "scene": "5901-habitat-zh-CN",
+      "file": "ksa_20261118_081536_1920x1080.png",
+      "sha256": "ae85a73c1ac56d3fd609e5103efe1a6016d2823bf8073442e9f3510470180b80"
+    }
+  ],
+  "locales": [
+    {
+      "locale": "en-US",
+      "selected": "en-US",
+      "resolution": "Resolution",
+      "gaugeFont": "MilSpec33558",
+      "crew_plan_lookup": "CREW PLAN",
+      "hdr": "HDR Scene Paper White",
+      "actualGameVersion": "2026.11.16.5901"
+    },
+    {
+      "locale": "ja-JP",
+      "selected": "ja-JP",
+      "resolution": "解像度",
+      "gaugeFont": "KsaUiNotoSC",
+      "crew_plan_lookup": "乗員計画",
+      "hdr": "HDR シーン基準白",
+      "actualGameVersion": "2026.11.16.5901"
+    },
+    {
+      "locale": "ru-RU",
+      "selected": "ru-RU",
+      "resolution": "Разрешение",
+      "gaugeFont": "KsaUiNotoSC",
+      "crew_plan_lookup": "План экипажа",
+      "hdr": "Опорная яркость белого сцены HDR",
+      "actualGameVersion": "2026.11.16.5901"
+    },
+    {
+      "locale": "de-DE",
+      "selected": "de-DE",
+      "resolution": "Auflösung",
+      "gaugeFont": "KsaUiNotoSC",
+      "crew_plan_lookup": "Besatzungsplan",
+      "hdr": "HDR-Referenzweiß der Szene",
+      "actualGameVersion": "2026.11.16.5901"
+    },
+    {
+      "locale": "fr-FR",
+      "selected": "fr-FR",
+      "resolution": "Résolution",
+      "gaugeFont": "KsaUiNotoSC",
+      "crew_plan_lookup": "Plan d’équipage",
+      "hdr": "Blanc de référence de la scène HDR",
+      "actualGameVersion": "2026.11.16.5901"
+    },
+    {
+      "locale": "it-IT",
+      "selected": "it-IT",
+      "resolution": "Risoluzione",
+      "gaugeFont": "KsaUiNotoSC",
+      "crew_plan_lookup": "Piano equipaggio",
+      "hdr": "Bianco di riferimento scena HDR",
+      "actualGameVersion": "2026.11.16.5901"
+    },
+    {
+      "locale": "es-ES",
+      "selected": "es-ES",
+      "resolution": "Resolución",
+      "gaugeFont": "KsaUiNotoSC",
+      "crew_plan_lookup": "Plan de tripulación",
+      "hdr": "Blanco de referencia de escena HDR",
+      "actualGameVersion": "2026.11.16.5901"
+    },
+    {
+      "locale": "pt-BR",
+      "selected": "pt-BR",
+      "resolution": "Resolução",
+      "gaugeFont": "KsaUiNotoSC",
+      "crew_plan_lookup": "Plano da tripulação",
+      "hdr": "Branco de referência da cena HDR",
+      "actualGameVersion": "2026.11.16.5901"
+    },
+    {
+      "locale": "zh-CN",
+      "selected": "zh-CN",
+      "resolution": "分辨率",
+      "gaugeFont": "KsaUiNotoSC",
+      "crew_plan_lookup": "乘员计划",
+      "hdr": "HDR 场景基准白亮度",
+      "actualGameVersion": "2026.11.16.5901"
+    }
+  ]
+}

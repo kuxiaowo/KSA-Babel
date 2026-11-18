@@ -1,15 +1,15 @@
-KSA Babel · 喵语塔 0.2.4 — 5801 九语种开发版
+KSA Babel · 喵语塔 0.2.5 — 5901 九语种开发版
 
 项目与下载：https://github.com/kuxiaowo/KSA-Babel
 独立模组ID、安装目录与包名前缀为KsaBabel；插件程序集为KsaBabel.dll。
 便携启动器为KsaBabel/KsaBabelLauncher.exe。
 旧KsaChinese启用时Babel拒绝激活；请先禁用旧模组。
-本项目已有独立的Borea公共目录条目KsaBabel；0.2.3通过stable通道正式发布。
+本项目已有独立的Borea公共目录条目KsaBabel；0.2.4通过stable通道正式发布。
 
-仅适配 compatibility.json 中检查过的 KSA 2026.11.10.5801 文件。
+仅适配 compatibility.json 中检查过的 KSA 2026.11.16.5901 文件。
 通过 StarMap 0.5.4 加载，需要 .NET 10 x64 Runtime。
 标准包供 StarMap/Borea 安装，见 README-生态安装.md；加载器需单独安装。
-标准包名为KsaBabel-0.2.4.zip，便携包名为KsaBabel-0.2.4-5801-Portable.zip。
+标准包名为KsaBabel-0.2.5.zip，便携包名为KsaBabel-0.2.5-5901-Portable.zip。
 便携包的启动和卸载说明位于游戏目录下 KsaBabel/README-便携Mod.md；
 README-安装卸载.md 为 5602 旧版独立安装流程，不适用于本版。
 
@@ -34,4 +34,4 @@ resx 不单独激活显示，主要界面也需要代码补丁。
 本包不含游戏DLL、原Core资源、反编译源码、KSP字典或个人存档。
 
 
-5801 补译生命保障、乘员状态、居住区、EVA 物资、规则、编辑器撤销重做、部件变体与 HDR。更新日志共 242 行正文，短残句按原样保留。
+5901 适配重做的生命保障窗口、物资转移、任务和乘员计划、物资装载与发射警告、乘员倒计时和探测器电源。更新日志包含 311 行正文。

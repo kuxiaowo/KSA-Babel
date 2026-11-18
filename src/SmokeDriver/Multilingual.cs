@@ -36,7 +36,7 @@ public sealed partial class Driver
         {
             var path = Path.Combine(Constants.DocumentsFolderPath, "multilingual-runtime.json");
             File.WriteAllText(path, JsonSerializer.Serialize(new {
-                scope = "Real loaded 5801 game, all nine locale switches, HDR settings and habitat-zone screenshots; not exhaustive linguistic or HDR-output acceptance",
+                scope = "Real loaded 5901 game, all nine locale switches, HDR settings and life-support screenshots; not exhaustive linguistic or HDR-output acceptance",
                 results = MultilingualResults }, new JsonSerializerOptions { WriteIndented = true }));
             Log("multilingual-completed; locales=" + MultilingualResults.Count);
             Program.Instance.RequestExit(0);
@@ -63,11 +63,11 @@ public sealed partial class Driver
                 throw new InvalidOperationException("Native resource mismatch: " + locale);
             string gaugeFont = (string)assembly.GetType("KsaChinese.GaugeFontPatch")!.GetMethod("Name")!.Invoke(null,null)!;
             var display = (Dictionary<string,string>)pack.GetType().GetProperty("Display")!.GetValue(pack)!;
-            string habitat = (string)assembly.GetType("KsaChinese.ExpandedUi")!.GetMethod("Text")!.Invoke(null, ["Habitat Zones"])!;
+            string habitat = (string)assembly.GetType("KsaChinese.ExpandedUi")!.GetMethod("Text")!.Invoke(null, ["CREW PLAN"])!;
             string hdr = LStrings.SettingsDisplayHdrScenePaperWhite.Localized;
-            if (habitat != (locale == "en-US" ? "Habitat Zones" : display["Habitat Zones"])
+            if (habitat != (locale == "en-US" ? "CREW PLAN" : display["CREW PLAN"])
                 || hdr != (locale == "en-US" ? "HDR Scene Paper White" : native["SettingsDisplayHdrScenePaperWhite"]))
-                throw new InvalidOperationException("5801 habitat/HDR translation mismatch: " + locale);
+                throw new InvalidOperationException("5901 crew plan/HDR translation mismatch: " + locale);
             MultilingualResults.Add(new { locale, selected, resolution, gaugeFont, plugin = assembly.Location,
                 habitat, hdr,
                 actualGameVersion = typeof(Program).Assembly.GetName().Version?.ToString() });
@@ -87,19 +87,19 @@ public sealed partial class Driver
         else if(LocaleVisualPhase==1)
         {
             GameSettings.Show=false;
-            HabitatZonesWindow.Toggle();
+            LifeSupportWindow.Toggle();
             LocaleVisualPhase=2;
             NextLocaleTime=t+3;
         }
         else if(LocaleVisualPhase==2)
         {
-            Shot("5801-habitat-" + locale);
+            Shot("5901-habitat-" + locale);
             LocaleVisualPhase=3;
             NextLocaleTime=t+1;
         }
         else
         {
-            HabitatZonesWindow.Toggle();
+            LifeSupportWindow.Toggle();
             LocaleVisualPhase=0;
             LocaleShotPending = false;
             Stage++;

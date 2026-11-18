@@ -22,7 +22,7 @@ internal static partial class Program
             if (!process.WaitForExit(30000)) { process.Kill(entireProcessTree: true); throw new Exception("Launcher check timed out"); }
             return process.ExitCode;
         }
-        Check(Probe(Game) == 0, "独立命名启动器接受实际5638文件指纹");
+        Check(Probe(Game) == 0, "独立命名启动器接受实际5901文件指纹");
         Check(Probe(Path.Combine(probe, "missing-game")) != 0, "启动器拒绝缺失游戏且不启动加载器");
         string invalid = Path.Combine(probe, "invalid-game");
         Directory.CreateDirectory(invalid);
