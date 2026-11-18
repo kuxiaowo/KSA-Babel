@@ -1,8 +1,8 @@
-# KSA Babel：5638 九语种便携 Mod
+# KSA Babel：5901 九语种便携 Mod
 
-公开发行版 0.2.3 对应 5707。以下 5801 安装说明适用于从本源码构建的 0.2.4。
+已发布的 0.2.4 对应 5801。以下 5901 安装说明适用于从本源码构建的 0.2.5。
 
-0.2.4 开发版的包名为 `KsaBabel-0.2.4-5801-Portable.zip`。原项目的 v0.1.6 Release 为简中版。语言菜单包含英文、简中、日语、俄语、德语、法语、意大利语、西班牙语和巴西葡萄牙语。
+0.2.5 开发版的包名为 `KsaBabel-0.2.5-5901-Portable.zip`。原项目的 v0.1.6 Release 为简中版。语言菜单包含英文、简中、日语、俄语、德语、法语、意大利语、西班牙语和巴西葡萄牙语。
 
 本版使用独立模组 ID `KsaBabel`、插件程序集 `KsaBabel.dll` 和启动器 `KsaBabelLauncher.exe`。**先禁用旧 `KsaChinese`；旧模组仍启用时，Babel 拒绝激活。** Babel 的[收录 PR #227](https://github.com/KSAModding/content-index/pull/227)已合并，公共目录的验证状态见[发布记录](reports/community-publication-20261024.md)；旧 KsaChinese 条目仍属于纯中文项目。
 
@@ -21,13 +21,13 @@ Kitten Space Agency/
 
 本版便携包随附 StarMap 0.5.4。
 
-汉化本身是 StarMap 代码 Mod，便携包将文件放在 `Content/KsaBabel`；加载器仅用于执行 Mod。**原始 `KSA.exe` 不会执行汉化代码**。没有替换原程序，也没有修改游戏 DLL。已使用 StarMap 的玩家请选标准模组包 `KsaBabel-0.2.4.zip`，安装到所选档案的 `mods/KsaBabel`，并在自己的 Mod 清单中启用 `KsaBabel`；不要同时留下 Content 和 mods 两份 Babel。
+汉化本身是 StarMap 代码 Mod，便携包将文件放在 `Content/KsaBabel`；加载器仅用于执行 Mod。**原始 `KSA.exe` 不会执行汉化代码**。没有替换原程序，也没有修改游戏 DLL。已使用 StarMap 的玩家请选标准模组包 `KsaBabel-0.2.5.zip`，安装到所选档案的 `mods/KsaBabel`，并在自己的 Mod 清单中启用 `KsaBabel`；不要同时留下 Content 和 mods 两份 Babel。
 
 默认将档案保存在 `KsaBabel/Profile`，原来的个人存档不搬动。`launcher-settings.json` 可指定已有档案路径，例如 `{"profile":"D:/KSA-Profile"}`；只在关闭游戏后修改，且已有清单需要启用 Core 和 KsaBabel、禁用 KsaChinese。若要继续使用旧便携档案，先备份旧 `KsaChinese/Profile`，再明确指定这个已有档案；不会自动搜索、复制或迁移另一个档案。
 
 语言可在游戏菜单切换，选择保存在当前档案 `KsaBabel/settings.json`。首启时，仅在新设置文件不存在的情况下，从同一档案旧 `KsaChinese/settings.json` 导入有效 `locale`，不覆盖已有新设置，也不修改旧文件。新默认档案不会自动读取旧便携档案的语言设置。升级前还应把旧 `Content/KsaChinese` 移出 Content 备份；不要删除含个人数据的整个旧启动器目录。
 
-启动失败会显示错误，并记录在 `KsaBabel/logs`。加载器的 stdout/stderr 分开保存。仅支持 Windows x64 的 `2026.11.10.5801` 和适配清单里的精确哈希；更新游戏后文件不符时停止加载，等待新版适配。Mod 文件是否在更新后保留取决于游戏更新器；建议先备份 `Profile` 和 `launcher-settings.json`，不要依赖更新器保留额外目录。
+启动失败会显示错误，并记录在 `KsaBabel/logs`。加载器的 stdout/stderr 分开保存。仅支持 Windows x64 的 `2026.11.16.5901` 和适配清单里的精确哈希；更新游戏后文件不符时停止加载，等待新版适配。Mod 文件是否在更新后保留取决于游戏更新器；建议先备份 `Profile` 和 `launcher-settings.json`，不要依赖更新器保留额外目录。
 
 卸载：关闭游戏，先备份需要的档案，将 `Content/KsaBabel` 移出 `Content`，将桌面快捷方式改回原 `KSA.exe`。需要保留存档时保留 `KsaBabel/Profile`；不要把它连同加载器一起删掉。若指定了旧汉化档案，该档案仍位于旧位置。
 

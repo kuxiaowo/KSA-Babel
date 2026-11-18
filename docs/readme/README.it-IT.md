@@ -1,6 +1,6 @@
 # KSA Babel · 喵语塔
 
-La versione di sviluppo 0.2.4 supporta KSA 2026.11.10.5801 su Windows x64 con StarMap 0.5.4. La versione pubblicata 0.2.3 è per KSA 5707.
+La versione candidata 0.2.5 supporta KSA 2026.11.16.5901 per Windows x64 con StarMap 0.5.4. La versione pubblicata 0.2.4 è destinata alla build 5801. [5901](../../reports/0.2.5-5901适配与验证.md)
 
 [English](../../README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja-JP.md) · [Русский](README.ru-RU.md) · [Deutsch](README.de-DE.md) · [Français](README.fr-FR.md) · [Italiano](README.it-IT.md) · [Español](README.es-ES.md) · [Português (Brasil)](README.pt-BR.md)
 
@@ -8,13 +8,13 @@ La versione di sviluppo 0.2.4 supporta KSA 2026.11.10.5801 su Windows x64 con St
 
 Un framework di localizzazione multilingue per **Kitten Space Agency**, caricato tramite StarMap. KSA Babel fornisce pacchetti di lingua, un menu per scegliere la lingua nel gioco, adattamenti della visualizzazione e un sottoinsieme di caratteri condiviso. Non sostituisce l’eseguibile o le risorse del gioco.
 
-KSA Babel è un progetto multilingue organizzato separatamente a partire da [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE). La versione attuale è la **versione stabile 0.2.3**, compatibile soltanto con **KSA 2026.10.25.5707 su Windows x64** e con le impronte dei file verificate; il caricatore utilizzato è **StarMap 0.4.8**.
+KSA Babel è un progetto multilingue organizzato separatamente a partire da [KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE). La versione attuale è la **versione stabile 0.2.4**, compatibile soltanto con **KSA 2026.11.10.5801 su Windows x64** e con le impronte dei file verificate; il caricatore utilizzato è **StarMap 0.5.4**.
 
 **Revisione e modalità inglese:** l’autore ha confermato personalmente soltanto la traduzione in cinese semplificato. Giapponese, russo, tedesco, francese, italiano, spagnolo e portoghese brasiliano sono stati tradotti e revisionati da GPT nel contesto di KSA, usando la terminologia aerospaziale di KSP come riferimento; manca una revisione indipendente di madrelingua. Parte delle traduzioni giapponesi iniziali deriva da KsaUiLanguages sotto MIT, con attribuzioni conservate. La modalità inglese mostra il testo inglese originale di KSA e mantiene il menu `Language` aggiunto dalla mod. Gli 11 modelli dinamici servono alla composizione multilingue e al ritorno all’originale, non indicano 11 testi inglesi riscritti.
 
-**Edizione cinese:** [KSA Chinese / KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE), ID `KsaChinese`, offre inglese e cinese semplificato. La versione attuale è [v0.1.7](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.7), archivio standard `KsaChinese-0.1.7.zip`, per i file verificati di KSA 2026.10.25.5707 su Windows x64 e StarMap 0.4.8. Ha una propria [voce Borea](https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml). Babel è il mod indipendente con nove lingue, ID `KsaBabel`. Non attivare entrambe le mod nello stesso profilo.
+**Edizione cinese:** [KSA Chinese / KSA-CHINESE](https://github.com/kuxiaowo/KSA-CHINESE), ID `KsaChinese`, offre inglese e cinese semplificato. La versione attuale è [v0.1.8](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.8), archivio standard `KsaChinese-0.1.8.zip`, per i file verificati di KSA 2026.11.10.5801 su Windows x64 e StarMap 0.5.4. Ha una propria [voce Borea](https://github.com/KSAModding/content-index/blob/main/listings/KsaChinese.toml). Babel è il mod indipendente con nove lingue, ID `KsaBabel`. Non attivare entrambe le mod nello stesso profilo.
 
-0.2.3 aggiunge 265 voci per KSA 5707: meteo spaziale e CME, HDR, dose, recupero e pensionamento dell’equipaggio, schermatura e pressione, più 156 note di aggiornamento. Tutte le nuove traduzioni, incluso il cinese, hanno una revisione contestuale IA, senza conferma personale dell’autore o revisione indipendente di madrelingua. La conferma precedente riguarda solo il vecchio ambito cinese. Prove in gioco e limiti sono nel rapporto 0.2.3. [0.2.3](../../reports/0.2.3-5707适配与验证.md)
+0.2.4 aggiunge 265 voci per KSA 5801: meteo spaziale e CME, HDR, dose, recupero e pensionamento dell’equipaggio, schermatura e pressione, più 156 note di aggiornamento. Tutte le nuove traduzioni, incluso il cinese, hanno una revisione contestuale IA, senza conferma personale dell’autore o revisione indipendente di madrelingua. La conferma precedente riguarda solo il vecchio ambito cinese. Prove in gioco e limiti sono nel rapporto 0.2.4. [0.2.4](../../reports/0.2.4-5801适配与验证.md)
 
 ## Lingue e ambito
 
@@ -26,22 +26,22 @@ L’ambito attuale comprende interfaccia, suggerimenti, componenti, sostanze e r
 
 ## Installazione
 
-Scarica i file dalle [release di KSA Babel](https://github.com/kuxiaowo/KSA-Babel/releases). I pacchetti 0.2.3 sono versioni stabili.
+Scarica i file dalle [release di KSA Babel](https://github.com/kuxiaowo/KSA-Babel/releases). I pacchetti 0.2.4 sono versioni stabili.
 
-- **Con StarMap/Borea già installato:** usa `KsaBabel-0.2.3.zip`; inserisci la cartella `KsaBabel` nella cartella `mods` del profilo scelto e abilita la mod. Consulta [l’installazione standard](../../README-生态安装.md).
-- **Con il launcher incluso:** estrai `KsaBabel-0.2.3-5707-Portable.zip` nella cartella che contiene `KSA.exe`, quindi avvia `KsaBabel/KsaBabelLauncher.exe`. Consulta [l’installazione portatile](../../README-便携Mod.md). È richiesto il runtime .NET 10 x64.
+- **Con StarMap/Borea già installato:** usa `KsaBabel-0.2.4.zip`; inserisci la cartella `KsaBabel` nella cartella `mods` del profilo scelto e abilita la mod. Consulta [l’installazione standard](../../README-生态安装.md).
+- **Con il launcher incluso:** estrai `KsaBabel-0.2.4-5801-Portable.zip` nella cartella che contiene `KSA.exe`, quindi avvia `KsaBabel/KsaBabelLauncher.exe`. Consulta [l’installazione portatile](../../README-便携Mod.md). È richiesto il runtime .NET 10 x64.
 
 Dalla versione 0.2.1, l’ID della mod, le cartelle di installazione e il prefisso degli archivi sono **`KsaBabel`**; l’assembly del plugin è `KsaBabel.dll` e il launcher portatile è `KsaBabel/KsaBabelLauncher.exe`. La lingua viene salvata in `KsaBabel/settings.json` del profilo corrente. Al primo avvio, solo se il nuovo file non esiste, Babel importa un valore `locale` valido dal vecchio `KsaChinese/settings.json` dello stesso profilo. Le nuove impostazioni già esistenti non vengono sovrascritte e il vecchio file non viene modificato.
 
 **Disabilita prima la vecchia mod:** Babel rifiuta l’attivazione finché `KsaChinese` è abilitata. Mantieni una sola copia attiva di Babel e non conservare contemporaneamente `Content/KsaBabel` e `mods/KsaBabel` nel profilo. Esegui un backup dei profili esistenti prima della migrazione. Nessun salvataggio personale viene incluso o spostato automaticamente; l’importazione delle impostazioni non cerca in altri profili.
 
-[L’annuncio su Ahwoo](https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/) è stato pubblicato e la [PR #227 del catalogo Borea](https://github.com/KSAModding/content-index/pull/227) è stata unita. Consulta il [registro di pubblicazione](../../reports/community-publication-20261024.md) per lo stato dell’elaborazione della release e della verifica dello snapshot pubblico. La voce KsaChinese esistente e la versione v0.1.7 appartengono al progetto separato dedicato al cinese. KSA Babel 0.2.3 è una versione stabile, disponibile nel canale stable predefinito. Le sette traduzioni aggiuntive attendono ancora una revisione indipendente da parte di madrelingua.
+[L’annuncio su Ahwoo](https://forums.ahwoo.com/forums/kitten-space-agency/mod-releases/ksa-babel-0-2-1-nine-language-localization-preview-for-ksa-5638.1454/) è stato pubblicato e la [PR #227 del catalogo Borea](https://github.com/KSAModding/content-index/pull/227) è stata unita. Consulta il [registro di pubblicazione](../../reports/community-publication-20261024.md) per lo stato dell’elaborazione della release e della verifica dello snapshot pubblico. La voce KsaChinese esistente e la versione v0.1.8 appartengono al progetto separato dedicato al cinese. KSA Babel 0.2.4 è una versione stabile, disponibile nel canale stable predefinito. Le sette traduzioni aggiuntive attendono ancora una revisione indipendente da parte di madrelingua.
 
 Per migrare tramite Borea, esegui un backup del profilo e rimuovi la vecchia mod KsaChinese dall’istanza prima di installare Babel. Il conflitto nel catalogo blocca l’installazione anche se la vecchia mod è disattivata. Conserva i dati del profilo.
 
 ## Compilazione e validazione
 
-Usa l’SDK .NET 10, una copia legalmente installata della versione esatta del gioco supportata e [StarMap 0.4.8](https://github.com/StarMapLoader/StarMap/releases/tag/0.4.8). Inserisci i file del caricatore in `.tools/StarMap-0.4.8`, oppure specifica `-LoaderDir`. Gli script Python richiedono Python 3; si preferisce conda.
+Usa l’SDK .NET 10, una copia legalmente installata della versione esatta del gioco supportata e [StarMap 0.5.4](https://github.com/StarMapLoader/StarMap/releases/tag/0.5.4). Inserisci i file del caricatore in `.tools/StarMap-0.5.4`, oppure specifica `-LoaderDir`. Gli script Python richiedono Python 3; si preferisce conda.
 
 ```powershell
 python scripts/build_multilingual.py --check
